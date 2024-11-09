@@ -648,49 +648,51 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 63.5 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -699,7 +701,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NPN"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -708,7 +710,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "GUMMELPOON"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -717,40 +719,10 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -762,10 +734,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -774,10 +746,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -786,7 +758,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0)
@@ -798,10 +794,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -810,7 +806,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -820,9 +828,33 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -831,12 +863,34 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "NPN_1_1"
-				(pin open_collector line
-					(at 2.54 5.08 270)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "C"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -851,10 +905,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "B"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -869,10 +923,10 @@
 						)
 					)
 				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1667,32 +1721,33 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 299.72 175.26 90)
+		(at 120.65 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0775b639-5427-45c3-b48f-02cd49d0904d")
-		(property "Reference" "R52"
-			(at 299.72 168.91 90)
+		(uuid "0810900f-9e7f-4760-b381-43fcffae4590")
+		(property "Reference" "R46"
+			(at 119.3799 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "22kΩ"
-			(at 299.72 171.45 90)
+		(property "Value" "4.7kΩ"
+			(at 121.9199 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 299.974 174.244 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.904 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,8 +1755,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 299.72 175.26 0)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 120.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1765,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 299.72 175.26 0)
+			(at 120.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,15 +1774,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "15ec27fb-398b-42f5-8f39-42f0d7d2daed")
+			(uuid "316db225-bde1-4fd4-8b4e-fe892c522461")
 		)
 		(pin "2"
-			(uuid "c329a7ec-360f-40bd-8b86-eeee3c7a7c0e")
+			(uuid "3f4163b4-6187-41da-ad8d-c8fd26571847")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R52")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1936,7 +1991,76 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Device:R_US")
+		(at 35.56 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18454016-e458-4608-8549-f295f2618298")
+		(property "Reference" "R53"
+			(at 34.2899 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 36.8299 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 35.814 226.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 35.56 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 35.56 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e864fd4a-6ab5-4e23-bb12-c6a6ab409e64")
+		)
+		(pin "2"
+			(uuid "db6f1436-900a-4b4c-b4ef-5a47722cc8de")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 44.45 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1946,7 +2070,7 @@
 		(fields_autoplaced yes)
 		(uuid "1acac88e-07b6-4b6b-bad8-6883eadd2991")
 		(property "Reference" "Q13"
-			(at 49.53 226.0599 0)
+			(at 50.8 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,8 +2078,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 49.53 228.5999 0)
+		(property "Value" "2N7002"
+			(at 50.8 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,25 +2087,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.95 227.33 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 49.53 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 49.53 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 107.95 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 44.45 227.33 0)
 			(effects
 				(font
@@ -2036,7 +2163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 129.54 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2046,7 +2173,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f2b8328-b9b3-4b7a-a23f-59a783d9f5d0")
 		(property "Reference" "Q6"
-			(at 134.62 120.6499 0)
+			(at 135.89 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,8 +2181,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 134.62 123.1899 0)
+		(property "Value" "2N7002"
+			(at 135.89 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,25 +2190,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 193.04 121.92 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 134.62 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 134.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 193.04 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 129.54 121.92 0)
 			(effects
 				(font
@@ -2342,75 +2472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 208.28 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bc707df-d257-4a83-8872-86a6a5974ffe")
-		(property "Reference" "R51"
-			(at 208.28 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 208.28 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.534 172.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 208.28 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66d7ffaa-e32f-4df3-b4ff-3fc6df3af6b9")
-		)
-		(pin "2"
-			(uuid "58197c5f-3be1-4f4e-9021-3457ebaf7f91")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 308.61 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2420,7 +2482,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c8aad3d-ffa2-44f8-8163-9aedf8e7a960")
 		(property "Reference" "Q12"
-			(at 313.69 173.9899 0)
+			(at 314.96 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,8 +2490,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 313.69 176.5299 0)
+		(property "Value" "2N7002"
+			(at 314.96 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,25 +2499,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 372.11 175.26 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 313.69 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 313.69 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 372.11 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 308.61 175.26 0)
 			(effects
 				(font
@@ -2646,6 +2711,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 31.75 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30b3fb8a-86fd-4302-a9d1-12b842dcbafa")
+		(property "Reference" "R49"
+			(at 30.4799 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 33.0199 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 32.004 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 31.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 31.75 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fbeebc2-6e27-48d4-bef5-6f94b9d9daa3")
+		)
+		(pin "2"
+			(uuid "4f794e28-cf30-4519-b53e-4564d198f2db")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 132.08 113.03 90)
 		(unit 1)
@@ -2782,7 +2916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 297.18 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2792,7 +2926,7 @@
 		(fields_autoplaced yes)
 		(uuid "33f87946-d5f8-4f8b-81f7-02f2d64c2201")
 		(property "Reference" "Q4"
-			(at 302.26 57.1499 0)
+			(at 303.53 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,8 +2934,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 302.26 59.6899 0)
+		(property "Value" "2N7002"
+			(at 303.53 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,25 +2943,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 360.68 58.42 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 302.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 302.26 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 360.68 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 297.18 58.42 0)
 			(effects
 				(font
@@ -2889,25 +3026,26 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37cf7e96-99dd-4339-9580-20bf11e1a210")
+		(uuid "3b291f18-7aa7-48d8-847a-190b3f62a25e")
 		(property "Reference" "R50"
-			(at 120.65 168.91 90)
+			(at 119.3799 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "22kΩ"
-			(at 120.65 171.45 90)
+		(property "Value" "4.7kΩ"
+			(at 121.9199 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 120.904 174.244 90)
 			(effects
 				(font
@@ -2916,7 +3054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "1206W4F4701T5E"
 			(at 120.65 175.26 0)
 			(effects
 				(font
@@ -2935,10 +3073,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b83411e-20d7-4543-8b97-96ab51da403d")
+			(uuid "2e8d7c29-632e-46f4-b437-c11a38089a0c")
 		)
 		(pin "2"
-			(uuid "f0bcc392-520b-4908-b272-dac2458cb24d")
+			(uuid "e996f8cc-f2ff-4599-9207-8dafd393686d")
 		)
 		(instances
 			(project "CMPE2750"
@@ -3014,6 +3152,75 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 119.38 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d64092a-cef7-4f7b-83f9-60abfeeb4e87")
+		(property "Reference" "R42"
+			(at 118.1099 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 120.6499 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 119.634 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5c3afd-ea6b-4336-a5e6-0ae7a881f7c2")
+		)
+		(pin "2"
+			(uuid "fdd9b1a9-c1d0-4776-bd48-f1e0b7dafcc7")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3160,7 +3367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 299.72 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3170,7 +3377,7 @@
 		(fields_autoplaced yes)
 		(uuid "43981364-9ab5-452a-8a52-fc411a04b308")
 		(property "Reference" "Q8"
-			(at 304.8 120.6499 0)
+			(at 306.07 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,8 +3385,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 304.8 123.1899 0)
+		(property "Value" "2N7002"
+			(at 306.07 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,25 +3394,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 363.22 121.92 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 304.8 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 304.8 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 363.22 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 299.72 121.92 0)
 			(effects
 				(font
@@ -3254,142 +3464,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
 					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 34.29 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5347dcce-6b06-4d30-82f0-0656ba539053")
-		(property "Reference" "R45"
-			(at 34.29 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 34.29 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.544 122.174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 34.29 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ccf7818-6f36-4f1b-b94c-87d724c3acfe")
-		)
-		(pin "2"
-			(uuid "f6e6eddc-3a7d-4825-af01-ec410fe1a480")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 288.29 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54eb66b4-6d9a-42f4-9e24-1bf4c1fd6153")
-		(property "Reference" "R44"
-			(at 288.29 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 288.29 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 288.544 57.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 288.29 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1853fa35-6a1f-45b8-a0ed-3dc7278c8070")
-		)
-		(pin "2"
-			(uuid "94bb4181-67db-436e-b657-57402da2d763")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -3467,32 +3541,33 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 119.38 55.88 90)
+		(at 210.82 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a47d6d0-58f5-4e24-82c7-4d4df10547d7")
-		(property "Reference" "R42"
-			(at 119.38 49.53 90)
+		(uuid "572140b7-0336-4492-b454-ad161300db48")
+		(property "Reference" "R43"
+			(at 209.5499 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "22kΩ"
-			(at 119.38 52.07 90)
+		(property "Value" "4.7kΩ"
+			(at 212.0899 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.634 54.864 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 211.074 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,8 +3575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 119.38 55.88 0)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3585,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 119.38 55.88 0)
+			(at 210.82 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,22 +3594,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "b52b7200-5cdb-449c-8a08-74201bde9dbc")
+			(uuid "18d3f7ba-e759-48a4-8077-f17e6120e027")
 		)
 		(pin "2"
-			(uuid "b52d4cfb-1723-4c56-a7c8-f6150da4019a")
+			(uuid "aeec7a10-19aa-408f-9550-c6bb67d723e0")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 43.18 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3544,7 +3619,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d57813e-69f6-4569-883e-4cca42a431d5")
 		(property "Reference" "Q5"
-			(at 48.26 121.9199 0)
+			(at 49.53 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,8 +3627,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 48.26 124.4599 0)
+		(property "Value" "2N7002"
+			(at 49.53 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,25 +3636,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 123.19 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 48.26 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 48.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 106.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 43.18 123.19 0)
 			(effects
 				(font
@@ -3634,7 +3712,76 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Device:R_US")
+		(at 290.83 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60308e8d-f1ad-4466-a89e-6b0630415c40")
+		(property "Reference" "R48"
+			(at 289.5599 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 292.0999 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 291.084 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 290.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 290.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2232f08-038a-4e09-ad4e-ebd28db7a532")
+		)
+		(pin "2"
+			(uuid "daec7171-42ab-473b-ab4c-4b3e945c4e52")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 300.99 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3644,7 +3791,7 @@
 		(fields_autoplaced yes)
 		(uuid "60c1f9af-0558-4ea9-8efb-b5f7028acca1")
 		(property "Reference" "Q16"
-			(at 306.07 228.5999 0)
+			(at 307.34 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,8 +3799,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 306.07 231.1399 0)
+		(property "Value" "2N7002"
+			(at 307.34 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,25 +3808,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 364.49 229.87 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 306.07 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 306.07 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 364.49 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 300.99 229.87 0)
 			(effects
 				(font
@@ -3734,7 +3884,76 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Device:R_US")
+		(at 299.72 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6619aeb1-373b-4c78-b51b-a3155e07d08a")
+		(property "Reference" "R52"
+			(at 298.4499 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 300.9899 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 299.974 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 299.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 299.72 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc7645c8-0c51-4724-bce0-b3bf77b74ebc")
+		)
+		(pin "2"
+			(uuid "70d1aa43-aaad-48a6-9d63-52ffcf6fabb6")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 129.54 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3744,7 +3963,7 @@
 		(fields_autoplaced yes)
 		(uuid "67c40652-cd86-4506-b5db-146b30bb857d")
 		(property "Reference" "Q10"
-			(at 134.62 173.9899 0)
+			(at 135.89 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,8 +3971,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 134.62 176.5299 0)
+		(property "Value" "2N7002"
+			(at 135.89 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,25 +3980,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 193.04 175.26 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 134.62 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 134.62 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 193.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 129.54 175.26 0)
 			(effects
 				(font
@@ -4110,7 +4332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 40.64 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4120,7 +4342,7 @@
 		(fields_autoplaced yes)
 		(uuid "74b55102-9b70-48ce-babe-b84a24091093")
 		(property "Reference" "Q9"
-			(at 45.72 176.5299 0)
+			(at 46.99 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,8 +4350,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 45.72 179.0699 0)
+		(property "Value" "2N7002"
+			(at 46.99 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,25 +4359,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 177.8 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 45.72 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 45.72 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 104.14 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 40.64 177.8 0)
 			(effects
 				(font
@@ -4280,7 +4505,76 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Device:R_US")
+		(at 208.28 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ad1a1fd-3729-4ff6-b46b-03918350b430")
+		(property "Reference" "R51"
+			(at 207.0099 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 209.5499 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 208.534 172.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 208.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 208.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "838ebb03-890b-4273-a79e-52b8da72b422")
+		)
+		(pin "2"
+			(uuid "01d1c3f0-da76-46d1-8f8c-cc8c3eaf50bd")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 212.09 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4290,7 +4584,7 @@
 		(fields_autoplaced yes)
 		(uuid "8000c867-6de1-4752-aed9-64b20a951d06")
 		(property "Reference" "Q7"
-			(at 217.17 119.3799 0)
+			(at 218.44 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,8 +4592,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 217.17 121.9199 0)
+		(property "Value" "2N7002"
+			(at 218.44 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,25 +4601,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 275.59 120.65 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 217.17 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 217.17 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 275.59 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 212.09 120.65 0)
 			(effects
 				(font
@@ -4446,7 +4743,76 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Device:R_US")
+		(at 124.46 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8398a54f-e239-45f9-971c-fc546a1e045e")
+		(property "Reference" "R54"
+			(at 123.1899 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 125.7299 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 124.714 226.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 124.46 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 124.46 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c58c7f6-c482-4895-81fb-8a67b4b13a47")
+		)
+		(pin "2"
+			(uuid "228caa73-f309-4413-b5a8-62326ca22b65")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 219.71 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4456,7 +4822,7 @@
 		(fields_autoplaced yes)
 		(uuid "85d0cc61-adef-46a3-acc6-7ead58c9a316")
 		(property "Reference" "Q3"
-			(at 224.79 55.8799 0)
+			(at 226.06 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,8 +4830,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 224.79 58.4199 0)
+		(property "Value" "2N7002"
+			(at 226.06 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,25 +4839,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 283.21 57.15 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.79 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 224.79 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 283.21 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 219.71 57.15 0)
 			(effects
 				(font
@@ -4547,32 +4916,33 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 210.82 57.15 90)
+		(at 292.1 229.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "891c35ab-bcb3-4e0a-a827-836f3cac4200")
-		(property "Reference" "R43"
-			(at 210.82 50.8 90)
+		(uuid "872163fa-da80-493b-862e-b7e6bd009184")
+		(property "Reference" "R56"
+			(at 290.8299 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "22kΩ"
-			(at 210.82 53.34 90)
+		(property "Value" "4.7kΩ"
+			(at 293.3699 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 211.074 56.134 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 292.354 228.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,8 +4950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 210.82 57.15 0)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 292.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4960,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 210.82 57.15 0)
+			(at 292.1 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,90 +4969,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b5116ea-4830-49bb-9d47-842ee0c000a9")
+			(uuid "bf5345bc-6a23-4b43-8409-6997dca59fc8")
 		)
 		(pin "2"
-			(uuid "24bd6b77-9bc6-4991-8548-20f1d208f778")
+			(uuid "6ff2afda-1a8b-4008-805a-e19a79bd0409")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R43")
+					(reference "R56")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 290.83 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b44ee42-86fd-4a62-ad3a-9d488c666b82")
-		(property "Reference" "R48"
-			(at 290.83 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 290.83 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 291.084 120.904 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 290.83 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 290.83 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5544b246-faa1-469d-a41e-d542fd30ea13")
-		)
-		(pin "2"
-			(uuid "61fe32d6-5929-49e6-80ea-fc1cf0a0fb31")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 50.8 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4692,7 +4994,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bf8902e-184c-4fd7-aaaf-24f88c386521")
 		(property "Reference" "Q1"
-			(at 55.88 53.3399 0)
+			(at 57.15 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,8 +5002,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 55.88 55.8799 0)
+		(property "Value" "2N7002"
+			(at 57.15 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,25 +5011,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 54.61 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 55.88 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 55.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 114.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -4988,7 +5293,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 133.35 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4998,7 +5303,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fe4e0e9-2b3e-414d-a594-545213631eaa")
 		(property "Reference" "Q14"
-			(at 138.43 226.0599 0)
+			(at 139.7 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,8 +5311,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 138.43 228.5999 0)
+		(property "Value" "2N7002"
+			(at 139.7 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,25 +5320,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 227.33 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 138.43 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 138.43 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 196.85 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 133.35 227.33 0)
 			(effects
 				(font
@@ -5220,6 +5528,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 34.29 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9209dc99-4471-4ec0-9c3a-ea96e35e2fa2")
+		(property "Reference" "R45"
+			(at 33.0199 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 35.5599 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 34.544 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5515c22-9064-4cbf-8737-811aebcb6f17")
+		)
+		(pin "2"
+			(uuid "cba5d170-0d15-425a-b2b8-ae6d13775135")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 219.71 165.1 90)
 		(unit 1)
@@ -5291,32 +5668,33 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 121.92 90)
+		(at 288.29 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99837f4b-5653-40d6-bad6-cd45603ef4ab")
-		(property "Reference" "R46"
-			(at 120.65 115.57 90)
+		(uuid "9bf1583f-9e0a-41e1-9902-cf0d3c9baac4")
+		(property "Reference" "R44"
+			(at 287.0199 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "22kΩ"
-			(at 120.65 118.11 90)
+		(property "Value" "4.7kΩ"
+			(at 289.5599 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 120.904 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 288.544 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,8 +5702,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 121.92 0)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 288.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5712,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 121.92 0)
+			(at 288.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,83 +5721,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb7fd8be-f0b6-4879-82ee-99dff6f9ecb9")
+			(uuid "cf0063a6-1786-4080-8d54-5e530a3609ee")
 		)
 		(pin "2"
-			(uuid "e856321c-534e-4847-a9a5-ce16e836adb7")
+			(uuid "cecf8d8a-03e7-4ed8-9165-3c38aa96159c")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 292.1 229.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c18c00d-3c63-4eca-9724-c1474bbfd88c")
-		(property "Reference" "R56"
-			(at 292.1 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 292.1 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.354 228.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 292.1 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75d9bcec-4a58-4fb0-870d-69279a98d3cc")
-		)
-		(pin "2"
-			(uuid "d662ad46-4bf6-4b29-bd71-5470a89b0fd6")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R56")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5490,74 +5800,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 201.93 228.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a170a154-ff6f-4096-8016-d193605a6eea")
-		(property "Reference" "R55"
-			(at 201.93 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 201.93 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 202.184 227.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 201.93 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5faf6fb2-4cd3-4a67-b720-23273981dd42")
-		)
-		(pin "2"
-			(uuid "d052c2ec-a964-4993-b0f4-6f4fc3d2d4fd")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -5701,32 +5943,33 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 35.56 227.33 90)
+		(at 41.91 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a793564c-b278-4a46-a3b8-1cb5f2aa5427")
-		(property "Reference" "R53"
-			(at 35.56 220.98 90)
+		(uuid "a658c9d0-0dde-46a1-b66e-d6d757e94f6c")
+		(property "Reference" "R41"
+			(at 40.6399 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "22kΩ"
-			(at 35.56 223.52 90)
+		(property "Value" "4.7kΩ"
+			(at 43.1799 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 35.814 226.314 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 42.164 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,8 +5977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 35.56 227.33 0)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5987,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 35.56 227.33 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,15 +5996,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff242549-b872-4017-852e-10bad28db312")
+			(uuid "a30b084d-dc4b-4345-b5db-1c4818d68d39")
 		)
 		(pin "2"
-			(uuid "0d8b0785-f3d9-4b02-9670-970f8f330ca6")
+			(uuid "d4711df1-0d70-4e86-bda3-a1fff8c4e203")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R53")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5908,75 +6151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 203.2 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b64f5102-0d82-412e-82f8-ba916d94d9a4")
-		(property "Reference" "R47"
-			(at 203.2 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 203.2 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.454 119.634 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 203.2 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea816ab3-a979-4ecd-b078-461aa034834d")
-		)
-		(pin "2"
-			(uuid "a7071e2a-c0c9-4449-9166-b3d00cf7ff57")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 217.17 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5986,7 +6161,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7506fb7-29bf-40c8-8a07-9d86d5c9666c")
 		(property "Reference" "Q11"
-			(at 222.25 172.7199 0)
+			(at 223.52 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,8 +6169,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 222.25 175.2599 0)
+		(property "Value" "2N7002"
+			(at 223.52 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,25 +6178,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 280.67 173.99 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 222.25 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 222.25 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 280.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 217.17 173.99 0)
 			(effects
 				(font
@@ -6563,32 +6741,33 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 31.75 177.8 90)
+		(at 203.2 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d99d7e0c-e4f1-4318-b525-856f7976508c")
-		(property "Reference" "R49"
-			(at 31.75 171.45 90)
+		(uuid "d80ce2c7-3953-4dbe-8f6f-390efdfa7363")
+		(property "Reference" "R47"
+			(at 201.9299 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "22kΩ"
-			(at 31.75 173.99 90)
+		(property "Value" "4.7kΩ"
+			(at 204.4699 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 32.004 176.784 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 203.454 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,8 +6775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 31.75 177.8 0)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 203.2 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,7 +6785,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 31.75 177.8 0)
+			(at 203.2 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,15 +6794,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "aea82c9d-4b5a-44f7-afa9-2f114a1083b3")
+			(uuid "f129194e-37e6-4094-b12d-d142f35aea9e")
 		)
 		(pin "2"
-			(uuid "1168dcdd-c95c-4d0a-b9f7-55a4c937193f")
+			(uuid "7b94558c-e8c8-4de4-97e9-28b1693f8847")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R49")
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 201.93 228.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da818557-d7bb-4bc9-ace2-663ce2dd5755")
+		(property "Reference" "R55"
+			(at 200.6599 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 203.1999 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 202.184 227.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1206W4F4701T5E"
+			(at 201.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 201.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c19e669-f0a2-4dad-a062-adc9185c7c72")
+		)
+		(pin "2"
+			(uuid "d7806238-2094-4584-8895-860fd06d12f1")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -6902,75 +7150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 124.46 227.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e637e8c1-194f-43f4-ac13-3bd3f1887db4")
-		(property "Reference" "R54"
-			(at 124.46 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 124.46 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.714 226.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 124.46 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f40d1c0f-a45d-4eb4-9207-cee8d682033c")
-		)
-		(pin "2"
-			(uuid "4d27abd9-f13a-4c19-8644-842f01b2d270")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 210.82 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6980,7 +7160,7 @@
 		(fields_autoplaced yes)
 		(uuid "e72f7604-1c2d-4bc4-acf7-99d5651768d2")
 		(property "Reference" "Q15"
-			(at 215.9 227.3299 0)
+			(at 217.17 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,8 +7168,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 215.9 229.8699 0)
+		(property "Value" "2N7002"
+			(at 217.17 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,25 +7177,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 274.32 228.6 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 215.9 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 215.9 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 274.32 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 210.82 228.6 0)
 			(effects
 				(font
@@ -7064,74 +7247,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
 					(reference "Q15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 41.91 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e82e6a07-a2fa-4f14-a14d-9b984753b5f1")
-		(property "Reference" "R41"
-			(at 41.91 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22kΩ"
-			(at 41.91 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 42.164 53.594 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 41.91 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f89a974b-309b-4615-846b-9d89552204ab")
-		)
-		(pin "2"
-			(uuid "2a807442-6de9-4354-95b1-a6ce339c4b6e")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -7476,7 +7591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
+		(lib_id "Transistor_FET:2N7002")
 		(at 128.27 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7486,7 +7601,7 @@
 		(fields_autoplaced yes)
 		(uuid "f53ab24f-b263-4f88-a757-a65cca161d79")
 		(property "Reference" "Q2"
-			(at 133.35 54.6099 0)
+			(at 134.62 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,8 +7609,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 133.35 57.1499 0)
+		(property "Value" "2N7002"
+			(at 134.62 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,25 +7618,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 191.77 55.88 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 133.35 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 128.27 55.88 0)
 			(effects
 				(font
