@@ -5,233 +5,6 @@
 	(uuid "1b3c1a84-5e88-4df1-b6bb-ad73d3426fdb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CMPE2750:ACZRC5340B-G"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 4.445 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ACZRC5340B-G"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "ACZRC-G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "ACZRC5340B-G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ACZRC5340B-G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "ACZRC-G ACZRC-G-M ACZRC-G-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ACZRC5340B-G_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.905) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.905) (xy 3.81 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 5.715 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 3.81 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 1.905) (xy 6.985 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ACZRC5340B-G_1_1"
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "CMPE2750:CL31A106KOHNNNE"
 			(pin_names
 				(offset 0.254)
@@ -247,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "CL31A106KOHNNNE"
+			(property "Value" "10µF CL31A106KOHNNNE"
 				(at 3.81 -3.81 0)
 				(effects
 					(font
@@ -255,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CAP_CL31_SAM"
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -282,14 +55,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "CL31A106KOHNNNE"
@@ -749,257 +514,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CMPE2750:LMK212B7105KGHTR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "1µF LMK212B7105KGHTR"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "LMK212G_TAY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "LMK212B7105KGHTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LMK212B7105KGHTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LMK212G_TAY LMK212G_TAY-M LMK212G_TAY-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LMK212B7105KGHTR_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LMK212B7105KGHTR_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1896,6 +1410,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:-5V"
 			(power)
 			(pin_numbers hide)
@@ -2282,6 +1941,18 @@
 		(uuid "be7e156e-1d11-41c4-895f-85be0ae3a8b5")
 	)
 	(junction
+		(at 124.46 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0cfc0ec-c638-4f9a-a991-3f02a3756464")
+	)
+	(junction
+		(at 119.38 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc148502-c345-4250-a133-56c5e57dda5b")
+	)
+	(junction
 		(at 260.35 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2355,16 +2026,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 80.01) (xy 193.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1140ceba-55c2-4170-9c19-7b948ffab21d")
-	)
-	(wire
-		(pts
 			(xy 58.42 137.16) (xy 58.42 143.51)
 		)
 		(stroke
@@ -2382,6 +2043,16 @@
 			(type default)
 		)
 		(uuid "1cf5e9b0-b07d-49ff-8c3c-43802ff72318")
+	)
+	(wire
+		(pts
+			(xy 137.16 149.86) (xy 137.16 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d03e191-8cd2-47f3-b93c-4ff22339cdff")
 	)
 	(wire
 		(pts
@@ -2515,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 149.86) (xy 119.38 153.67)
+			(xy 119.38 149.86) (xy 119.38 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2565,16 +2236,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 69.85) (xy 193.04 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57876c70-ed73-4573-8f5c-f7d1af1fa438")
-	)
-	(wire
-		(pts
 			(xy 151.13 53.34) (xy 151.13 73.66)
 		)
 		(stroke
@@ -2592,6 +2253,26 @@
 			(type default)
 		)
 		(uuid "65f72b51-5721-4fbb-88f8-0caf560ea3d5")
+	)
+	(wire
+		(pts
+			(xy 119.38 152.4) (xy 119.38 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4e30e3-2e93-46a2-b720-36ef4062ff3b")
+	)
+	(wire
+		(pts
+			(xy 193.04 78.74) (xy 193.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f93f3d5-9a89-4c8c-b234-b29143a9cb17")
 	)
 	(wire
 		(pts
@@ -2735,6 +2416,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 67.31) (xy 193.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9070da60-33f1-4b64-8770-efed0d98bb7b")
+	)
+	(wire
+		(pts
 			(xy 124.46 139.7) (xy 119.38 139.7)
 		)
 		(stroke
@@ -2855,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 152.4) (xy 119.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd387229-4c7a-4488-b4d4-0a92c5dfceb7")
+	)
+	(wire
+		(pts
 			(xy 128.27 29.21) (xy 138.43 29.21)
 		)
 		(stroke
@@ -2935,6 +2636,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 139.7) (xy 137.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ceffab-39fe-4f57-8944-9e9ad37057b4")
+	)
+	(wire
+		(pts
 			(xy 138.43 29.21) (xy 138.43 27.94)
 		)
 		(stroke
@@ -2972,6 +2683,16 @@
 			(type default)
 		)
 		(uuid "dd945ce7-1a1c-4860-9f55-72905827a5b6")
+	)
+	(wire
+		(pts
+			(xy 137.16 139.7) (xy 124.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfec2d21-a52a-4dde-a7e5-cb0121892205")
 	)
 	(wire
 		(pts
@@ -3117,7 +2838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAP_CL31_SAM"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 119.38 142.24 0)
 			(effects
 				(font
@@ -3187,14 +2908,13 @@
 				)
 			)
 		)
-		(property "Footprint" "M08A_TEX"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 59.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "LMC7660IMX/NOPB"
@@ -3443,6 +3163,78 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:CL31A106KOHNNNE")
+		(at 260.35 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "328acf3b-559c-4968-b292-035dd9aebe98")
+		(property "Reference" "C2"
+			(at 264.16 77.4699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1µF"
+			(at 264.16 80.0099 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 260.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CL31B105KCHNNNE"
+			(at 260.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b4edd7c-d2c6-44d3-ad53-273306cfe904")
+		)
+		(pin "1"
+			(uuid "ab718781-18b4-4d57-96c1-8646c43eb82e")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3499,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 143.51 53.34 0)
 			(effects
 				(font
@@ -3746,77 +3538,6 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
-		(at 260.35 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "609249e1-ff43-44fc-8b3e-1ab0538de66f")
-		(property "Reference" "C2"
-			(at 264.16 78.7399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1µF"
-			(at 256.54 77.4701 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LMK212G_TAY"
-			(at 260.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LMK212B7105KGHTR"
-			(at 260.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d66f4cb9-fda0-45e5-a667-2eb0c70aa89d")
-		)
-		(pin "1"
-			(uuid "18f5f831-c7e3-4270-9203-88ef6b0b9e78")
-		)
-		(instances
-			(project ""
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3955,56 +3676,34 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:ACZRC5340B-G")
-		(at 193.04 80.01 270)
-		(mirror x)
+		(lib_id "Device:D_Zener")
+		(at 193.04 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95f2470e-f9a9-4095-a709-81e68c17e560")
-		(property "Reference" "U3"
-			(at 189.23 73.6599 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ACZRC5340B-G"
-			(at 189.23 76.1999 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ACZRC-G"
-			(at 193.04 80.01 0)
+		(uuid "94d461e6-0185-4c5a-b570-3d858a68f6ce")
+		(property "Reference" "D1"
+			(at 187.198 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "ACZRC5340B-G"
-			(at 193.04 80.01 0)
+		(property "Value" "5.6V~6V"
+			(at 182.88 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 193.04 80.01 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 193.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,16 +3711,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "dc292801-a487-4fba-ad9b-75cc0ed88064")
+		(property "Datasheet" "BZT52C5V6"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "e0c0dac5-bfdd-4e67-afba-d44b311268cc")
+			(uuid "9f053cb1-e4cd-4e09-b615-5aea4c73dd8e")
+		)
+		(pin "1"
+			(uuid "a840d5fd-1e7d-478a-9209-bd36fbdf9d4c")
 		)
 		(instances
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
-					(reference "U3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4185,7 +3902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 50.8 0)
 			(effects
 				(font
@@ -4224,6 +3941,78 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:CL31A106KOHNNNE")
+		(at 201.93 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca4394c4-3ecb-4f21-9095-7c24942c1726")
+		(property "Reference" "C1"
+			(at 205.74 74.9299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 205.74 77.4699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CL31A106KOHNNNE"
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a85f018-74cf-4327-837b-11e383c6e061")
+		)
+		(pin "1"
+			(uuid "54b6533c-390b-4f8a-b75a-c833269a8cf3")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4309,79 +4098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
-		(at 201.93 80.01 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f18c97d0-2fb1-4a77-9e75-a3cd4c257b9b")
-		(property "Reference" "C1"
-			(at 198.12 74.9299 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1µF"
-			(at 198.12 77.4699 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LMK212G_TAY"
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LMK212B7105KGHTR"
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c65dabca-5861-441b-bc7e-5c1ff81fcb52")
-		)
-		(pin "2"
-			(uuid "376a38a1-57c8-40b1-8b63-d2053873d689")
-		)
-		(instances
-			(project ""
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CMPE2750:CL31A106KOHNNNE")
 		(at 50.8 135.89 270)
 		(unit 1)
@@ -4408,7 +4124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_CL31_SAM"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 50.8 135.89 0)
 			(effects
 				(font
@@ -4447,6 +4163,75 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 137.16 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f91e0b73-b74c-4fbd-bc7b-9654ff3702be")
+		(property "Reference" "D32"
+			(at 143.002 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.6V~6V"
+			(at 146.812 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 137.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "BZT52C5V6"
+			(at 137.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 137.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d0227f4-cba4-4142-b090-5b301b34c4be")
+		)
+		(pin "1"
+			(uuid "f5558361-5462-4f04-b6f1-5f0c411d1743")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/0066a7d7-f2ad-4520-976c-e35e03c74cdf"
+					(reference "D32")
 					(unit 1)
 				)
 			)

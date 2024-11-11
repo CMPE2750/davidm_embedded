@@ -5,6 +5,257 @@
 	(uuid "ee8cf20f-95ff-41cb-b8c8-8c050050794d")
 	(paper "A2")
 	(lib_symbols
+		(symbol "CMPE2750:CL05B104KP5NNNC"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CL05B104KP5NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LMK212B7105KGHTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LMK212G_TAY LMK212G_TAY-M LMK212G_TAY-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05B104KP5NNNC_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CL05B104KP5NNNC_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CMPE2750:COM-21215"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -347,257 +598,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CMPE2750:LMK212B7105KGHTR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "100nF LMK212B7105KGHTR"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "LMK212G_TAY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "LMK212B7105KGHTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LMK212B7105KGHTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LMK212G_TAY LMK212G_TAY-M LMK212G_TAY-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LMK212B7105KGHTR_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LMK212B7105KGHTR_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1489,6 +1489,1257 @@
 				)
 			)
 		)
+		(symbol "SN74AHC594PWR_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "PW0016A_N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PW0016A_N PW0016A_M PW0016A_L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC594PWR_1_1_1"
+				(polyline
+					(pts
+						(xy -15.24 -27.94) (xy 15.24 -27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 27.94) (xy -15.24 -27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -27.94) (xy 15.24 27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 27.94) (xy -15.24 27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "SRCLR_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "RCLR_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 22.86 180)
+					(length 5.08)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SN74AHC594PWR_2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "PW0016A_N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PW0016A_N PW0016A_M PW0016A_L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC594PWR_2_1_1"
+				(polyline
+					(pts
+						(xy -15.24 -27.94) (xy 15.24 -27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 27.94) (xy -15.24 -27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -27.94) (xy 15.24 27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 27.94) (xy -15.24 27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "SRCLR_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "RCLR_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 22.86 180)
+					(length 5.08)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SN74AHC594PWR_3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "PW0016A_N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SN74AHC594PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PW0016A_N PW0016A_M PW0016A_L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC594PWR_3_1_1"
+				(polyline
+					(pts
+						(xy -15.24 -27.94) (xy 15.24 -27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 27.94) (xy -15.24 -27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -27.94) (xy 15.24 27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 27.94) (xy -15.24 27.94)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "SRCLR_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "RCLR_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 22.86 180)
+					(length 5.08)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1784,7 +3035,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:2N7002K"
+		(symbol "Transistor_FET:IRLML6402"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1798,7 +3049,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7002K"
+			(property "Value" "IRLML6402"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1818,7 +3069,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1828,7 +3079,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1837,7 +3088,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "P-Channel HEXFET MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1855,7 +3106,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N7002K_0_1"
+			(symbol "IRLML6402_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -1942,7 +3193,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1954,7 +3205,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -1966,7 +3217,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -1978,7 +3229,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -2022,7 +3273,7 @@
 					)
 				)
 			)
-			(symbol "2N7002K_1_1"
+			(symbol "IRLML6402_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2543,18 +3794,6 @@
 		(uuid "0a868dc6-cf01-4a25-ad50-b561293db9de")
 	)
 	(junction
-		(at 439.42 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d97b0eb-052f-4227-a3bc-aaf38e9cb3e6")
-	)
-	(junction
-		(at 220.98 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1276c4fc-f39d-4215-a989-024a5f2d1f53")
-	)
-	(junction
 		(at 365.76 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2571,12 +3810,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16b3b9e1-24d6-44aa-bf47-6b75cc24a68b")
-	)
-	(junction
-		(at 494.03 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18d37b68-39f0-4f22-877d-9ac997983c21")
 	)
 	(junction
 		(at 167.64 33.02)
@@ -2633,12 +3866,6 @@
 		(uuid "29f61aff-c78d-4d03-b1ec-974e6146a9c4")
 	)
 	(junction
-		(at 165.1 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a5a0f0c-cd81-493d-b7b3-d1a7e43b1383")
-	)
-	(junction
 		(at 228.6 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2687,24 +3914,6 @@
 		(uuid "3d2b7362-8d2a-4875-9b31-278d46d86e40")
 	)
 	(junction
-		(at 275.59 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fde5f30-5bbe-4e6a-900a-7e4a92aa4e2d")
-	)
-	(junction
-		(at 386.08 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4626083f-dd66-4b6a-88b3-f1e63dd01188")
-	)
-	(junction
-		(at 105.41 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4672062d-9030-4308-b809-d1795a62b123")
-	)
-	(junction
 		(at 250.19 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2735,12 +3944,6 @@
 		(uuid "5205a7bf-6fdc-4264-8db4-dc33606b3a33")
 	)
 	(junction
-		(at 270.51 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56b59d4f-bd82-4790-b8c0-2e90cf1420af")
-	)
-	(junction
 		(at 311.15 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2757,12 +3960,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a8d5f4e-cf66-47b9-9228-11754a3aec93")
-	)
-	(junction
-		(at 110.49 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d70a9ff-0383-4dc5-b031-231195101e66")
 	)
 	(junction
 		(at 473.71 55.88)
@@ -2795,22 +3992,10 @@
 		(uuid "6e42e4b8-428a-471a-977d-60b011760152")
 	)
 	(junction
-		(at 499.11 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72188ddc-695e-4a23-a677-a5ce15ad149a")
-	)
-	(junction
 		(at 165.1 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "757588a4-6f30-4235-b015-007640bd1113")
-	)
-	(junction
-		(at 326.39 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79872315-824d-463f-8de5-3b631ff21d6e")
 	)
 	(junction
 		(at 494.03 48.26)
@@ -2835,12 +4020,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fd1a241-22cc-4a7c-9e18-c0ba122a1f14")
-	)
-	(junction
-		(at 215.9 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "802a54b6-37e2-401e-9e6d-51526f51fe82")
 	)
 	(junction
 		(at 200.66 100.33)
@@ -2909,12 +4088,6 @@
 		(uuid "a8064f96-ba50-439b-bbf8-2f8d80291a18")
 	)
 	(junction
-		(at 160.02 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad3918b0-8545-49af-9ab8-32c9a965bc75")
-	)
-	(junction
 		(at 549.91 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2943,12 +4116,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5c67873-fbcb-4903-9f12-523259bf01e1")
-	)
-	(junction
-		(at 381 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7133b00-f55a-412d-86a2-c967da732ad5")
 	)
 	(junction
 		(at 110.49 92.71)
@@ -2997,12 +4164,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd42e0a5-2bc8-4940-bfc1-93e1f22ab002")
-	)
-	(junction
-		(at 331.47 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce072ce9-1733-40ca-a2b7-f1ac98c43ad1")
 	)
 	(junction
 		(at 283.21 80.01)
@@ -3095,12 +4256,6 @@
 		(uuid "f34680ae-ddca-4777-8259-71e1d0939634")
 	)
 	(junction
-		(at 549.91 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f483ff76-c171-4f62-8a9c-5bb83d8a0b50")
-	)
-	(junction
 		(at 326.39 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3117,18 +4272,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f77087b6-d928-4be6-a1d2-bb97714d1b6d")
-	)
-	(junction
-		(at 554.99 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8d1abbe-a31f-4f22-8637-ace2fecc4b94")
-	)
-	(junction
-		(at 444.5 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fece0055-2d95-4057-9d65-cfbe570b1188")
 	)
 	(junction
 		(at 275.59 92.71)
@@ -3295,16 +4438,6 @@
 			(type default)
 		)
 		(uuid "0a637cd3-5a7c-4868-a293-5250227076a2")
-	)
-	(wire
-		(pts
-			(xy 306.07 33.02) (xy 326.39 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b52d7ee-d876-463a-94f9-6309ad348610")
 	)
 	(wire
 		(pts
@@ -3578,16 +4711,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 33.02) (xy 381 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "210e8b6b-a9e2-45ae-b6e0-8c46604f5ddb")
-	)
-	(wire
-		(pts
 			(xy 171.45 33.02) (xy 167.64 33.02)
 		)
 		(stroke
@@ -3635,16 +4758,6 @@
 			(type default)
 		)
 		(uuid "217c91e5-e09a-488a-9323-21d71f57bed8")
-	)
-	(wire
-		(pts
-			(xy 478.79 88.9) (xy 478.79 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21ea5a1d-6ff5-44fc-9619-0c4949337f47")
 	)
 	(wire
 		(pts
@@ -3768,16 +4881,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 200.66 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2f805c-a578-4ef2-9d47-cb9de13ee47a")
-	)
-	(wire
-		(pts
 			(xy 408.94 171.45) (xy 408.94 173.99)
 		)
 		(stroke
@@ -3865,16 +4968,6 @@
 			(type default)
 		)
 		(uuid "2dcb8aae-cfde-4347-91c1-141f07a61824")
-	)
-	(wire
-		(pts
-			(xy 534.67 88.9) (xy 534.67 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e40ef4c-2f14-44ec-889b-07fc9e00224f")
 	)
 	(wire
 		(pts
@@ -4005,16 +5098,6 @@
 			(type default)
 		)
 		(uuid "37182344-4ecb-4e85-9bb5-4ee1e99efe90")
-	)
-	(wire
-		(pts
-			(xy 195.58 39.37) (xy 195.58 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377ac7e0-1674-4f17-b4e2-8bca67423868")
 	)
 	(wire
 		(pts
@@ -4188,26 +5271,6 @@
 	)
 	(wire
 		(pts
-			(xy 478.79 82.55) (xy 499.11 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e087a4-2a8e-4acb-8156-08c72d8b0718")
-	)
-	(wire
-		(pts
-			(xy 473.71 41.91) (xy 473.71 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4192a47d-0ad6-4b84-b599-6b4fd412c31f")
-	)
-	(wire
-		(pts
 			(xy 273.05 154.94) (xy 273.05 156.21)
 		)
 		(stroke
@@ -4215,16 +5278,6 @@
 			(type default)
 		)
 		(uuid "4198e3ae-f8aa-4a2b-bad5-23a67c82e9b4")
-	)
-	(wire
-		(pts
-			(xy 360.68 39.37) (xy 360.68 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a48fdf-d34a-406c-8def-2e96aff29728")
 	)
 	(wire
 		(pts
@@ -4295,16 +5348,6 @@
 			(type default)
 		)
 		(uuid "46dc8e4e-7607-4c94-89f6-7d2e7004e3b2")
-	)
-	(wire
-		(pts
-			(xy 311.15 86.36) (xy 311.15 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470a779e-e3ef-4bbd-9348-4d000b98f7c8")
 	)
 	(wire
 		(pts
@@ -4408,16 +5451,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 81.28) (xy 444.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d261986-397f-4f50-b776-389d73944f87")
-	)
-	(wire
-		(pts
 			(xy 337.82 33.02) (xy 334.01 33.02)
 		)
 		(stroke
@@ -4445,16 +5478,6 @@
 			(type default)
 		)
 		(uuid "4fb785bf-8864-452a-8756-bd6b53dcf6b3")
-	)
-	(wire
-		(pts
-			(xy 139.7 39.37) (xy 139.7 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "508a207e-5ea9-487f-9295-92a406840687")
 	)
 	(wire
 		(pts
@@ -4668,16 +5691,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 80.01) (xy 220.98 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a63499f-f339-4dce-aecd-46e08473216e")
-	)
-	(wire
-		(pts
 			(xy 515.62 102.87) (xy 510.54 102.87)
 		)
 		(stroke
@@ -4705,16 +5718,6 @@
 			(type default)
 		)
 		(uuid "5bba460e-57ad-48d7-942c-99912b189745")
-	)
-	(wire
-		(pts
-			(xy 85.09 33.02) (xy 105.41 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ccbbbc3-45cc-4d61-93ac-6989d1848f81")
 	)
 	(wire
 		(pts
@@ -4778,16 +5781,6 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 34.29) (xy 439.42 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6139be2e-9e94-4dae-9e71-8de0fe329f7f")
-	)
-	(wire
-		(pts
 			(xy 281.94 53.34) (xy 281.94 50.8)
 		)
 		(stroke
@@ -4845,16 +5838,6 @@
 			(type default)
 		)
 		(uuid "63d83d40-27f0-4ee0-83e8-b76200896479")
-	)
-	(wire
-		(pts
-			(xy 90.17 80.01) (xy 110.49 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643ab8b0-da43-4942-8d42-623b522f3bae")
 	)
 	(wire
 		(pts
@@ -4958,16 +5941,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 86.36) (xy 144.78 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68cceee1-bda4-491a-b545-e6c8937b4ffb")
-	)
-	(wire
-		(pts
 			(xy 116.84 217.17) (xy 133.35 217.17)
 		)
 		(stroke
@@ -5018,16 +5991,6 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 82.55) (xy 554.99 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e660711-6def-47be-9a94-0156eadee0b0")
-	)
-	(wire
-		(pts
 			(xy 417.83 54.61) (xy 419.1 54.61)
 		)
 		(stroke
@@ -5045,16 +6008,6 @@
 			(type default)
 		)
 		(uuid "6f4b1ebe-aba7-4353-8ab0-ac304c24d857")
-	)
-	(wire
-		(pts
-			(xy 250.19 33.02) (xy 270.51 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f83c7b7-dd3b-4db9-a8f1-8e036ff76b5c")
 	)
 	(wire
 		(pts
@@ -5205,16 +6158,6 @@
 			(type default)
 		)
 		(uuid "779ade69-9ce3-4a02-9693-1f1d4976df97")
-	)
-	(wire
-		(pts
-			(xy 311.15 80.01) (xy 331.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77f228c4-bbb9-4a06-966e-8d20d64913ae")
 	)
 	(wire
 		(pts
@@ -5375,16 +6318,6 @@
 			(type default)
 		)
 		(uuid "827252d7-5017-403f-8e6e-ba5485272532")
-	)
-	(wire
-		(pts
-			(xy 365.76 86.36) (xy 365.76 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834ebd9e-dcff-4ec1-a0a4-794b8470d68f")
 	)
 	(wire
 		(pts
@@ -5558,26 +6491,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 160.02 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a3544c0-1310-43d5-9dcd-2ba1ed15670b")
-	)
-	(wire
-		(pts
-			(xy 250.19 39.37) (xy 250.19 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a40c052-2bee-4fa6-8a12-ce938856fd83")
-	)
-	(wire
-		(pts
 			(xy 439.42 34.29) (xy 439.42 36.83)
 		)
 		(stroke
@@ -5635,16 +6548,6 @@
 			(type default)
 		)
 		(uuid "8e95d1f1-a9fb-4b36-80fe-a34f101cb11a")
-	)
-	(wire
-		(pts
-			(xy 255.27 80.01) (xy 275.59 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea5f046-1206-4136-9d5d-b037b7269ad8")
 	)
 	(wire
 		(pts
@@ -5838,16 +6741,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 87.63) (xy 424.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0730cf1-3e66-4cad-a7bb-313d5565d9a6")
-	)
-	(wire
-		(pts
 			(xy 232.41 100.33) (xy 232.41 97.79)
 		)
 		(stroke
@@ -6028,16 +6921,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 39.37) (xy 306.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaad2565-ac13-4e83-8ab4-e664ec2e3ca5")
-	)
-	(wire
-		(pts
 			(xy 494.03 48.26) (xy 494.03 50.8)
 		)
 		(stroke
@@ -6105,16 +6988,6 @@
 			(type default)
 		)
 		(uuid "ad61e72b-74c3-4c43-b3dd-bf4bd17f7fa3")
-	)
-	(wire
-		(pts
-			(xy 419.1 40.64) (xy 419.1 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad99816b-e5a2-45b8-b3a8-4897fcecd721")
 	)
 	(wire
 		(pts
@@ -6528,16 +7401,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 41.91) (xy 529.59 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d09121-ff1d-4d6e-806e-2ddced473259")
-	)
-	(wire
-		(pts
 			(xy 439.42 59.69) (xy 439.42 62.23)
 		)
 		(stroke
@@ -6608,16 +7471,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 33.02) (xy 215.9 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cba958e4-473a-4083-b1a1-665bc22c49fb")
-	)
-	(wire
-		(pts
 			(xy 424.18 101.6) (xy 426.72 101.6)
 		)
 		(stroke
@@ -6638,16 +7491,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 39.37) (xy 85.09 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd4b56d0-ca92-4461-b5aa-cee865fddc57")
-	)
-	(wire
-		(pts
 			(xy 408.94 156.21) (xy 408.94 157.48)
 		)
 		(stroke
@@ -6665,16 +7508,6 @@
 			(type default)
 		)
 		(uuid "ce384201-6482-466b-aae2-b06f37e764ab")
-	)
-	(wire
-		(pts
-			(xy 255.27 86.36) (xy 255.27 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce39e3d9-749c-43b8-850c-641ecb1b0395")
 	)
 	(wire
 		(pts
@@ -6868,16 +7701,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 86.36) (xy 90.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ca0f28-b87c-46ed-bb0e-a4fa1c63c7a9")
-	)
-	(wire
-		(pts
 			(xy 561.34 35.56) (xy 557.53 35.56)
 		)
 		(stroke
@@ -7055,16 +7878,6 @@
 			(type default)
 		)
 		(uuid "dd5e35f0-13d6-46c4-bcdf-ccbdf51d49e4")
-	)
-	(wire
-		(pts
-			(xy 144.78 80.01) (xy 165.1 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de666fa4-ae68-410f-b6f6-98adb0a664a9")
 	)
 	(wire
 		(pts
@@ -7285,16 +8098,6 @@
 			(type default)
 		)
 		(uuid "e7bb3ffd-4a44-4a9c-b9b1-0434e7003515")
-	)
-	(wire
-		(pts
-			(xy 529.59 35.56) (xy 549.91 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e816993f-a8f7-4c11-affd-c9c8a38f12c1")
 	)
 	(wire
 		(pts
@@ -7528,16 +8331,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 35.56) (xy 494.03 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71e03f2-5f18-4339-855e-709d25d9a998")
-	)
-	(wire
-		(pts
 			(xy 27.94 49.53) (xy 30.48 49.53)
 		)
 		(stroke
@@ -7618,16 +8411,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 80.01) (xy 386.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0c3bc8-c207-4508-8c06-14af9d0266eb")
-	)
-	(wire
-		(pts
 			(xy 17.78 106.68) (xy 17.78 147.32)
 		)
 		(stroke
@@ -7705,6 +8488,16 @@
 			(type default)
 		)
 		(uuid "fff74806-9171-4333-bf17-789439faa37c")
+	)
+	(text "(these were originally pull-up resistors\nand I'm too tired to make them all go downward)"
+		(exclude_from_sim no)
+		(at 83.566 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af12382c-fedf-4cd6-a69c-1e8e2718f522")
 	)
 	(label "V_{DISP}"
 		(at 334.01 30.48 180)
@@ -9540,7 +10333,7 @@
 		(uuid "fc9306a8-7ba9-479b-a053-585e7a983c8e")
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 378.46 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9558,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 384.81 54.6099 0)
 			(effects
 				(font
@@ -9578,7 +10371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 383.54 57.15 0)
 			(effects
 				(font
@@ -9588,7 +10381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 378.46 53.34 0)
 			(effects
 				(font
@@ -9685,17 +10478,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 173.99 92.71 0)
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 168.91 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "034dae03-adc3-49c4-861f-3abae194d562")
-		(property "Reference" "Q38"
-			(at 180.34 91.4399 0)
+		(uuid "020a7e0a-a42c-4d48-b3a7-0db337916be8")
+		(property "Reference" "Q20"
+			(at 175.514 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,8 +10496,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
-			(at 180.34 93.9799 0)
+		(property "Value" "IRLML6402TRPBF"
+			(at 175.26 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +10506,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 179.07 94.615 0)
+			(at 173.99 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,8 +10516,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 179.07 96.52 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 173.99 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,8 +10526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 173.99 92.71 0)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 168.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9742,19 +10535,19 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "29eaf9e7-a5e1-40bc-8b48-4b85417ef942")
-		)
 		(pin "3"
-			(uuid "8da4234e-4bcb-4ee3-8763-1325b5b926ea")
+			(uuid "fb1bb599-ff05-47c3-a257-a3ef998d60df")
+		)
+		(pin "2"
+			(uuid "b9dd088c-1dde-445d-8a01-5b430320c272")
 		)
 		(pin "1"
-			(uuid "9d55591f-1970-49d8-8b79-7ff1db5776e8")
+			(uuid "3c4c7dfc-d42d-4a4f-a46c-5673623b566d")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q38")
+					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -10234,82 +11027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 558.8 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09d578ad-9f43-48d6-98df-5665dee67dde")
-		(property "Reference" "Q34"
-			(at 565.15 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 565.15 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 563.88 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 563.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 558.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "02be5521-e8c4-4df3-9241-2c301ddb3df7")
-		)
-		(pin "3"
-			(uuid "1f83945b-dd5e-48f0-ac4c-4f81c5426b5c")
-		)
-		(pin "1"
-			(uuid "0804a5d0-c1da-4a72-9eef-fc77c75196f7")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 165.1 212.09 0)
 		(mirror x)
@@ -10450,82 +11167,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 448.31 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d66159a-4f39-46a0-8418-a2d8bbcec906")
-		(property "Reference" "Q30"
-			(at 454.66 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 454.66 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 453.39 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 453.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 448.31 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "faef8846-861e-4cc7-9971-c49f76b3281e")
-		)
-		(pin "3"
-			(uuid "1cb82733-5a2d-4247-8496-15a36b6f45ec")
-		)
-		(pin "1"
-			(uuid "f64a956d-4e72-4b89-895b-0f490bcdbf9b")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "SN74AHC594PWR_3")
 		(lib_id "CMPE2750:SN74AHC594PWR")
 		(at 52.07 72.39 0)
 		(unit 1)
@@ -10551,7 +11193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW0016A_N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 52.07 72.39 0)
 			(effects
 				(font
@@ -10698,82 +11340,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 284.48 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "113a8d61-1aac-4609-89fc-ae80ff7d2bbd")
-		(property "Reference" "Q42"
-			(at 290.83 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 290.83 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 289.56 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 289.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 284.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "29f72be9-f979-4195-b2bf-3a19b147aee5")
-		)
-		(pin "3"
-			(uuid "6ada23d5-2833-4fd4-8714-b96facce0fb4")
-		)
-		(pin "1"
-			(uuid "280f2da4-cc44-421a-b2e2-dcc206cbf40a")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q42")
 					(unit 1)
 				)
 			)
@@ -11114,82 +11680,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 114.3 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "189936bd-81c0-4088-90c3-047bdace1749")
-		(property "Reference" "Q18"
-			(at 120.65 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 120.65 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 119.38 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 119.38 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 114.3 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31c08fba-9fe3-44e4-ab93-42d266966cf5")
-		)
-		(pin "3"
-			(uuid "8347cd82-d38d-4787-9b0d-3c40e8fee67d")
-		)
-		(pin "1"
-			(uuid "2c9797a2-1a1c-461a-b6c5-fd43d459e812")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 358.14 207.01 0)
 		(unit 1)
@@ -11266,7 +11756,73 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "power:GND")
+		(at 365.76 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19751d46-8288-4911-b74b-dcd69a15afc7")
+		(property "Reference" "#PWR099"
+			(at 365.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 365.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 365.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68bb03a3-7b4d-456c-bc9e-d630fee3d424")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 162.56 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11284,7 +11840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 168.91 101.5999 0)
 			(effects
 				(font
@@ -11304,7 +11860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 167.64 104.14 0)
 			(effects
 				(font
@@ -11314,7 +11870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 162.56 100.33 0)
 			(effects
 				(font
@@ -11336,82 +11892,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "Q37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 224.79 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b6e65c6-5b6b-4c0d-bf71-aed2c5b9b9e8")
-		(property "Reference" "Q22"
-			(at 231.14 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 231.14 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 229.87 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 229.87 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 224.79 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9f073d7a-4964-4e62-97c0-5535642fbdf3")
-		)
-		(pin "3"
-			(uuid "17262526-8b40-46d8-93b0-852d162174a7")
-		)
-		(pin "1"
-			(uuid "bda54a1a-2429-4264-915a-04296591e2a0")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -11689,6 +12169,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21b87951-d92a-4581-a254-b9a7aae0c302")
+		(property "Reference" "#PWR041"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2afc3713-d10f-4790-a42c-99a4256a16f5")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Current-regulator")
 		(at 408.94 152.4 90)
 		(unit 1)
@@ -11829,6 +12375,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 502.92 48.26 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2644b882-1ea4-4d14-bb02-13f2671f1dfe")
+		(property "Reference" "Q32"
+			(at 509.524 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 509.27 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 508 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 508 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 502.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b879a70a-85d8-40a1-a879-149c894328a3")
+		)
+		(pin "2"
+			(uuid "2c5d976f-43d9-445a-8e91-7fc56f4598b4")
+		)
+		(pin "1"
+			(uuid "3892a387-01d0-4a01-911c-b13d7f279768")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 30.48 120.65 0)
 		(unit 1)
@@ -11895,83 +12517,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 508 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27986772-6bfa-4533-8135-affc18910704")
-		(property "Reference" "Q50"
-			(at 514.35 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 514.35 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 513.08 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 513.08 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 508 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "25b282b8-12c3-4477-add0-cbec7f877417")
-		)
-		(pin "3"
-			(uuid "b0937dcc-5028-45bb-a8d9-963185a80798")
-		)
-		(pin "1"
-			(uuid "6ab26f7f-4a94-4453-b5e7-dab494927377")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 323.85 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11989,7 +12535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 330.2 54.6099 0)
 			(effects
 				(font
@@ -12009,7 +12555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 328.93 57.15 0)
 			(effects
 				(font
@@ -12019,7 +12565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 323.85 53.34 0)
 			(effects
 				(font
@@ -12047,7 +12593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 213.36 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12065,7 +12611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 219.71 54.6099 0)
 			(effects
 				(font
@@ -12085,7 +12631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 218.44 57.15 0)
 			(effects
 				(font
@@ -12095,7 +12641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 213.36 53.34 0)
 			(effects
 				(font
@@ -12396,7 +12942,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
+		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 29.21 190.5 0)
 		(mirror y)
 		(unit 1)
@@ -12422,7 +12968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMK212G_TAY"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 190.5 0)
 			(effects
 				(font
@@ -12432,7 +12978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LMK212B7105KGHTR"
+		(property "Datasheet" "CL05B104KP5NNNC"
 			(at 29.21 190.5 0)
 			(effects
 				(font
@@ -12674,6 +13220,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 419.1 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8b8865-0438-4724-a973-107a7762d0bf")
+		(property "Reference" "#PWR087"
+			(at 419.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 419.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 419.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 419.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df5973f2-3c5a-4832-92eb-065f444a51f8")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa65bcc-226f-4b58-9f6f-970691bd99e7")
+		(property "Reference" "#PWR0145"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb511ef-f2fb-4edf-8f29-792854b86406")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SN74AHC594PWR_2")
 		(lib_id "CMPE2750:SN74AHC594PWR")
 		(at 52.07 144.78 0)
 		(unit 1)
@@ -12699,7 +13378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW0016A_N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 52.07 144.78 0)
 			(effects
 				(font
@@ -12852,82 +13531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 502.92 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32200774-6465-41d3-b34f-bcbc57ec15a7")
-		(property "Reference" "Q32"
-			(at 509.27 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 509.27 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 508 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 508 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 502.92 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68b65747-8ec5-4e53-9946-eb2f0239769b")
-		)
-		(pin "3"
-			(uuid "9be3539e-b22b-4797-8a0f-da86d0fff84c")
-		)
-		(pin "1"
-			(uuid "7bf65b99-4394-47fc-8aad-acc1a108a1be")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-5V")
 		(at 21.59 259.08 90)
 		(mirror x)
@@ -12990,6 +13593,72 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35ed400c-a14c-476e-abe6-7e2c8d8422e0")
+		(property "Reference" "#PWR081"
+			(at 250.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e174bc38-a90b-4d1e-bd75-2d6880c9b94b")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -13208,82 +13877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 168.91 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39da2aae-7ea5-4790-974b-afee1919136c")
-		(property "Reference" "Q20"
-			(at 175.26 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 175.26 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 173.99 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 173.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 168.91 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c61de883-5e28-45b2-85c6-466b314d4270")
-		)
-		(pin "3"
-			(uuid "a4d06d5e-58ee-44e1-bb6b-41257b7c9153")
-		)
-		(pin "1"
-			(uuid "c80ddbac-34eb-4b47-932d-700928f43f29")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CMPE2750:COM-21215")
 		(at 193.04 269.24 0)
 		(unit 1)
@@ -13463,82 +14056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 563.88 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b512280-c2e0-46bf-91eb-4a4d5ef336a3")
-		(property "Reference" "Q52"
-			(at 570.23 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 570.23 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 568.96 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 568.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 563.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5213248b-c85b-4d3c-b2ac-c0a38118972c")
-		)
-		(pin "3"
-			(uuid "37b92215-3219-42f1-b8fc-11ba0e12779f")
-		)
-		(pin "1"
-			(uuid "38fc2567-500c-4a5b-8338-51e941401fcf")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 226.06 208.28 0)
 		(unit 1)
@@ -13615,7 +14132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 107.95 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13633,7 +14150,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 114.3 101.5999 0)
 			(effects
 				(font
@@ -13653,7 +14170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 113.03 104.14 0)
 			(effects
 				(font
@@ -13663,7 +14180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -13751,82 +14268,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 119.38 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f8273a1-c346-4a4c-aaed-ee568a70d73a")
-		(property "Reference" "Q36"
-			(at 125.73 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 125.73 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 124.46 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 119.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3fc22de-d381-4ec7-bad4-607561e17572")
-		)
-		(pin "3"
-			(uuid "8e9dcd65-d800-4ec4-94fd-c790136f12d2")
-		)
-		(pin "1"
-			(uuid "410ecaef-7e0c-4797-a8be-630491eb0861")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q36")
 					(unit 1)
 				)
 			)
@@ -14042,7 +14483,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 383.54 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14060,7 +14501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 389.89 101.5999 0)
 			(effects
 				(font
@@ -14080,7 +14521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 388.62 104.14 0)
 			(effects
 				(font
@@ -14090,7 +14531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 383.54 100.33 0)
 			(effects
 				(font
@@ -14253,6 +14694,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 311.15 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42c85e65-eb47-4088-b3d0-7cb047e0c2c1")
+		(property "Reference" "#PWR0101"
+			(at 311.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 311.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 311.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a192871a-0d4b-4b30-a1b1-d450892cdeaf")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 20.32 49.53 90)
 		(mirror x)
@@ -14315,6 +14822,82 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 508 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f11740-18ca-49c6-a745-101a00361a45")
+		(property "Reference" "Q50"
+			(at 514.604 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 514.35 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 513.08 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 513.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 508 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bf103662-b2d8-406f-a886-8a4993008d0b")
+		)
+		(pin "2"
+			(uuid "249cd729-83bf-48e6-9341-78ff3c411f98")
+		)
+		(pin "1"
+			(uuid "e328702e-8626-4a3d-8551-6cdb4cf17d89")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q50")
 					(unit 1)
 				)
 			)
@@ -14529,7 +15112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 496.57 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14547,7 +15130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 502.92 104.1399 0)
 			(effects
 				(font
@@ -14567,7 +15150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 501.65 106.68 0)
 			(effects
 				(font
@@ -14577,7 +15160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 496.57 102.87 0)
 			(effects
 				(font
@@ -15373,6 +15956,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 340.36 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "538d57e5-61f7-4f9f-906f-8e44f7ce26b8")
+		(property "Reference" "Q44"
+			(at 346.964 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 346.71 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 345.44 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 345.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 340.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e8b7dd4a-b009-4ced-989e-c5366185e796")
+		)
+		(pin "2"
+			(uuid "71686906-984c-4c85-8879-0af429f743e6")
+		)
+		(pin "1"
+			(uuid "53ced393-7842-470c-bea3-5b9f6245328f")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 96.52 100.33 90)
 		(unit 1)
@@ -15989,6 +16648,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 453.39 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d85ed3f-fd6d-494c-aa90-6b2988e55a5f")
+		(property "Reference" "Q48"
+			(at 459.994 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 459.74 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 458.47 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 458.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 453.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bfb5f246-6974-4fb0-a926-b6460413a195")
+		)
+		(pin "2"
+			(uuid "756fd7d8-1668-4c26-b925-98dc463b3395")
+		)
+		(pin "1"
+			(uuid "5fb58fe3-5612-4755-87c5-aaeb01919fd4")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 480.06 55.88 90)
 		(unit 1)
@@ -16519,82 +17254,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 335.28 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69792dd5-b239-4529-99fb-223ad3902a5b")
-		(property "Reference" "Q26"
-			(at 341.63 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 341.63 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 340.36 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 340.36 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 335.28 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df65b0a7-934e-4ce5-b296-72e177a896dd")
-		)
-		(pin "3"
-			(uuid "ba9f2860-dfbf-45f3-adee-663f04ac02f0")
-		)
-		(pin "1"
-			(uuid "fc51865b-eeea-4d5a-87bf-5ba300b58016")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 386.08 107.95 0)
 		(unit 1)
@@ -16655,6 +17314,72 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 534.67 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a064d4b-78a8-4eef-9ee0-8d064009f50b")
+		(property "Reference" "#PWR093"
+			(at 534.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 534.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 534.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 534.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 534.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e8c883f-acc9-4d9e-8ff8-e355d45f0b00")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -16935,7 +17660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 436.88 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16953,7 +17678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 443.23 55.8799 0)
 			(effects
 				(font
@@ -16973,7 +17698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 441.96 58.42 0)
 			(effects
 				(font
@@ -16983,7 +17708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 436.88 54.61 0)
 			(effects
 				(font
@@ -17292,7 +18017,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 173.99 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70ca449c-27f8-4ac6-9338-16248d729133")
+		(property "Reference" "Q38"
+			(at 180.594 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 180.34 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 179.07 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "36d13bdb-85a9-4d0f-aba2-68dabf3f3e73")
+		)
+		(pin "2"
+			(uuid "bf083bf8-749e-4888-a6a8-09bb7312dd01")
+		)
+		(pin "1"
+			(uuid "8bb0f303-1bf3-4ea8-bd6e-12305d5684f2")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 441.96 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17310,7 +18111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 448.31 102.8699 0)
 			(effects
 				(font
@@ -17330,7 +18131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 447.04 105.41 0)
 			(effects
 				(font
@@ -17340,7 +18141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 441.96 101.6 0)
 			(effects
 				(font
@@ -17362,6 +18163,138 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "Q47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 529.59 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723dd817-8072-474e-a92c-fe1fa456decd")
+		(property "Reference" "#PWR091"
+			(at 529.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 529.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 529.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 529.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5268a2da-aa1a-44c4-900f-baeed689ca2c")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "732a128b-1553-4140-b560-8408a8de5e4d")
+		(property "Reference" "#PWR0144"
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f800a865-d684-44e1-8fbe-ffb8b42be4d3")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -17785,7 +18718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
+		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 29.21 259.08 0)
 		(mirror y)
 		(unit 1)
@@ -17811,7 +18744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMK212G_TAY"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 259.08 0)
 			(effects
 				(font
@@ -17821,7 +18754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LMK212B7105KGHTR"
+		(property "Datasheet" "CL05B104KP5NNNC"
 			(at 29.21 259.08 0)
 			(effects
 				(font
@@ -17850,6 +18783,72 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b90a849-ff4d-4872-98a1-74f3e7fb1638")
+		(property "Reference" "#PWR0143"
+			(at 255.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "817ea062-c501-4ec0-b516-a9d84700a3a3")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -17953,7 +18952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 44.45 25.4 0)
 			(effects
 				(font
@@ -18065,7 +19064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 552.45 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18083,7 +19082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 558.8 104.1399 0)
 			(effects
 				(font
@@ -18103,7 +19102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 557.53 106.68 0)
 			(effects
 				(font
@@ -18113,7 +19112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 552.45 102.87 0)
 			(effects
 				(font
@@ -18273,6 +19272,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84628294-de74-41a5-899d-9d01d98a7767")
+		(property "Reference" "#PWR079"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca9b6677-9dce-4464-b8e5-0765ab388f79")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86557cb7-3f6c-4e03-a3df-d0c39566c1cd")
+		(property "Reference" "#PWR0146"
+			(at 90.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a1b5e48-26a6-470e-9e07-9a47bff1ae26")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 406.4 209.55 0)
 		(unit 1)
@@ -18349,7 +19480,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 328.93 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18367,7 +19498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 335.28 101.5999 0)
 			(effects
 				(font
@@ -18387,7 +19518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 334.01 104.14 0)
 			(effects
 				(font
@@ -18397,7 +19528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 328.93 100.33 0)
 			(effects
 				(font
@@ -18491,83 +19622,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 389.89 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89215fc6-0260-453e-8261-db30e0494100")
-		(property "Reference" "Q28"
-			(at 396.24 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 396.24 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 394.97 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 394.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 389.89 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e811d5ec-932f-4891-805d-9a57cfef9684")
-		)
-		(pin "3"
-			(uuid "274e83c4-6bef-44c8-ba6c-22e99dba23ef")
-		)
-		(pin "1"
-			(uuid "5116c693-9ab1-4874-a566-1e8dfc63f9f2")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 491.49 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18585,7 +19640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 497.84 57.1499 0)
 			(effects
 				(font
@@ -18605,7 +19660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 496.57 59.69 0)
 			(effects
 				(font
@@ -18615,7 +19670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 491.49 55.88 0)
 			(effects
 				(font
@@ -18637,82 +19692,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "Q31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 453.39 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e3b71d1-d986-4c74-9e4b-690e5b6597ad")
-		(property "Reference" "Q48"
-			(at 459.74 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 459.74 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 458.47 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 458.47 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 453.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1d82007-8983-4d99-a46e-e15a31c126d1")
-		)
-		(pin "3"
-			(uuid "e59e1ac0-0456-4e95-8ded-750bd59d01c1")
-		)
-		(pin "1"
-			(uuid "0f584ae5-b926-48d1-8f89-e6ee3526798a")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q48")
 					(unit 1)
 				)
 			)
@@ -18782,6 +19761,234 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 284.48 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f349670-444e-4c3d-9f66-66575b8f1aad")
+		(property "Reference" "Q42"
+			(at 291.084 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 290.83 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 289.56 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 289.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 284.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bc2fd876-eaf0-43e7-b8b6-7796d4d0d92c")
+		)
+		(pin "2"
+			(uuid "422f3dda-0187-47b1-92a8-811afdb743b9")
+		)
+		(pin "1"
+			(uuid "b1ef4cbd-9fad-41a3-a7d1-5a44214b387f")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 224.79 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f7712dd-7456-4247-9374-25bf3d352b0d")
+		(property "Reference" "Q22"
+			(at 231.394 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 231.14 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 229.87 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 224.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3f1a84bc-b154-435f-bdaa-639b9688f1e9")
+		)
+		(pin "2"
+			(uuid "634acc5f-4462-474d-9426-0b8b10881f1e")
+		)
+		(pin "1"
+			(uuid "1f2d6fb6-d443-4eed-ae35-8224e8bbf48b")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 229.87 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "918859ef-7fff-4bbc-a0af-6ffacb9290f0")
+		(property "Reference" "Q40"
+			(at 236.474 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 236.22 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 234.95 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 234.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 229.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c6103e79-02fd-4155-a113-4d84ce783b04")
+		)
+		(pin "2"
+			(uuid "3adcf8aa-5241-4917-acc3-5f99362e759d")
+		)
+		(pin "1"
+			(uuid "5935708a-63d7-48e9-afe7-396e9c4bf7f4")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q40")
 					(unit 1)
 				)
 			)
@@ -18918,6 +20125,82 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 448.31 46.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95328942-1ff2-4be5-b600-7aa63f2e6c80")
+		(property "Reference" "Q30"
+			(at 454.914 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 454.66 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 453.39 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 453.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 448.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f9db2837-4c50-4476-baa1-39e422d02a46")
+		)
+		(pin "2"
+			(uuid "4c94832f-ca79-4503-8f14-3006364fa548")
+		)
+		(pin "1"
+			(uuid "50eb33ed-ea32-453a-af3a-f2a4dad0fd90")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q30")
 					(unit 1)
 				)
 			)
@@ -19343,82 +20626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 394.97 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dd7991f-a065-4bf4-a21b-c4c746fe200a")
-		(property "Reference" "Q46"
-			(at 401.32 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 401.32 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 400.05 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 400.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 394.97 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8a88388-1900-43a5-80c5-5dc41af0580a")
-		)
-		(pin "3"
-			(uuid "b7eedd5a-ba31-4488-84bf-1e98ac631a31")
-		)
-		(pin "1"
-			(uuid "4c97dbd2-83c4-479d-9a70-cf209eba5fb2")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 439.42 40.64 0)
 		(unit 1)
@@ -19626,7 +20833,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 547.37 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19644,7 +20851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 553.72 57.1499 0)
 			(effects
 				(font
@@ -19664,7 +20871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 552.45 59.69 0)
 			(effects
 				(font
@@ -19674,7 +20881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 547.37 55.88 0)
 			(effects
 				(font
@@ -19766,6 +20973,82 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 394.97 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a570cb46-7b76-4e7d-b814-fc0f2f1511d7")
+		(property "Reference" "Q46"
+			(at 401.574 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 401.32 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 400.05 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 400.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 394.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "306d744d-e75a-45d6-9482-9e2d5454539e")
+		)
+		(pin "2"
+			(uuid "b8e492c3-f67e-4908-b005-202516d14c46")
+		)
+		(pin "1"
+			(uuid "f8e49236-beb2-42ef-b865-59f05f906f74")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q46")
 					(unit 1)
 				)
 			)
@@ -19907,6 +21190,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SN74AHC594PWR_1")
 		(lib_id "CMPE2750:SN74AHC594PWR")
 		(at 53.34 281.94 0)
 		(unit 1)
@@ -19932,7 +21216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW0016A_N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 53.34 281.94 0)
 			(effects
 				(font
@@ -20019,7 +21303,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 218.44 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20037,7 +21321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 224.79 101.5999 0)
 			(effects
 				(font
@@ -20057,7 +21341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 223.52 104.14 0)
 			(effects
 				(font
@@ -20067,7 +21351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 218.44 100.33 0)
 			(effects
 				(font
@@ -20442,6 +21726,148 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 306.07 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af3f0b95-adc7-406c-8ea7-caf02e2c6463")
+		(property "Reference" "#PWR083"
+			(at 306.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd51af61-518e-4ba6-b6d8-255defd82654")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 558.8 48.26 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afcc1257-4981-44c6-8608-238721a32971")
+		(property "Reference" "Q34"
+			(at 565.404 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 565.15 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 563.88 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 563.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 558.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "73f4ac91-7c49-403a-b6d2-dc26a1b268e8")
+		)
+		(pin "2"
+			(uuid "b7c4640a-b0a4-4d53-b5bc-3bff8e7f7fbe")
+		)
+		(pin "1"
+			(uuid "95560051-7757-45ff-bb61-364add69967d")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 207.01 100.33 90)
 		(unit 1)
@@ -20579,82 +22005,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 279.4 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2abd891-01f4-49e8-b866-a412b80a6ca2")
-		(property "Reference" "Q24"
-			(at 285.75 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 285.75 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 284.48 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 284.48 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 279.4 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3f29066-4689-44c7-944a-9eaded30eaed")
-		)
-		(pin "3"
-			(uuid "a1d4d586-5c36-49ee-9bf4-1b1977298761")
-		)
-		(pin "1"
-			(uuid "d3d122da-77ee-4694-9f7c-97d34657e54c")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 312.42 53.34 90)
 		(unit 1)
@@ -20724,7 +22074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:2N7002")
 		(at 157.48 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20742,7 +22092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 163.83 54.6099 0)
 			(effects
 				(font
@@ -20762,7 +22112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 162.56 57.15 0)
 			(effects
 				(font
@@ -20772,7 +22122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 157.48 53.34 0)
 			(effects
 				(font
@@ -20870,6 +22220,82 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "Q58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 389.89 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9be859f-235b-4eb1-9874-c7217424607a")
+		(property "Reference" "Q28"
+			(at 396.494 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 396.24 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 394.97 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 394.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 389.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2a9676b3-3cef-4b4c-b8a9-d8bc8c2adfaa")
+		)
+		(pin "2"
+			(uuid "fed989d9-0faf-406e-a9e8-6814a797225c")
+		)
+		(pin "1"
+			(uuid "ba70bab1-c82c-497f-89a6-e740d0b57ad8")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q28")
 					(unit 1)
 				)
 			)
@@ -21081,7 +22507,281 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "power:GND")
+		(at 360.68 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c042654f-d582-401d-ae12-7b730370f547")
+		(property "Reference" "#PWR085"
+			(at 360.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 360.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 360.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1e9dce0-1c8d-4ff4-a244-0cb9ccf5929b")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0bb371e-0fa1-4b9a-85c9-0269137f96e2")
+		(property "Reference" "#PWR069"
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fbce96b-6f7f-41c8-a765-44d357e55df5")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 114.3 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c15521d3-a103-4f48-9661-64d38eead017")
+		(property "Reference" "Q18"
+			(at 120.904 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 120.65 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 119.38 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e0d1581a-c587-4aab-ae3d-870808d758e1")
+		)
+		(pin "2"
+			(uuid "eb56c244-e89a-4b92-99b3-830cf2b2e786")
+		)
+		(pin "1"
+			(uuid "38e27bfe-9d54-40c2-9f94-226fb0df2136")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 478.79 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b1c6c8-79a9-4f4a-bddd-1ac16f99b6e9")
+		(property "Reference" "#PWR095"
+			(at 478.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 478.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 478.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 478.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 478.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1255691-209b-4aa4-b3ac-5d1b46f2a15e")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 273.05 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21099,7 +22799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 279.4 101.5999 0)
 			(effects
 				(font
@@ -21119,7 +22819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 278.13 104.14 0)
 			(effects
 				(font
@@ -21129,7 +22829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 273.05 100.33 0)
 			(effects
 				(font
@@ -21151,6 +22851,82 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "Q41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 335.28 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ef595a-ec03-4af9-8ffe-af4982a3727d")
+		(property "Reference" "Q26"
+			(at 341.884 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 341.63 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 340.36 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 340.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 335.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9a67beb3-5c4b-416c-b332-448e31642c1f")
+		)
+		(pin "2"
+			(uuid "f8d18a5b-baee-460a-af69-78909183247b")
+		)
+		(pin "1"
+			(uuid "ba27fe3d-ee6c-4aaa-a567-cebfa3f9a7d6")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -21876,7 +23652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW0016A_N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 53.34 213.36 0)
 			(effects
 				(font
@@ -21963,7 +23739,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 563.88 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc930928-e189-4164-98cc-138ad7806499")
+		(property "Reference" "Q52"
+			(at 570.484 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 570.23 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 568.96 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 568.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 563.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ba040ca-8f6d-4d38-95be-c78678b68927")
+		)
+		(pin "2"
+			(uuid "7d3611c1-2f6a-4d05-9d8a-d6549c4f133c")
+		)
+		(pin "1"
+			(uuid "8fb9d92a-21b2-45e6-b47e-6f9fd6e28353")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 102.87 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21981,7 +23833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 109.22 54.6099 0)
 			(effects
 				(font
@@ -22001,7 +23853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -22011,7 +23863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 102.87 53.34 0)
 			(effects
 				(font
@@ -22181,7 +24033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
+		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 27.94 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -22207,7 +24059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMK212G_TAY"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.94 49.53 0)
 			(effects
 				(font
@@ -22217,7 +24069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LMK212B7105KGHTR"
+		(property "Datasheet" "CL05B104KP5NNNC"
 			(at 27.94 49.53 0)
 			(effects
 				(font
@@ -22666,6 +24518,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 473.71 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8cd198b-2bcf-4152-bab8-c6a4b88a4433")
+		(property "Reference" "#PWR089"
+			(at 473.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 473.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 473.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 473.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5ca185c-0ab9-4e37-af5a-f0cfe0a77b80")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 485.14 102.87 90)
 		(unit 1)
@@ -22874,82 +24792,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 229.87 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed3b197b-2393-492c-b45d-7c56200d8f0a")
-		(property "Reference" "Q40"
-			(at 236.22 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 236.22 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 234.95 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 234.95 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 229.87 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "291dc7fa-a9c2-4759-8703-a4deb1b4da18")
-		)
-		(pin "3"
-			(uuid "5e780f5a-753c-42c7-8673-a1fe5bec6bb0")
-		)
-		(pin "1"
-			(uuid "5e7f7046-6d21-4c58-91a8-27c04834a6d4")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 116.84 165.1 0)
 		(mirror x)
@@ -23089,7 +24931,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
+		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 27.94 121.92 0)
 		(mirror y)
 		(unit 1)
@@ -23115,7 +24957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMK212G_TAY"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -23125,7 +24967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LMK212B7105KGHTR"
+		(property "Datasheet" "CL05B104KP5NNNC"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -23230,7 +25072,149 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
+		(lib_id "power:GND")
+		(at 424.18 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f47593c7-4250-47f8-9acf-d2e6031dde0c")
+		(property "Reference" "#PWR097"
+			(at 424.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 424.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 424.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 424.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315a6e41-f905-4a97-88ca-fd39c2fab41f")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 119.38 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f59660cb-1f6e-4b1c-8e60-2005cace4ed4")
+		(property "Reference" "Q36"
+			(at 125.984 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 125.73 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 124.46 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0fdd40a0-c4c0-4792-ad22-34dce908586c")
+		)
+		(pin "2"
+			(uuid "43ff9246-bc11-4625-88b4-d724c695b2b3")
+		)
+		(pin "1"
+			(uuid "3c7da4a9-d788-4bfc-8e67-0c2936718544")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
 		(at 267.97 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23248,7 +25232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002K"
+		(property "Value" "2N7002"
 			(at 274.32 54.6099 0)
 			(effects
 				(font
@@ -23268,7 +25252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 273.05 57.15 0)
 			(effects
 				(font
@@ -23278,7 +25262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 267.97 53.34 0)
 			(effects
 				(font
@@ -23795,82 +25779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002K")
-		(at 340.36 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faafa83a-a931-4c31-9c3f-3bedab5335c6")
-		(property "Reference" "Q44"
-			(at 346.71 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K"
-			(at 346.71 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 345.44 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
-			(at 345.44 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 340.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "955e2407-4aa5-4cb3-90a1-62a212077276")
-		)
-		(pin "3"
-			(uuid "05984449-b933-49b0-a1cd-54ded026e9c6")
-		)
-		(pin "1"
-			(uuid "1f73249c-7ab4-47b9-b0ab-48cdcb85456f")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "Q44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 554.99 88.9 0)
 		(unit 1)
@@ -24000,6 +25908,82 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 279.4 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fef03477-a2aa-4e8c-91e8-e0d8394ddded")
+		(property "Reference" "Q24"
+			(at 286.004 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402TRPBF"
+			(at 285.75 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 284.48 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271032_Infineon-Technologies-IRLML6402TRPBF_C2593.pdf"
+			(at 284.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 279.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "524c54ec-0f83-4255-ac7b-70cde6b86fba")
+		)
+		(pin "2"
+			(uuid "d47b3e92-16df-4cac-ae64-d942b29e418e")
+		)
+		(pin "1"
+			(uuid "ef9fb935-6b01-40a1-95d8-fb7c998d2124")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "Q24")
 					(unit 1)
 				)
 			)

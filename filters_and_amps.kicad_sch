@@ -5,6 +5,176 @@
 	(uuid "95b2fb62-5f98-4f6a-a4ca-571f54e9a144")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CMPE2750:0402WGF3832TCE"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "38.3kΩ"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "0402WGF3832TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF3832TCE_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF3832TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CMPE2750:1206N332F500CT"
 			(pin_names
 				(offset 0.254)
@@ -170,257 +340,6 @@
 				)
 			)
 			(symbol "1206N332F500CT_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CMPE2750:CC1206FKNPO8BN103"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "10nF CC1206FKNPO8BN103"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CAP_CC1206_YAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "CC1206FKNPO8BN103"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CC1206FKNPO8BN103"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CAP_CC1206_YAG CAP_CC1206_YAG-M CAP_CC1206_YAG-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CC1206FKNPO8BN103_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CC1206FKNPO8BN103_1_2"
 				(polyline
 					(pts
 						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
@@ -758,6 +677,257 @@
 				)
 			)
 		)
+		(symbol "CMPE2750:CL05B104KP5NNNC"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CL05B104KP5NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LMK212B7105KGHTR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LMK212G_TAY LMK212G_TAY-M LMK212G_TAY-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05B104KP5NNNC_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CL05B104KP5NNNC_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CMPE2750:ERA2AEB6492X"
 			(pin_names
 				(offset 1.016)
@@ -783,7 +953,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ERA2AEB6492X:RES_ERA2AEB6492X"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -793,7 +963,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "ERA2AEB6492X"
 				(at 0 0 0)
 				(effects
 					(font
@@ -998,7 +1168,142 @@
 				)
 			)
 		)
-		(symbol "CMPE2750:LM833DT"
+		(symbol "CMPE2750:GRM2195C1H103FA01D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10nF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "GRM2195C1H103FA01D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM2195C1H103FA01D_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GRM2195C1H103FA01D_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CMPE2750:OPA1678IDR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1021,7 +1326,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SO_833DT_STM"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1031,7 +1336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "LM833DT"
+			(property "Datasheet" "OPA1678IDR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1076,7 +1381,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM833DT_0_1"
+			(symbol "OPA1678IDR_0_1"
 				(polyline
 					(pts
 						(xy 7.62 -20.32) (xy 104.14 -20.32)
@@ -1487,257 +1792,6 @@
 				)
 			)
 		)
-		(symbol "CMPE2750:LMK212B7105KGHTR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "100nF LMK212B7105KGHTR"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "LMK212G_TAY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "LMK212B7105KGHTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LMK212B7105KGHTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LMK212G_TAY LMK212G_TAY-M LMK212G_TAY-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LMK212B7105KGHTR_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LMK212B7105KGHTR_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "CMPE2750:RT0402BRD0716K2L"
 			(pin_names
 				(offset 0.254)
@@ -1761,7 +1815,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RC0402N_YAG"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1788,14 +1842,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "RT0402BRD0716K2L"
@@ -2084,7 +2130,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RC0402N_YAG"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2111,14 +2157,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "RT0402BRD077K87L"
@@ -2407,7 +2445,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RC0603N_YAG"
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2434,14 +2472,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "RT0603BRD0722K1L"
@@ -2585,329 +2615,6 @@
 				)
 			)
 			(symbol "RT0603BRD0722K1L_1_2"
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy -1.27 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CMPE2750:RT0603BRD0738K3L"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "RT0603BRD0738K3L"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "RC0603N_YAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "RT0603BRD0738K3L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RT0603BRD0738K3L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RC0603N_YAG RC0603N_YAG-M RC0603N_YAG-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RT0603BRD0738K3L_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.175 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.27) (xy 4.445 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.27) (xy 5.715 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 1.27) (xy 6.985 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -1.27) (xy 8.255 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 1.27) (xy 9.525 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -1.27) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RT0603BRD0738K3L_1_2"
 				(polyline
 					(pts
 						(xy -1.27 3.175) (xy 1.27 4.445)
@@ -3710,7 +3417,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 115.57) (xy 38.1 115.57)
+			(xy 96.52 123.19) (xy 100.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e252d3-590a-4245-aeae-41720b50bd56")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 44.45 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3990,16 +3707,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 119.38) (xy 214.63 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "352cb82a-81e4-4f99-bd01-5d99b23143d0")
-	)
-	(wire
-		(pts
 			(xy 185.42 63.5) (xy 185.42 72.39)
 		)
 		(stroke
@@ -4007,16 +3714,6 @@
 			(type default)
 		)
 		(uuid "3657ba1d-3afc-41f2-baf5-7bacc1b3196d")
-	)
-	(wire
-		(pts
-			(xy 193.04 109.22) (xy 180.34 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371803b4-028e-4039-a140-7b2d70dd7501")
 	)
 	(wire
 		(pts
@@ -4180,16 +3877,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 123.19) (xy 100.33 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5678a564-18de-4d42-8461-3c66731e8a67")
-	)
-	(wire
-		(pts
 			(xy 105.41 165.1) (xy 105.41 170.18)
 		)
 		(stroke
@@ -4220,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 113.03) (xy 100.33 113.03)
+			(xy 100.33 113.03) (xy 104.14 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4260,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 123.19) (xy 86.36 123.19)
+			(xy 73.66 123.19) (xy 88.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4017,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 109.22) (xy 167.64 109.22)
+			(xy 167.64 109.22) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4350,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 119.38) (xy 200.66 119.38)
+			(xy 193.04 119.38) (xy 201.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4430,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e89e67-3d3a-4923-ac22-cb57e806ec28")
+	)
+	(wire
+		(pts
 			(xy 186.69 59.69) (xy 186.69 60.96)
 		)
 		(stroke
@@ -4440,6 +4137,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 115.57) (xy 73.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90080367-e231-4e88-a281-a9a93f2078bb")
+	)
+	(wire
+		(pts
 			(xy 121.92 128.27) (xy 121.92 123.19)
 		)
 		(stroke
@@ -4447,6 +4154,16 @@
 			(type default)
 		)
 		(uuid "90258545-f4f5-4b90-b11b-0dc8f7b9a6f6")
+	)
+	(wire
+		(pts
+			(xy 179.07 109.22) (xy 193.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ea3c16-7f84-487d-8f3b-b060e2b57c66")
 	)
 	(wire
 		(pts
@@ -4590,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 109.22) (xy 214.63 109.22)
+			(xy 214.63 109.22) (xy 218.44 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4690,16 +4407,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 109.22) (xy 224.79 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be080183-ec07-4742-b0fd-e3bc39850547")
-	)
-	(wire
-		(pts
 			(xy 67.31 67.31) (xy 72.39 67.31)
 		)
 		(stroke
@@ -4787,16 +4494,6 @@
 			(type default)
 		)
 		(uuid "cb1470cb-63d6-4b86-a84a-844f09a5283f")
-	)
-	(wire
-		(pts
-			(xy 110.49 113.03) (xy 125.73 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb24bb29-51f3-4c84-80e3-0c7e5ac95979")
 	)
 	(wire
 		(pts
@@ -4950,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 109.22) (xy 231.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e360ff60-1cd1-4c9c-9760-5df062b82e90")
+	)
+	(wire
+		(pts
 			(xy 153.67 33.02) (xy 153.67 27.94)
 		)
 		(stroke
@@ -5030,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 119.38) (xy 214.63 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f020693b-ec9e-47cb-952b-626b87afbe91")
+	)
+	(wire
+		(pts
 			(xy 46.99 189.23) (xy 48.26 189.23)
 		)
 		(stroke
@@ -5087,16 +4804,6 @@
 			(type default)
 		)
 		(uuid "f65da1d7-7d0b-4d5c-9eda-96915fb68b0c")
-	)
-	(wire
-		(pts
-			(xy 73.66 115.57) (xy 50.8 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d309e9-09ee-4ab8-9df9-2f9e1f811817")
 	)
 	(wire
 		(pts
@@ -5582,8 +5289,8 @@
 		(uuid "e1933894-1ced-47ea-8bd5-7699b1fead29")
 	)
 	(symbol
-		(lib_id "CMPE2750:CC1206FKNPO8BN103")
-		(at 217.17 109.22 0)
+		(lib_id "CMPE2750:GRM2195C1H103FA01D")
+		(at 220.98 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5592,7 +5299,7 @@
 		(fields_autoplaced yes)
 		(uuid "02128e6a-2c98-4a67-a392-5641fba1ef57")
 		(property "Reference" "C11"
-			(at 220.98 102.87 0)
+			(at 220.9863 102.87 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5600,35 +5307,33 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 220.98 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CAP_CC1206_YAG"
-			(at 217.17 109.22 0)
+			(at 220.9863 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 220.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CC1206FKNPO8BN103"
-			(at 217.17 109.22 0)
+		(property "Datasheet" "GRM2195C1H103FA01D"
+			(at 220.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 217.17 109.22 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 220.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5440,7 @@
 				)
 			)
 		)
-		(property "Value" "64.9kΩ"
+		(property "Value" "ERA2AEB6492X"
 			(at 34.29 66.04 0)
 			(effects
 				(font
@@ -5743,7 +5448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA2AEB6492X:RES_ERA2AEB6492X"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -5753,7 +5458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "ERA2AEB6492X"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -5920,7 +5625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.17 74.93 0)
 			(effects
 				(font
@@ -5965,8 +5670,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:CC1206FKNPO8BN103")
-		(at 43.18 115.57 0)
+		(lib_id "CMPE2750:GRM2195C1H103FA01D")
+		(at 46.99 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5975,7 +5680,7 @@
 		(fields_autoplaced yes)
 		(uuid "130a6b0e-42f7-4e41-bbe5-0d620986dc50")
 		(property "Reference" "C5"
-			(at 46.99 109.22 0)
+			(at 46.9963 109.22 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5983,35 +5688,33 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 46.99 111.76 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CAP_CC1206_YAG"
-			(at 43.18 115.57 0)
+			(at 46.9963 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 46.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CC1206FKNPO8BN103"
-			(at 43.18 115.57 0)
+		(property "Datasheet" "GRM2195C1H103FA01D"
+			(at 46.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 115.57 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 46.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +5763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 184.15 120.65 0)
 			(effects
 				(font
@@ -6172,7 +5875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
+		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 184.15 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -6198,7 +5901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMK212G_TAY"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.15 60.96 0)
 			(effects
 				(font
@@ -6208,7 +5911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LMK212B7105KGHTR"
+		(property "Datasheet" "CL05B104KP5NNNC"
 			(at 184.15 60.96 0)
 			(effects
 				(font
@@ -6268,7 +5971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.4 120.65 0)
 			(effects
 				(font
@@ -6338,7 +6041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.17 119.38 0)
 			(effects
 				(font
@@ -6410,7 +6113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_CC1206_YAG"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 236.22 132.08 0)
 			(effects
 				(font
@@ -6482,7 +6185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0402N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.26 97.79 0)
 			(effects
 				(font
@@ -6690,7 +6393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 123.19 0)
 			(effects
 				(font
@@ -6760,7 +6463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.86 127 0)
 			(effects
 				(font
@@ -6830,7 +6533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.9 87.63 0)
 			(effects
 				(font
@@ -6902,7 +6605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAP_CC1206_YAG"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 121.92 135.89 0)
 			(effects
 				(font
@@ -7021,8 +6724,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:RT0603BRD0738K3L")
-		(at 200.66 119.38 0)
+		(lib_id "CMPE2750:0402WGF3832TCE")
+		(at 205.74 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7031,7 +6734,7 @@
 		(fields_autoplaced yes)
 		(uuid "83668a43-4bf7-44a9-9ec0-de6e0de17158")
 		(property "Reference" "R13"
-			(at 207.01 113.03 0)
+			(at 205.74 113.03 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7039,35 +6742,33 @@
 			)
 		)
 		(property "Value" "38.3kΩ"
-			(at 207.01 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "RC0603N_YAG"
-			(at 200.66 119.38 0)
+			(at 205.74 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 205.994 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RT0603BRD0738K3L"
-			(at 200.66 119.38 0)
+		(property "Datasheet" "0402WGF3832TCE"
+			(at 205.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 200.66 119.38 0)
+		(property "Description" "Resistor, US symbol"
+			(at 205.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +6809,7 @@
 				)
 			)
 		)
-		(property "Value" "64.9kΩ"
+		(property "Value" "ERA2AEB6492X"
 			(at 34.29 78.74 0)
 			(effects
 				(font
@@ -7116,7 +6817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA2AEB6492X:RES_ERA2AEB6492X"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 34.29 82.55 0)
 			(effects
 				(font
@@ -7126,7 +6827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "ERA2AEB6492X"
 			(at 34.29 82.55 0)
 			(effects
 				(font
@@ -7291,7 +6992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 127 0)
 			(effects
 				(font
@@ -7336,7 +7037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
+		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 274.32 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7361,7 +7062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMK212G_TAY"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.32 27.94 0)
 			(effects
 				(font
@@ -7371,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LMK212B7105KGHTR"
+		(property "Datasheet" "CL05B104KP5NNNC"
 			(at 274.32 27.94 0)
 			(effects
 				(font
@@ -7497,7 +7198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0402N_YAG"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -7542,7 +7243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LM833DT")
+		(lib_id "CMPE2750:OPA1678IDR")
 		(at 72.39 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7559,7 +7260,7 @@
 				)
 			)
 		)
-		(property "Value" "LM833DT"
+		(property "Value" "OPA1678IDR"
 			(at 128.27 62.23 0)
 			(effects
 				(font
@@ -7567,7 +7268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO_833DT_STM"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 72.39 69.85 0)
 			(effects
 				(font
@@ -7577,7 +7278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM833DT"
+		(property "Datasheet" "OPA1678IDR"
 			(at 72.39 69.85 0)
 			(effects
 				(font
@@ -7965,7 +7666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LM833DT")
+		(lib_id "CMPE2750:OPA1678IDR")
 		(at 154.94 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7982,7 +7683,7 @@
 				)
 			)
 		)
-		(property "Value" "LM833DT"
+		(property "Value" "OPA1678IDR"
 			(at 210.82 22.86 0)
 			(effects
 				(font
@@ -7990,7 +7691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO_833DT_STM"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 154.94 30.48 0)
 			(effects
 				(font
@@ -8000,7 +7701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM833DT"
+		(property "Datasheet" "OPA1678IDR"
 			(at 154.94 30.48 0)
 			(effects
 				(font
@@ -8053,7 +7754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LM833DT")
+		(lib_id "CMPE2750:OPA1678IDR")
 		(at 16.51 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8070,7 +7771,7 @@
 				)
 			)
 		)
-		(property "Value" "LM833DT"
+		(property "Value" "OPA1678IDR"
 			(at 72.39 20.32 0)
 			(effects
 				(font
@@ -8078,7 +7779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO_833DT_STM"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 16.51 27.94 0)
 			(effects
 				(font
@@ -8088,7 +7789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM833DT"
+		(property "Datasheet" "OPA1678IDR"
 			(at 16.51 27.94 0)
 			(effects
 				(font
@@ -8158,7 +7859,7 @@
 				)
 			)
 		)
-		(property "Value" "64.9kΩ"
+		(property "Value" "ERA2AEB6492X"
 			(at 195.58 68.58 0)
 			(effects
 				(font
@@ -8166,7 +7867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA2AEB6492X:RES_ERA2AEB6492X"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.58 72.39 0)
 			(effects
 				(font
@@ -8176,7 +7877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "ERA2AEB6492X"
 			(at 195.58 72.39 0)
 			(effects
 				(font
@@ -8316,8 +8017,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:CC1206FKNPO8BN103")
-		(at 102.87 113.03 0)
+		(lib_id "CMPE2750:GRM2195C1H103FA01D")
+		(at 106.68 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8326,7 +8027,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcef2287-cda0-4319-9d4d-786f343262d4")
 		(property "Reference" "C7"
-			(at 106.68 106.68 0)
+			(at 106.6863 106.68 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8334,35 +8035,33 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 106.68 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CAP_CC1206_YAG"
-			(at 102.87 113.03 0)
+			(at 106.6863 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CC1206FKNPO8BN103"
-			(at 102.87 113.03 0)
+		(property "Datasheet" "GRM2195C1H103FA01D"
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 113.03 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,8 +8085,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:RT0603BRD0738K3L")
-		(at 86.36 123.19 0)
+		(lib_id "CMPE2750:0402WGF3832TCE")
+		(at 92.71 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8396,7 +8095,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd5a9c09-fd8d-44ba-bbf0-19c0d957b387")
 		(property "Reference" "R9"
-			(at 92.71 116.84 0)
+			(at 92.71 116.84 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8404,35 +8103,33 @@
 			)
 		)
 		(property "Value" "38.3kΩ"
-			(at 92.71 119.38 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "RC0603N_YAG"
-			(at 86.36 123.19 0)
+			(at 92.71 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 92.964 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RT0603BRD0738K3L"
-			(at 86.36 123.19 0)
+		(property "Datasheet" "0402WGF3832TCE"
+			(at 92.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 123.19 0)
+		(property "Description" "Resistor, US symbol"
+			(at 92.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,8 +8227,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:CC1206FKNPO8BN103")
-		(at 172.72 109.22 0)
+		(lib_id "CMPE2750:GRM2195C1H103FA01D")
+		(at 176.53 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8540,7 +8237,7 @@
 		(fields_autoplaced yes)
 		(uuid "e43b9311-803c-4c86-8319-875bc70d0aa8")
 		(property "Reference" "C9"
-			(at 176.53 102.87 0)
+			(at 176.5363 102.87 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8548,35 +8245,33 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 176.53 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CAP_CC1206_YAG"
-			(at 172.72 109.22 0)
+			(at 176.5363 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CC1206FKNPO8BN103"
-			(at 172.72 109.22 0)
+		(property "Datasheet" "GRM2195C1H103FA01D"
+			(at 176.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 172.72 109.22 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 176.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:LMK212B7105KGHTR")
+		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 134.62 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8625,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMK212G_TAY"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 25.4 0)
 			(effects
 				(font
@@ -8635,7 +8330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LMK212B7105KGHTR"
+		(property "Datasheet" "CL05B104KP5NNNC"
 			(at 134.62 25.4 0)
 			(effects
 				(font
@@ -8687,7 +8382,7 @@
 				)
 			)
 		)
-		(property "Value" "64.9kΩ"
+		(property "Value" "ERA2AEB6492X"
 			(at 222.25 93.98 0)
 			(effects
 				(font
@@ -8695,7 +8390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERA2AEB6492X:RES_ERA2AEB6492X"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 222.25 97.79 0)
 			(effects
 				(font
@@ -8705,7 +8400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "ERA2AEB6492X"
 			(at 222.25 97.79 0)
 			(effects
 				(font

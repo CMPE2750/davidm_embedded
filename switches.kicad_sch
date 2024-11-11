@@ -5,7 +5,7 @@
 	(uuid "bb68e23c-aa49-4be2-9a2a-b81e498bf10c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R_US"
+		(symbol "CMPE2750:0402WGJ0103TCE"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "R_US"
+			(property "Value" "10kΩ"
 				(at -2.54 0 90)
 				(effects
 					(font
@@ -29,7 +29,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 1.016 -0.254 90)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "0402WGJ0103TCE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_US_0_1"
+			(symbol "0402WGJ0103TCE_0_1"
 				(polyline
 					(pts
 						(xy 0 -2.286) (xy 0 -2.54)
@@ -136,7 +136,7 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "0402WGJ0103TCE_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2494,7 +2494,7 @@
 		(uuid "fc96fc6d-48cf-41c1-a940-8266ac4cb261")
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 22.86 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2521,7 +2521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.876 129.794 90)
 			(effects
 				(font
@@ -2530,7 +2530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 22.86 129.54 0)
 			(effects
 				(font
@@ -2630,7 +2630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 46.99 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2657,7 +2657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.006 33.274 90)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 46.99 33.02 0)
 			(effects
 				(font
@@ -2700,7 +2700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 46.99 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2727,7 +2727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.006 92.964 90)
 			(effects
 				(font
@@ -2736,7 +2736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 46.99 92.71 0)
 			(effects
 				(font
@@ -2770,7 +2770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 22.86 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2797,7 +2797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.876 72.644 90)
 			(effects
 				(font
@@ -2806,7 +2806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 22.86 72.39 0)
 			(effects
 				(font
@@ -2840,7 +2840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 46.99 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2867,7 +2867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.006 72.644 90)
 			(effects
 				(font
@@ -2876,7 +2876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 46.99 72.39 0)
 			(effects
 				(font
@@ -2910,7 +2910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 46.99 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2937,7 +2937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.006 110.744 90)
 			(effects
 				(font
@@ -2946,7 +2946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 46.99 110.49 0)
 			(effects
 				(font
@@ -3112,7 +3112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 22.86 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3139,7 +3139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.876 34.544 90)
 			(effects
 				(font
@@ -3148,7 +3148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 22.86 34.29 0)
 			(effects
 				(font
@@ -3182,7 +3182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 46.99 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3209,7 +3209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.006 128.524 90)
 			(effects
 				(font
@@ -3218,7 +3218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 46.99 128.27 0)
 			(effects
 				(font
@@ -3252,7 +3252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 22.86 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3279,7 +3279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.876 147.574 90)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 22.86 147.32 0)
 			(effects
 				(font
@@ -3322,7 +3322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 48.26 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3349,7 +3349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.276 167.894 90)
 			(effects
 				(font
@@ -3358,7 +3358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 48.26 167.64 0)
 			(effects
 				(font
@@ -3524,7 +3524,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 22.86 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3551,7 +3551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.876 112.014 90)
 			(effects
 				(font
@@ -3560,7 +3560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 22.86 111.76 0)
 			(effects
 				(font
@@ -3792,7 +3792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 22.86 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3819,7 +3819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.876 53.594 90)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 22.86 53.34 0)
 			(effects
 				(font
@@ -4126,7 +4126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 22.86 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4153,7 +4153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.876 94.234 90)
 			(effects
 				(font
@@ -4162,7 +4162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 22.86 93.98 0)
 			(effects
 				(font
@@ -4196,7 +4196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 46.99 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4223,7 +4223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.006 49.784 90)
 			(effects
 				(font
@@ -4232,7 +4232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 46.99 49.53 0)
 			(effects
 				(font
@@ -4618,7 +4618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 46.99 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4645,7 +4645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.006 146.304 90)
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 46.99 146.05 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:0402WGJ0103TCE")
 		(at 22.86 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4781,7 +4781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.876 165.354 90)
 			(effects
 				(font
@@ -4790,7 +4790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "0402WGJ0103TCE"
 			(at 22.86 165.1 0)
 			(effects
 				(font
