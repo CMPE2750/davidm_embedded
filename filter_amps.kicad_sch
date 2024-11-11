@@ -1017,6 +1017,7 @@
 	(hierarchical_label "Inverting_input_2a"
 		(shape input)
 		(at 176.53 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1028,6 +1029,7 @@
 	(hierarchical_label "Non-inverting_input_1a"
 		(shape input)
 		(at 64.77 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1039,6 +1041,7 @@
 	(hierarchical_label "Output_1a"
 		(shape output)
 		(at 64.77 44.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1050,6 +1053,7 @@
 	(hierarchical_label "Output_1b"
 		(shape output)
 		(at 64.77 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1061,6 +1065,7 @@
 	(hierarchical_label "Inverting_input_1a"
 		(shape input)
 		(at 64.77 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1072,6 +1077,7 @@
 	(hierarchical_label "Non-inverting_input_1b"
 		(shape input)
 		(at 64.77 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1083,6 +1089,7 @@
 	(hierarchical_label "Non-inverting_input_2a"
 		(shape input)
 		(at 176.53 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1094,6 +1101,7 @@
 	(hierarchical_label "Inverting_input_2b"
 		(shape input)
 		(at 176.53 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1105,6 +1113,7 @@
 	(hierarchical_label "Inverting_input_1b"
 		(shape input)
 		(at 64.77 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1116,6 +1125,7 @@
 	(hierarchical_label "Non-inverting_input_2b"
 		(shape input)
 		(at 176.53 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1127,6 +1137,7 @@
 	(hierarchical_label "Ooutput_2b"
 		(shape output)
 		(at 176.53 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1138,6 +1149,7 @@
 	(hierarchical_label "Output_2a"
 		(shape output)
 		(at 176.53 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
