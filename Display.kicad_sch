@@ -850,6 +850,139 @@
 				)
 			)
 		)
+		(symbol "CMPE2750:RT0603BRD07133RL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "133Ω"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "RT0603BRD07133RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT0603BRD07133RL_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CMPE2750:SN74AHC594PWR"
 			(pin_names
 				(offset 0.254)
@@ -1390,162 +1523,6 @@
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D_Current-regulator"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Current-regulator"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.127 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode constant-current current limit regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Current-regulator_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Current-regulator_1_1"
-				(polyline
-					(pts
-						(xy -0.127 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 0.254) (xy -0.635 0) (xy -0.127 -0.254) (xy -0.127 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4814,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 154.94) (xy 228.6 156.21)
+			(xy 228.6 153.67) (xy 228.6 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4994,16 +4971,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 146.05) (xy 316.23 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21441ab5-348d-46d1-9116-0cbe845ed89c")
-	)
-	(wire
-		(pts
 			(xy 342.9 87.63) (xy 342.9 80.01)
 		)
 		(stroke
@@ -5174,7 +5141,7 @@
 	)
 	(wire
 		(pts
-			(xy 408.94 147.32) (xy 408.94 148.59)
+			(xy 408.94 147.32) (xy 408.94 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5514,23 +5481,13 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 201.93) (xy 316.23 203.2)
+			(xy 316.23 199.39) (xy 316.23 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "40b8146b-7e7c-4b62-97a6-a1c6e69bc31f")
-	)
-	(wire
-		(pts
-			(xy 273.05 154.94) (xy 273.05 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4198e3ae-f8aa-4a2b-bad5-23a67c82e9b4")
 	)
 	(wire
 		(pts
@@ -5654,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 146.05) (xy 181.61 147.32)
+			(xy 181.61 146.05) (xy 181.61 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5664,13 +5621,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 201.93) (xy 228.6 203.2)
+			(xy 228.6 200.66) (xy 228.6 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c7d7c6d-1475-46ed-bf48-9237086c282a")
+	)
+	(wire
+		(pts
+			(xy 133.35 153.67) (xy 133.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb5f95f-b6f4-495d-85bc-f1cb0a40d3e1")
 	)
 	(wire
 		(pts
@@ -5754,16 +5721,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 200.66) (xy 360.68 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513eaacd-039e-46a4-9d82-000e0e04b964")
-	)
-	(wire
-		(pts
 			(xy 497.84 48.26) (xy 494.03 48.26)
 		)
 		(stroke
@@ -5824,7 +5781,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 193.04) (xy 228.6 194.31)
+			(xy 228.6 193.04) (xy 228.6 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6234,7 +6191,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 153.67) (xy 360.68 154.94)
+			(xy 360.68 152.4) (xy 360.68 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6444,7 +6401,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 201.93) (xy 273.05 203.2)
+			(xy 273.05 199.39) (xy 273.05 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6674,6 +6631,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 146.05) (xy 133.35 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e26412-a85d-4475-9619-7df7dbecdfc6")
+	)
+	(wire
+		(pts
 			(xy 256.54 215.9) (xy 256.54 217.17)
 		)
 		(stroke
@@ -6741,6 +6708,16 @@
 			(type default)
 		)
 		(uuid "89543e2d-badd-46d9-981f-c81631cdec92")
+	)
+	(wire
+		(pts
+			(xy 360.68 198.12) (xy 360.68 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a68be15-04ed-4978-a8bd-122be1d46b9f")
 	)
 	(wire
 		(pts
@@ -6844,6 +6821,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 144.78) (xy 360.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cdbf31-cc67-40b0-af0e-d696b342ea22")
+	)
+	(wire
+		(pts
 			(xy 165.1 170.18) (xy 181.61 170.18)
 		)
 		(stroke
@@ -6934,17 +6921,17 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 154.94) (xy 316.23 156.21)
+			(xy 273.05 153.67) (xy 273.05 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c7cb306-0994-4101-952b-b01df656f7cd")
+		(uuid "9c49c2be-8a8f-404f-a2db-c2ffa08cff3d")
 	)
 	(wire
 		(pts
-			(xy 133.35 193.04) (xy 133.35 194.31)
+			(xy 133.35 193.04) (xy 133.35 195.58)
 		)
 		(stroke
 			(width 0)
@@ -7154,7 +7141,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 146.05) (xy 228.6 147.32)
+			(xy 228.6 146.05) (xy 228.6 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7164,7 +7151,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 154.94) (xy 181.61 156.21)
+			(xy 181.61 153.67) (xy 181.61 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7241,16 +7228,6 @@
 			(type default)
 		)
 		(uuid "ad61e72b-74c3-4c43-b3dd-bf4bd17f7fa3")
-	)
-	(wire
-		(pts
-			(xy 133.35 146.05) (xy 133.35 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae288154-f8df-4988-9328-92da86e8b86f")
 	)
 	(wire
 		(pts
@@ -7334,7 +7311,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 201.93) (xy 133.35 203.2)
+			(xy 133.35 200.66) (xy 133.35 203.2)
 		)
 		(stroke
 			(width 0)
@@ -7434,7 +7411,7 @@
 	)
 	(wire
 		(pts
-			(xy 408.94 203.2) (xy 408.94 204.47)
+			(xy 408.94 200.66) (xy 408.94 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7574,7 +7551,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 193.04) (xy 181.61 194.31)
+			(xy 181.61 193.04) (xy 181.61 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7724,6 +7701,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 146.05) (xy 316.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa2971b-5ec9-4011-899e-f3514ec41233")
+	)
+	(wire
+		(pts
 			(xy 273.05 170.18) (xy 273.05 172.72)
 		)
 		(stroke
@@ -7754,7 +7741,7 @@
 	)
 	(wire
 		(pts
-			(xy 408.94 156.21) (xy 408.94 157.48)
+			(xy 408.94 154.94) (xy 408.94 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7781,16 +7768,6 @@
 			(type default)
 		)
 		(uuid "cf409c71-b752-4414-9411-ca7ff976c420")
-	)
-	(wire
-		(pts
-			(xy 360.68 144.78) (xy 360.68 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf7813f8-98a4-4376-9b9a-c4c12e4782a7")
 	)
 	(wire
 		(pts
@@ -8164,7 +8141,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 146.05) (xy 273.05 147.32)
+			(xy 273.05 146.05) (xy 273.05 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8524,6 +8501,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 153.67) (xy 316.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cbe558-f4ff-4e9e-ad2b-a707339a6824")
+	)
+	(wire
+		(pts
 			(xy 557.53 35.56) (xy 549.91 35.56)
 		)
 		(stroke
@@ -8601,16 +8588,6 @@
 			(type default)
 		)
 		(uuid "f77135a6-da0c-4a7c-a921-80680cb9cb66")
-	)
-	(wire
-		(pts
-			(xy 133.35 154.94) (xy 133.35 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7abd398-9ff0-459f-9f62-be31fc3d3abd")
 	)
 	(wire
 		(pts
@@ -10894,44 +10871,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 360.68 196.85 90)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 316.23 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0637e5cb-1da8-487a-bec0-176c829c2b63")
-		(property "Reference" "D30"
-			(at 363.22 195.5799 90)
+		(uuid "05ba1c68-717b-4f6a-8649-873bc2c58140")
+		(property "Reference" "R165"
+			(at 318.77 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "NSI45015WT1G"
-			(at 363.22 198.1199 90)
+		(property "Value" "133Ω"
+			(at 318.77 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 360.68 196.723 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 360.68 196.85 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 316.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10939,8 +10907,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 360.68 196.85 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 316.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 316.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,15 +10926,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "26383c16-c8de-4ca3-a052-8ef169022e2d")
+			(uuid "44702f01-bdc0-43c4-ba05-edd26d0b9aa5")
 		)
 		(pin "1"
-			(uuid "c05f5968-f967-419f-b928-7089e876c6d6")
+			(uuid "71973ecd-8e3e-4f89-9e90-0bd9367dfc60")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D30")
+					(reference "R165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 316.23 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0668e4fe-df66-4086-bbcb-e39870eea472")
+		(property "Reference" "R172"
+			(at 318.77 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 318.77 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 316.23 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 316.23 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 316.23 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81420615-c101-4007-9f5b-8c56880eea5b")
+		)
+		(pin "1"
+			(uuid "01ced691-7750-4503-9234-4af5a44cce2b")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R172")
 					(unit 1)
 				)
 			)
@@ -11295,6 +11342,76 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 408.94 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09c793eb-f2f7-4f5c-894b-d4c0506b86e2")
+		(property "Reference" "R167"
+			(at 411.48 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 411.48 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 408.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 408.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 408.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a30e535-049c-4af6-98cc-3cb662d7e8e9")
+		)
+		(pin "1"
+			(uuid "6947a164-a410-4dee-a676-4182a2e8fd76")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R167")
 					(unit 1)
 				)
 			)
@@ -11818,44 +11935,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 228.6 198.12 90)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 360.68 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "142a14e8-a28f-468c-9875-3b440781ecd2")
-		(property "Reference" "D27"
-			(at 231.14 196.8499 90)
+		(uuid "16708db0-d5e5-4417-9214-555d180245c2")
+		(property "Reference" "R166"
+			(at 363.22 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "NSI45015WT1G"
-			(at 231.14 199.3899 90)
+		(property "Value" "133Ω"
+			(at 363.22 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 228.6 197.993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 228.6 198.12 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11863,8 +11971,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 228.6 198.12 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 360.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11873,15 +11990,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9a738c4b-d720-4364-a82c-80dbd82782ee")
+			(uuid "fe874db7-4ace-4ed2-8a43-8301e2eed954")
 		)
 		(pin "1"
-			(uuid "44a87d0a-a6fa-4793-859f-93e0ae9e425b")
+			(uuid "a8e9cb2f-99c1-4535-9124-db96bc531361")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D27")
+					(reference "R166")
 					(unit 1)
 				)
 			)
@@ -12509,76 +12626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 408.94 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "222b2d4b-8928-477d-856f-be43afc26d52")
-		(property "Reference" "D24"
-			(at 411.48 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 411.48 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 408.94 152.273 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 408.94 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 408.94 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "25bfff4c-0942-4a5b-9f2a-7b1ce735b73d")
-		)
-		(pin "1"
-			(uuid "fe0dbbee-a15b-469b-a722-611e42e35b86")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 256.54 165.1 0)
 		(mirror x)
@@ -13006,6 +13053,146 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 360.68 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29d1b712-54a1-4eac-8914-77bc78449160")
+		(property "Reference" "R173"
+			(at 363.22 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 363.22 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 360.68 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 360.68 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 360.68 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e47559e-fb27-43bf-9b6d-7fcba3badf2d")
+		)
+		(pin "1"
+			(uuid "bb4fc74a-8136-4d4d-ad9a-8033cc6088a9")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 408.94 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa91a0b-3f38-4e6e-98de-c3621a747895")
+		(property "Reference" "R174"
+			(at 411.48 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 411.48 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 408.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 408.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 408.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4da0b1ff-81dd-4091-9d15-fdee288360ec")
+		)
+		(pin "1"
+			(uuid "2a218dfe-e987-47ac-832a-ba7749001983")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R174")
 					(unit 1)
 				)
 			)
@@ -13939,44 +14126,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 316.23 151.13 90)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 133.35 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "365ec87b-d675-4e97-a23e-1f253b9693fe")
-		(property "Reference" "D22"
-			(at 318.77 149.8599 90)
+		(uuid "366ab523-a826-4da8-aa78-49bda28ae6c5")
+		(property "Reference" "R168"
+			(at 135.89 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "NSI45015WT1G"
-			(at 318.77 152.3999 90)
+		(property "Value" "133Ω"
+			(at 135.89 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 316.23 151.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 316.23 151.13 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,8 +14162,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 316.23 151.13 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 133.35 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 133.35 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13994,15 +14181,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2c71ccff-3c8f-43b6-9ac4-22cbadb921c7")
+			(uuid "94fb0302-dd3e-4bc7-a152-c9b3e24a3a49")
 		)
 		(pin "1"
-			(uuid "01a785fa-8cd1-43ab-bd1c-1129163c6095")
+			(uuid "654850df-eedb-4b26-8f34-0d28e4b35fb5")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D22")
+					(reference "R168")
 					(unit 1)
 				)
 			)
@@ -15875,76 +16062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 228.6 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f7733f8-83ad-4080-8c19-68f71d3ee703")
-		(property "Reference" "D20"
-			(at 231.14 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 231.14 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 228.6 151.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 228.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 228.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b979fe6a-c407-45cc-bcf2-04a74f3a2491")
-		)
-		(pin "1"
-			(uuid "d8fb323c-39bc-40d1-9f60-3cdd3d15a7c9")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 541.02 102.87 90)
 		(unit 1)
@@ -16008,76 +16125,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "R131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 181.61 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51b4be67-da73-4e5b-a315-8173765ee61b")
-		(property "Reference" "D19"
-			(at 184.15 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 184.15 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 181.61 151.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 181.61 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 181.61 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e0845557-9e1c-4109-96bd-7f193b143d20")
-		)
-		(pin "1"
-			(uuid "f1797817-5116-4411-b258-139e16588e65")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -18010,6 +18057,76 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 228.6 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd02aab-cfb4-4801-8e95-cc395246320c")
+		(property "Reference" "R170"
+			(at 231.14 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 231.14 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 228.6 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 228.6 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bda52b4-9559-4e0f-9f32-87647a86e96f")
+		)
+		(pin "1"
+			(uuid "03294e74-2326-4834-bfba-0a555d63a577")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 273.05 172.72 0)
 		(unit 1)
@@ -18645,76 +18762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 133.35 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74c4efa0-3e3e-413c-97e5-0fb0d684fe9e")
-		(property "Reference" "D2"
-			(at 135.89 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 135.89 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 133.35 151.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 133.35 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 133.35 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "79541430-db93-498b-8fbd-8a41450c4d17")
-		)
-		(pin "1"
-			(uuid "f837c677-47ef-4c13-89c8-1a7d6a98dbda")
-		)
-		(instances
-			(project ""
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 217.17 161.29 90)
 		(mirror x)
@@ -19123,76 +19170,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 408.94 199.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c138372-48b6-4e1e-8d0d-a2904a4fca68")
-		(property "Reference" "D31"
-			(at 411.48 198.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 411.48 200.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 408.94 199.263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 408.94 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 408.94 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "096f87bc-7d67-4de6-87ad-62a6aef105c3")
-		)
-		(pin "1"
-			(uuid "9b0dcac8-5952-46db-a073-9a7192c63b1f")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -20541,76 +20518,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 181.61 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97c94397-4673-4a17-b158-af5b1a6b1a35")
-		(property "Reference" "D26"
-			(at 184.15 196.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 184.15 199.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 181.61 197.993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 181.61 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 181.61 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "016ea5e3-3cc9-4c0c-9634-b47734fc2c41")
-		)
-		(pin "1"
-			(uuid "3c869473-f0d5-4f97-8f40-c610beafb5f6")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -22420,6 +22327,76 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 133.35 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b53740ce-c1b2-43d4-aba3-72cf951d057f")
+		(property "Reference" "R161"
+			(at 135.89 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 135.89 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 133.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 133.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10acbf31-e7e0-4e5d-97cf-6fb6e68a5d42")
+		)
+		(pin "1"
+			(uuid "8536f158-eaea-4ba8-9496-4f2f61759d38")
+		)
+		(instances
+			(project ""
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 157.48 53.34 0)
 		(unit 1)
@@ -22490,6 +22467,146 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 273.05 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b603c2bd-570e-4454-85ac-54e287ffb766")
+		(property "Reference" "R171"
+			(at 275.59 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 275.59 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 273.05 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 273.05 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 273.05 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6befdc73-6144-414b-b1cc-adb325dc4320")
+		)
+		(pin "1"
+			(uuid "5e420a97-bc5b-4676-8eb0-8b2a3ee9e502")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 181.61 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74264b0-bad5-451a-8489-a94c9273ea5b")
+		(property "Reference" "R162"
+			(at 184.15 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 184.15 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 181.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 181.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e5f17f9-de37-4fad-9d58-ca9af3528e33")
+		)
+		(pin "1"
+			(uuid "c625d0c9-d5ae-4740-8609-be8580d4daf9")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R162")
 					(unit 1)
 				)
 			)
@@ -22777,76 +22894,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 133.35 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c00fbcea-0483-451d-9356-4be7c6bc35b1")
-		(property "Reference" "D25"
-			(at 135.89 196.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 135.89 199.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 133.35 197.993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 133.35 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 133.35 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22b3f487-1c22-447c-b13c-615b52536920")
-		)
-		(pin "1"
-			(uuid "90c6ebc9-4932-4b1b-9875-e08a7ea0c2a9")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -23279,76 +23326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 273.05 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd59dcc8-1199-479a-bac6-2de6597559e2")
-		(property "Reference" "D21"
-			(at 275.59 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 275.59 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 273.05 151.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 273.05 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 273.05 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ff6ba3e-69da-4fb5-9ee1-0409f753d20e")
-		)
-		(pin "1"
-			(uuid "253e51cc-1a1d-4d65-840a-4a405b9d6cc3")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 529.59 45.72 0)
 		(unit 1)
@@ -23754,76 +23731,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 360.68 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7aeefc9-adf5-4978-9433-ea688dd8626a")
-		(property "Reference" "D23"
-			(at 363.22 148.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 363.22 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 360.68 149.733 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 360.68 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 360.68 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd57a637-1900-4015-8cdf-17450bc7dfbf")
-		)
-		(pin "1"
-			(uuid "a11babd6-f43d-48b8-8969-acda04c3b6d8")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 195.58 43.18 0)
 		(unit 1)
@@ -23887,76 +23794,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 273.05 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8ddedfc-b360-4907-b07e-f9813a9fff9c")
-		(property "Reference" "D28"
-			(at 275.59 196.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 275.59 199.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 273.05 197.993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 273.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 273.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8487b3c7-7a57-451e-9259-85721e75ffa0")
-		)
-		(pin "1"
-			(uuid "d1e9c8fc-9dbd-4f3f-85a5-e91900336955")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -25274,6 +25111,76 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 181.61 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eda74170-b3ed-4955-9a7e-84146dee526b")
+		(property "Reference" "R169"
+			(at 184.15 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 184.15 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.61 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 181.61 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 181.61 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0397faeb-4c6f-4ee2-8ed4-892ffa12ba45")
+		)
+		(pin "1"
+			(uuid "e0432ba7-2aa0-4ead-95bc-5eb66609f98d")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 151.13 100.33 90)
 		(unit 1)
@@ -25408,76 +25315,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Current-regulator")
-		(at 316.23 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f359bc50-8574-482a-b840-af2ecd05ffbf")
-		(property "Reference" "D29"
-			(at 318.77 196.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 318.77 199.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 316.23 197.993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 316.23 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current diode / current limiting diode / current regulator diode, IEC60747-3:2013"
-			(at 316.23 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50258dd9-06fa-471c-9f23-3f5f4deffdf0")
-		)
-		(pin "1"
-			(uuid "3435e71e-f730-4a95-95a5-ed9df9854036")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -26045,6 +25882,146 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 273.05 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f907187c-babe-4acd-8e75-cbcc1be5ccb4")
+		(property "Reference" "R164"
+			(at 275.59 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 275.59 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 273.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 273.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 273.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eaf05ad7-2a1f-44ff-ad9b-d050ecb42dbf")
+		)
+		(pin "1"
+			(uuid "dce4a0d4-f482-49a8-85b7-8b6c6612c45b")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 228.6 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f942f055-4981-485e-a1cc-6e436fc5961f")
+		(property "Reference" "R163"
+			(at 231.14 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 231.14 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 228.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 228.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c151e0e1-38a3-4b31-925f-9ccf5a22eccf")
+		)
+		(pin "1"
+			(uuid "c24087c8-0d49-448f-8a08-ae3399949354")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "R163")
 					(unit 1)
 				)
 			)

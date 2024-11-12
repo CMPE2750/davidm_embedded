@@ -5,50 +5,32 @@
 	(uuid "237fc96d-27e3-49e7-ac90-17928d04c4f4")
 	(paper "A3")
 	(lib_symbols
-		(symbol "CMPE2750:NSI45015WT1G"
+		(symbol "CMPE2750:RT0603BRD07133RL"
+			(pin_numbers hide)
 			(pin_names
-				(offset 0.254)
-			)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 25.4 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "NSI45015WT1G"
-				(at 25.4 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOD123-2_ONS"
-				(at 0 0 0)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "NSI45015WT1G"
-				(at 0 0 0)
+			(property "Value" "133Ω"
+				(at 0.762 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
+					(justify left)
 				)
 			)
-			(property "Description" ""
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,15 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NSI45015WT1G"
+			(property "Datasheet" "RT0603BRD07133RL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOD123-2_ONS SOD123-2_ONS-M SOD123-2_ONS-L"
+			(property "Description" "Resistor, small US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,13 +57,31 @@
 					(hide yes)
 				)
 			)
-			(symbol "NSI45015WT1G_1_1"
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RT0603BRD07133RL_1_1"
 				(polyline
 					(pts
-						(xy 7.62 -5.08) (xy 43.18 -5.08)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
-						(width 0.127)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -98,34 +90,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -5.08)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 -5.08) (xy 43.18 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -133,9 +101,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 7.62)
-					(name "CATHODE"
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -151,9 +119,9 @@
 					)
 				)
 				(pin passive line
-					(at 50.8 0 180)
-					(length 7.62)
-					(name "ANODE"
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1201,7 +1169,7 @@
 		(uuid "f61bd498-65b8-409a-b2e2-6f607b75b971")
 	)
 	(label "sl_power"
-		(at 354.33 217.17 0)
+		(at 137.16 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1209,10 +1177,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0621715f-73d2-4d82-a7ae-9f1f0b47999b")
+		(uuid "04b84301-eaac-41b1-b83b-5b76a83d4c8e")
 	)
 	(label "sl_power"
-		(at 93.98 165.1 0)
+		(at 307.34 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1220,10 +1188,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "13beb283-a3e3-4443-9f70-58bd96013560")
+		(uuid "17e76cfe-5e4a-4c8d-9069-fd257ec3f706")
 	)
 	(label "sl_power"
-		(at 97.79 214.63 0)
+		(at 218.44 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1231,7 +1199,95 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6e0d2090-c129-4288-8040-2c5f7783319c")
+		(uuid "260715ba-2f6c-4ca6-8489-b14b733386df")
+	)
+	(label "sl_power"
+		(at 316.23 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a325feb-bc70-476d-a1bc-0afce8ce93b4")
+	)
+	(label "sl_power"
+		(at 219.71 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "322a3e49-0e37-4c38-be01-e4ef9f02c112")
+	)
+	(label "sl_power"
+		(at 224.79 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "394cacf3-5a03-41b1-a603-70e5b6c5a11e")
+	)
+	(label "sl_power"
+		(at 50.8 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3abd0c65-7d3a-452d-8b8e-4e6dbdf0a2d3")
+	)
+	(label "sl_power"
+		(at 137.16 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d83d8f6-ca8f-4266-be29-c98f938a48da")
+	)
+	(label "sl_power"
+		(at 304.8 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4624022c-4567-4a17-af96-1db26ec0c3bb")
+	)
+	(label "sl_power"
+		(at 227.33 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48229f84-cfef-430d-9d7f-d3751f44c70e")
+	)
+	(label "sl_power"
+		(at 58.42 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "761f388a-8106-4501-a593-6404f6786f88")
 	)
 	(label "sl_power"
 		(at 22.86 29.21 180)
@@ -1245,7 +1301,7 @@
 		(uuid "7b092413-61ec-42f5-a04a-9a4e12ef2e32")
 	)
 	(label "sl_power"
-		(at 353.06 109.22 0)
+		(at 52.07 214.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1253,10 +1309,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "90387062-e743-49ca-9a74-4e654ee1af90")
+		(uuid "a2208768-e3e3-4b57-9726-fbeefaa533d6")
 	)
 	(label "sl_power"
-		(at 186.69 214.63 0)
+		(at 48.26 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1264,10 +1320,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "91c7e22a-eee9-443a-8c31-84fd362f0be8")
+		(uuid "c89650eb-5971-4dc3-ace7-e81574152489")
 	)
 	(label "sl_power"
-		(at 265.43 107.95 0)
+		(at 140.97 214.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1275,10 +1331,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "aeef66c4-c1e4-4a5a-b772-758feb2cf748")
+		(uuid "cc58b763-1990-488f-8b12-2b6c140a7c81")
 	)
 	(label "sl_power"
-		(at 182.88 162.56 0)
+		(at 308.61 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1286,10 +1342,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b60626a0-136a-4743-9d63-1b4acee54c76")
+		(uuid "d27e400a-210c-4332-b349-5b4ce3231394")
 	)
 	(label "sl_power"
-		(at 270.51 161.29 0)
+		(at 135.89 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1297,95 +1353,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d21c60a2-4abd-47b3-b7f6-73a37ec92ba2")
-	)
-	(label "sl_power"
-		(at 361.95 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d25191e3-68b1-4ce0-9ade-d5e201346e33")
-	)
-	(label "sl_power"
-		(at 264.16 215.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4b8913c-7ba7-45ec-ad52-51715d3795c6")
-	)
-	(label "sl_power"
-		(at 350.52 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6da7875-d91c-41d4-8e15-a667e95465c4")
-	)
-	(label "sl_power"
-		(at 96.52 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df1f1a3a-ad5d-4f4d-8c2a-f2527cb5d981")
-	)
-	(label "sl_power"
-		(at 182.88 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbe6c3fc-89a3-464c-b820-4a5288fb6698")
-	)
-	(label "sl_power"
-		(at 273.05 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd1f3a49-5372-4146-a5eb-fa0932bec66d")
-	)
-	(label "sl_power"
-		(at 104.14 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdf72ac9-b3a1-49cb-8595-218aa2ea134b")
-	)
-	(label "sl_power"
-		(at 181.61 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe91ef77-091b-4e02-9d89-69b69e385b47")
+		(uuid "ebd9df4e-f2b5-467c-8cf8-2be2977374a0")
 	)
 	(hierarchical_label "b9"
 		(shape input)
@@ -1580,53 +1548,51 @@
 		(uuid "cac1f263-42a7-4bda-a3c6-9eda9d9fb805")
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 214.63 107.95 0)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 306.07 217.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0048385f-d3da-40a1-804a-5d86b0516252")
-		(property "Reference" "U55"
-			(at 240.03 97.79 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 240.03 100.33 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 214.63 107.95 0)
+		(uuid "02b86819-0092-4f26-b027-b549eb8bae29")
+		(property "Reference" "R181"
+			(at 306.07 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 306.07 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 306.07 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 214.63 107.95 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 306.07 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 214.63 107.95 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 306.07 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,85 +1601,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "056c07e6-76ae-4bbd-9775-2a965f1316b0")
+			(uuid "533e7111-a831-4ba9-aa9f-b47a49c2c3f5")
 		)
 		(pin "1"
-			(uuid "0b3ac412-dc66-4bb8-b815-c7922a3d08eb")
+			(uuid "0e9916f8-f252-4562-8752-e3a894579f48")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 130.81 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "036c8d71-f455-4b81-8789-9ea7f21c0c1f")
-		(property "Reference" "U50"
-			(at 156.21 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 156.21 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 130.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 130.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "84679056-07f3-46f4-99eb-14b6aa66650a")
-		)
-		(pin "1"
-			(uuid "ce7c8f08-879e-4163-8d3a-39c260cff1f4")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U50")
+					(reference "R181")
 					(unit 1)
 				)
 			)
@@ -2060,6 +1956,74 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 49.53 214.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19a470f1-e6d5-48e9-9ee5-1b7e2170b1ec")
+		(property "Reference" "R190"
+			(at 49.53 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 49.53 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 49.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 49.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 49.53 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eca89885-537e-4497-85fe-a480e406eeb2")
+		)
+		(pin "1"
+			(uuid "74d74048-a9a5-423b-b39c-a9d1dd64b589")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 44.45 227.33 0)
 		(unit 1)
@@ -2332,53 +2296,51 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 302.26 109.22 0)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 217.17 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2973dad0-a490-41db-ba2c-586ddc78c464")
-		(property "Reference" "U56"
-			(at 327.66 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 327.66 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 302.26 109.22 0)
+		(uuid "2c133a6e-7b95-40ef-bf31-f94dcd8a8a11")
+		(property "Reference" "R182"
+			(at 217.17 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 217.17 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 302.26 109.22 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 217.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 302.26 109.22 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 217.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,85 +2349,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e666ea1-8422-4304-991b-3c5708d74500")
+			(uuid "c3f3803b-4973-456a-afc9-11c39dead83e")
 		)
 		(pin "1"
-			(uuid "dd61bd4d-331d-4ed4-a2a0-03e7113f5450")
+			(uuid "2a4d438e-a959-467f-9b45-12f76bec96c0")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 311.15 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2af2507c-a057-4390-bd20-b330a1f98412")
-		(property "Reference" "U60"
-			(at 336.55 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 336.55 154.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 311.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 311.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 311.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3e4942e-0d99-401a-a7ff-0002b8541f07")
-		)
-		(pin "1"
-			(uuid "5187d01f-505d-44b9-8fc4-22fdafd0595a")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U60")
+					(reference "R182")
 					(unit 1)
 				)
 			)
@@ -3470,6 +3362,142 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 224.79 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "440e64f4-73e6-4013-96d7-d352a2611398")
+		(property "Reference" "R177"
+			(at 224.79 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 224.79 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 224.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0389a969-f5f5-405b-98bb-7225045853bd")
+		)
+		(pin "1"
+			(uuid "42223100-63f1-4c5c-aeb6-b051c23a32c2")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 215.9 215.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53f176fe-af68-4a1e-a7a1-15e25a7ef6dc")
+		(property "Reference" "R184"
+			(at 215.9 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 215.9 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 215.9 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 215.9 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d83ccc6b-af20-41ef-a779-b60ceb48d6a0")
+		)
+		(pin "1"
+			(uuid "79fe98fc-8547-4ff7-b0f9-7fbdcb10082f")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 46.99 218.44 90)
 		(unit 1)
@@ -3953,6 +3981,74 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 134.62 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67b678eb-465f-41f5-b5d3-70f04347be42")
+		(property "Reference" "R187"
+			(at 134.62 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 134.62 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d45bddfd-703f-4d9a-9229-87ca560ace00")
+		)
+		(pin "1"
+			(uuid "fba4ab2b-9474-4526-8674-9f290ca17b77")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 129.54 175.26 0)
 		(unit 1)
@@ -4056,53 +4152,51 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 45.72 110.49 0)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 222.25 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6bb729c1-e9d4-49e3-9141-ab1625bbfc2e")
-		(property "Reference" "U53"
-			(at 71.12 100.33 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 71.12 102.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 45.72 110.49 0)
+		(uuid "6a693d0e-0e74-4e26-8210-816d93dc0a21")
+		(property "Reference" "R183"
+			(at 222.25 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 222.25 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 222.25 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 45.72 110.49 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 222.25 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 110.49 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 222.25 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,68 +4205,66 @@
 			)
 		)
 		(pin "2"
-			(uuid "8586a10f-88da-4abd-9a0e-db1306e8e9de")
+			(uuid "71a4029c-a007-4116-94d2-0f285a6538e1")
 		)
 		(pin "1"
-			(uuid "172c23e3-6f23-4304-a0e6-0573cbe75a79")
+			(uuid "4ba461d3-dbd8-4848-836d-dc417fae921c")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U53")
+					(reference "R183")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 303.53 217.17 0)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 313.69 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6faceb2a-66b8-4304-a61a-0a6b7ef67a82")
-		(property "Reference" "U64"
-			(at 328.93 207.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 328.93 209.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 303.53 217.17 0)
+		(uuid "6d7c33c3-e73a-4f6b-8e95-9a9ecca4d997")
+		(property "Reference" "R180"
+			(at 313.69 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 313.69 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 313.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 303.53 217.17 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 313.69 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 303.53 217.17 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 313.69 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,15 +4273,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "937537ed-b981-4f89-92ec-5aebcc8cc9c7")
+			(uuid "074f4941-abec-42b5-ad6a-ba4968e14537")
 		)
 		(pin "1"
-			(uuid "9462a469-ec34-46b7-9a8e-3f9a4ab9737f")
+			(uuid "e7253c15-d0ba-47e8-9b7b-f723fb9dafe8")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U64")
+					(reference "R180")
 					(unit 1)
 				)
 			)
@@ -4262,53 +4354,51 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 53.34 41.91 0)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 134.62 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "71f68526-3105-451b-9f2e-9a8d2e0db18a")
-		(property "Reference" "U49"
-			(at 78.74 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 78.74 34.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 53.34 41.91 0)
+		(uuid "734e2d17-ddf4-47c3-8561-c8ef4fee2909")
+		(property "Reference" "R186"
+			(at 134.62 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 134.62 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 53.34 41.91 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 41.91 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 134.62 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,15 +4407,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "435c8518-09e6-4bd3-806d-e3af88ae364e")
+			(uuid "f552ddd4-b7d6-4c73-8c67-2017c71e2adb")
 		)
 		(pin "1"
-			(uuid "b467cc76-d9cb-4509-91ac-739b93dab5b7")
+			(uuid "79503033-e0f3-486d-b32d-70ddecbe5002")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U49")
+					(reference "R186")
 					(unit 1)
 				)
 			)
@@ -4984,6 +5074,74 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 133.35 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a9f1b7a-1d9e-42de-9903-889b37e6bb61")
+		(property "Reference" "R176"
+			(at 133.35 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 133.35 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c753f09-c737-4e20-b3a3-ef154a14df37")
+		)
+		(pin "1"
+			(uuid "30e28713-0783-4f62-91bf-35e508378171")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 50.8 54.61 0)
 		(unit 1)
@@ -5217,76 +5375,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 132.08 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c544c98-c2ae-4c9d-add7-658cb83190a7")
-		(property "Reference" "U54"
-			(at 157.48 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 157.48 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 132.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 132.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb834727-0165-4324-bc64-ac3624eadd9e")
-		)
-		(pin "1"
-			(uuid "1338910c-5d6d-4603-9ba8-2e773ec0e37e")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U54")
 					(unit 1)
 				)
 			)
@@ -6081,53 +6169,51 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 299.72 45.72 0)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 138.43 214.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b411a03f-a030-4d3d-a86d-897b85057ba8")
-		(property "Reference" "U52"
-			(at 325.12 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 325.12 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 299.72 45.72 0)
+		(uuid "b5746c97-8419-4536-a43e-2d4833444c77")
+		(property "Reference" "R185"
+			(at 138.43 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 138.43 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 138.43 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 299.72 45.72 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 138.43 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 299.72 45.72 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 138.43 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,15 +6222,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5092c02c-a213-4428-bca7-ba637d42cb52")
+			(uuid "956f6295-0459-4e01-85e1-40e25fce9e01")
 		)
 		(pin "1"
-			(uuid "30edb91d-e7ff-4ceb-b19e-7b701c846cb7")
+			(uuid "279947b1-fe17-4628-a81d-cc19f554067c")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U52")
+					(reference "R185")
 					(unit 1)
 				)
 			)
@@ -6248,6 +6334,74 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
 					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 48.26 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd93ce71-1ea6-4550-8e3c-b2b03166f1be")
+		(property "Reference" "R188"
+			(at 48.26 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 48.26 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca2b5f41-28d1-4e30-9179-2c12c84e787a")
+		)
+		(pin "1"
+			(uuid "abc12e71-78af-4be2-9454-537bda221897")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R188")
 					(unit 1)
 				)
 			)
@@ -6394,53 +6548,51 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 219.71 161.29 0)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 304.8 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6edfde8-5f8c-48b5-a784-499ca0f8b8e0")
-		(property "Reference" "U59"
-			(at 245.11 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 245.11 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 219.71 161.29 0)
+		(uuid "ccf35e94-2803-41c9-9764-9b2fcb4dbd03")
+		(property "Reference" "R179"
+			(at 304.8 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 304.8 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 304.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 219.71 161.29 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 304.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 219.71 161.29 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 304.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,155 +6601,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d9e5b11c-c15e-4dc9-82b5-cdf35e7dc9a2")
+			(uuid "99495d6a-4209-4c8e-9e3e-553701bae0e9")
 		)
 		(pin "1"
-			(uuid "a51480ef-8f25-4ff1-9e1a-846917c2101f")
+			(uuid "27589aea-7953-4e91-a9c3-c1289b9d0c3b")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 46.99 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdffb51f-5b7e-4470-b2cd-34a7d0b62c4e")
-		(property "Reference" "U61"
-			(at 72.39 204.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 72.39 207.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 46.99 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 46.99 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "946f0394-72a8-458a-a3be-e35f06ceb2ad")
-		)
-		(pin "1"
-			(uuid "205fb0e2-d418-45c8-937d-0e6130cdc1e1")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 222.25 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfd59da9-3d8d-42b3-a2f7-8e4d11b68cbe")
-		(property "Reference" "U51"
-			(at 247.65 34.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 247.65 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c4bb33c-9587-4d43-817f-6bde3d40f54b")
-		)
-		(pin "1"
-			(uuid "a30d5256-3cbd-4bf0-995f-33cd408719af")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U51")
+					(reference "R179")
 					(unit 1)
 				)
 			)
@@ -6809,6 +6821,74 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 45.72 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9c36b54-a750-4489-9f66-2d0a9293eb32")
+		(property "Reference" "R189"
+			(at 45.72 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 45.72 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 45.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 45.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 45.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51a2d0fb-c07d-41ea-8be2-2543a8e8adb8")
+		)
+		(pin "1"
+			(uuid "f7954831-c83b-44ff-8373-e4acd6f2bcd6")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 201.93 228.6 90)
 		(unit 1)
@@ -6872,6 +6952,74 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 55.88 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db2479ca-3a26-499b-8552-75c5f3b03e48")
+		(property "Reference" "R175"
+			(at 55.88 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 55.88 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b289ab9-e7ff-49af-b0a2-98f323a14f06")
+		)
+		(pin "1"
+			(uuid "48405b04-5d16-4e29-a323-be5d42341cec")
+		)
+		(instances
+			(project ""
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
+					(reference "R175")
 					(unit 1)
 				)
 			)
@@ -6944,76 +7092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 43.18 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4ed4c2a-0a3d-41f0-90ba-dcb8f1889867")
-		(property "Reference" "U57"
-			(at 68.58 154.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 43.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 43.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4fea1490-bf0f-4471-a64d-0c5a95c37a26")
-		)
-		(pin "1"
-			(uuid "17ad25a5-f306-443b-be84-8e217e97464f")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 232.41 0)
 		(unit 1)
@@ -7074,76 +7152,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 135.89 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e600bdc7-8dc9-4856-9092-2ce894e635b5")
-		(property "Reference" "U62"
-			(at 161.29 204.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 161.29 207.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 135.89 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 135.89 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "521a44d0-a12e-4231-94fc-634d8f11746b")
-		)
-		(pin "1"
-			(uuid "29d2b388-9beb-40a1-99b1-144daca9c679")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U62")
 					(unit 1)
 				)
 			)
@@ -7521,76 +7529,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 132.08 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f51a0c5f-4ab5-4a35-89f6-1c200c06975d")
-		(property "Reference" "U58"
-			(at 157.48 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 157.48 154.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f29431a1-93c8-4ceb-90d8-b0e0fd45f6a5")
-		)
-		(pin "1"
-			(uuid "f4a8d5bf-052e-48fd-8836-70ff1507ca4c")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 128.27 55.88 0)
 		(unit 1)
@@ -7694,53 +7632,51 @@
 		)
 	)
 	(symbol
-		(lib_id "CMPE2750:NSI45015WT1G")
-		(at 213.36 215.9 0)
+		(lib_id "CMPE2750:RT0603BRD07133RL")
+		(at 302.26 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fbf28a68-dd5e-41cc-ab0d-bfa3aecbcb8b")
-		(property "Reference" "U63"
-			(at 238.76 205.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NSI45015WT1G"
-			(at 238.76 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOD123-2_ONS"
-			(at 213.36 215.9 0)
+		(uuid "f929ae39-0bab-40cf-ad52-8290e7fac60c")
+		(property "Reference" "R178"
+			(at 302.26 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "133Ω"
+			(at 302.26 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 302.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NSI45015WT1G"
-			(at 213.36 215.9 0)
+		(property "Datasheet" "RT0603BRD07133RL"
+			(at 302.26 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 213.36 215.9 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 302.26 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,15 +7685,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "50c4d8e0-0fa8-4033-b203-1db400a4096e")
+			(uuid "1d3a0941-ff7f-430e-a308-2a2ce8de07ac")
 		)
 		(pin "1"
-			(uuid "36d3a842-d7eb-4802-8ae1-e0fd739c7650")
+			(uuid "6cc5207b-d225-46ef-9a24-c1934f161daa")
 		)
 		(instances
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/20432587-9524-4682-b54d-4620f9736f6d/a633ad94-13e5-46d2-9671-99bf3a859e7a"
-					(reference "U63")
+					(reference "R178")
 					(unit 1)
 				)
 			)
