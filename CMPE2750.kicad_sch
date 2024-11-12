@@ -6392,6 +6392,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 129.54) (xy 265.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01caeadd-62e4-4edf-8cb0-3d73ad6fe859")
+	)
+	(wire
+		(pts
 			(xy 132.08 50.8) (xy 132.08 83.82)
 		)
 		(stroke
@@ -6572,6 +6582,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 116.84) (xy 260.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1fba2e-c90d-427a-9570-43ff6819d7e1")
+	)
+	(wire
+		(pts
 			(xy 95.25 76.2) (xy 93.98 76.2)
 		)
 		(stroke
@@ -6622,6 +6642,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 86.36) (xy 261.62 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13271eb6-7a10-4464-a831-fa2133373328")
+	)
+	(wire
+		(pts
 			(xy 203.2 135.89) (xy 201.93 135.89)
 		)
 		(stroke
@@ -6649,6 +6679,16 @@
 			(type default)
 		)
 		(uuid "17f1754c-f094-43e5-aa1c-851f5cf6d9fa")
+	)
+	(wire
+		(pts
+			(xy 256.54 86.36) (xy 256.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180f854f-0f58-4ed0-9590-e0f298c78a08")
 	)
 	(wire
 		(pts
@@ -6852,6 +6892,26 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 86.36) (xy 264.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293b77a0-e9e6-4be4-b273-8359a19f84b5")
+	)
+	(wire
+		(pts
+			(xy 262.89 129.54) (xy 262.89 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294fb1fc-1ede-4741-bf6c-05befc37073a")
+	)
+	(wire
+		(pts
 			(xy 95.25 60.96) (xy 93.98 60.96)
 		)
 		(stroke
@@ -6879,6 +6939,26 @@
 			(type default)
 		)
 		(uuid "2ad5ce4b-1d6c-4654-9f9a-e3e5c59544af")
+	)
+	(wire
+		(pts
+			(xy 252.73 129.54) (xy 252.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7c685a-da95-4735-9ced-fa4d77806938")
+	)
+	(wire
+		(pts
+			(xy 267.97 116.84) (xy 267.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c12f046-ce92-4fea-8b23-79e4cf03161b")
 	)
 	(wire
 		(pts
@@ -6922,6 +7002,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 116.84) (xy 255.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3124ecb2-fb82-4581-a49a-e4d3634c1f59")
+	)
+	(wire
+		(pts
+			(xy 260.35 129.54) (xy 260.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3239f715-4b3f-41e9-8b9a-fd591029ed25")
+	)
+	(wire
+		(pts
 			(xy 76.2 27.94) (xy 73.66 27.94)
 		)
 		(stroke
@@ -6939,6 +7039,26 @@
 			(type default)
 		)
 		(uuid "32b1b2a6-73ba-4555-a51c-8b9bb69dcab9")
+	)
+	(wire
+		(pts
+			(xy 259.08 99.06) (xy 259.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3338a7b4-fdd1-4361-a0ec-9ec9e3ffdf7b")
+	)
+	(wire
+		(pts
+			(xy 265.43 116.84) (xy 265.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36131ed2-9ac3-42b2-b795-4f1eacfdbc4a")
 	)
 	(wire
 		(pts
@@ -6972,6 +7092,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 116.84) (xy 257.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a39d49-370e-4179-8358-53dc39b2af1c")
+	)
+	(wire
+		(pts
 			(xy 207.01 123.19) (xy 201.93 123.19)
 		)
 		(stroke
@@ -6989,6 +7119,16 @@
 			(type default)
 		)
 		(uuid "3b172c1e-adc8-426c-821f-a3118670b0d3")
+	)
+	(wire
+		(pts
+			(xy 267.97 129.54) (xy 267.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2ff77c-5322-43ed-abd2-bbc410bb5659")
 	)
 	(wire
 		(pts
@@ -7122,6 +7262,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 86.36) (xy 259.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4941284c-ce2e-423f-a9a3-f55bae62811e")
+	)
+	(wire
+		(pts
 			(xy 81.28 27.94) (xy 81.28 39.37)
 		)
 		(stroke
@@ -7189,6 +7339,16 @@
 			(type default)
 		)
 		(uuid "4d472646-9272-4710-91ae-b48304ec2a9c")
+	)
+	(wire
+		(pts
+			(xy 269.24 86.36) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d91e6ce-d470-4639-9709-e080b859c822")
 	)
 	(wire
 		(pts
@@ -7412,6 +7572,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 86.36) (xy 248.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60977214-4f32-4a2e-b3dc-ae7f54a84697")
+	)
+	(wire
+		(pts
 			(xy 203.2 151.13) (xy 201.93 151.13)
 		)
 		(stroke
@@ -7419,6 +7589,16 @@
 			(type default)
 		)
 		(uuid "6195d2c9-3ff4-4b96-99e4-bbd6f7dc7932")
+	)
+	(wire
+		(pts
+			(xy 269.24 99.06) (xy 269.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6426bcab-cf21-4246-b2eb-e8899032d601")
 	)
 	(wire
 		(pts
@@ -7459,6 +7639,16 @@
 			(type default)
 		)
 		(uuid "66f44c2c-54e6-4672-9833-4d165afefabf")
+	)
+	(wire
+		(pts
+			(xy 255.27 129.54) (xy 255.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681d97af-25d6-47df-a029-1131128774cb")
 	)
 	(wire
 		(pts
@@ -7552,6 +7742,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 86.36) (xy 266.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70963bb4-ff3b-4f6e-9c96-d5687bc3343b")
+	)
+	(wire
+		(pts
 			(xy 76.2 149.86) (xy 76.2 151.13)
 		)
 		(stroke
@@ -7579,6 +7779,16 @@
 			(type default)
 		)
 		(uuid "7399a339-bee9-489c-af01-08ba14e58e6d")
+	)
+	(wire
+		(pts
+			(xy 266.7 99.06) (xy 266.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7583cdbf-b8b5-418e-b29d-12c125301b51")
 	)
 	(wire
 		(pts
@@ -7619,6 +7829,16 @@
 			(type default)
 		)
 		(uuid "76e0b076-d3f2-4a70-8474-1cab5577f236")
+	)
+	(wire
+		(pts
+			(xy 250.19 129.54) (xy 250.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772ea8cb-8f48-4d49-abb8-0dcaf4b13fc9")
 	)
 	(wire
 		(pts
@@ -7719,6 +7939,16 @@
 			(type default)
 		)
 		(uuid "7dbb7ff6-eea8-4e2b-b4ca-305f735655d9")
+	)
+	(wire
+		(pts
+			(xy 257.81 129.54) (xy 257.81 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f15a1b3-02d9-467c-bc28-d57a56e1da41")
 	)
 	(wire
 		(pts
@@ -7902,6 +8132,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 86.36) (xy 251.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9221ce3f-211e-4090-922d-4a6632195cea")
+	)
+	(wire
+		(pts
 			(xy 76.2 55.88) (xy 76.2 41.91)
 		)
 		(stroke
@@ -7982,6 +8222,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 99.06) (xy 248.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fae2f24-65ff-4007-9021-c5e11c4fb195")
+	)
+	(wire
+		(pts
 			(xy 44.45 77.47) (xy 44.45 76.2)
 		)
 		(stroke
@@ -8019,6 +8269,16 @@
 			(type default)
 		)
 		(uuid "a2f00354-f953-4ecf-b838-2ed51d1ae674")
+	)
+	(wire
+		(pts
+			(xy 256.54 99.06) (xy 256.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a57eb177-4853-4a01-bc75-aef99c346744")
 	)
 	(wire
 		(pts
@@ -8099,6 +8359,16 @@
 			(type default)
 		)
 		(uuid "af28f82b-9803-4597-be7d-adbd4437d101")
+	)
+	(wire
+		(pts
+			(xy 254 99.06) (xy 254 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af320460-0b66-437f-88bf-e2705dff18ca")
 	)
 	(wire
 		(pts
@@ -8222,6 +8492,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 86.36) (xy 254 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baeb3e43-d223-4e22-bb84-8590fbc9e3da")
+	)
+	(wire
+		(pts
 			(xy 187.96 100.33) (xy 187.96 92.71)
 		)
 		(stroke
@@ -8292,6 +8572,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 99.06) (xy 261.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29efdab-4b31-41f2-8e3d-a37ae0b7d45d")
+	)
+	(wire
+		(pts
 			(xy 76.2 151.13) (xy 78.74 151.13)
 		)
 		(stroke
@@ -8299,6 +8589,16 @@
 			(type default)
 		)
 		(uuid "c2ffc753-87a8-4b2a-9152-10a01e67e169")
+	)
+	(wire
+		(pts
+			(xy 262.89 116.84) (xy 262.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ecc99c-06c0-4cc5-9d68-e2f30ba49719")
 	)
 	(wire
 		(pts
@@ -8412,6 +8712,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 99.06) (xy 271.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d7f551-4c3e-4f2a-8bac-e5dfc08de9a1")
+	)
+	(wire
+		(pts
 			(xy 201.93 138.43) (xy 203.2 138.43)
 		)
 		(stroke
@@ -8442,6 +8752,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 116.84) (xy 250.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db65bab0-a9e7-49f7-b754-c21b5010d195")
+	)
+	(wire
+		(pts
 			(xy 81.28 44.45) (xy 81.28 49.53)
 		)
 		(stroke
@@ -8449,6 +8769,16 @@
 			(type default)
 		)
 		(uuid "dbcbe925-5639-4fb6-ad51-c18529d8abeb")
+	)
+	(wire
+		(pts
+			(xy 252.73 116.84) (xy 252.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc53f6bc-d4e1-44ba-9f10-e44bcbc5d4f3")
 	)
 	(wire
 		(pts
@@ -8489,6 +8819,16 @@
 			(type default)
 		)
 		(uuid "e18809e6-a00a-4fdf-bbc4-8907bc43c4c2")
+	)
+	(wire
+		(pts
+			(xy 251.46 99.06) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e217e002-a2b2-4d59-85fd-12cb094ee161")
 	)
 	(wire
 		(pts
@@ -8569,6 +8909,16 @@
 			(type default)
 		)
 		(uuid "e7a5c0a4-ccb0-48fa-a9d8-af63529a7ab7")
+	)
+	(wire
+		(pts
+			(xy 271.78 86.36) (xy 271.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7cb06d7-fdd0-4f2d-86cc-46970b9363df")
 	)
 	(wire
 		(pts
@@ -8659,6 +9009,16 @@
 			(type default)
 		)
 		(uuid "f25f7112-bcac-404f-9546-985bb449177e")
+	)
+	(wire
+		(pts
+			(xy 264.16 99.06) (xy 264.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e92097-913c-40fb-8c00-6b812ca6cd3e")
 	)
 	(wire
 		(pts
@@ -8892,6 +9252,17 @@
 		)
 		(uuid "1c330a11-cb31-46a1-83e9-9127fb1da2a1")
 	)
+	(label "PA0"
+		(at 248.92 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dec7d56-a1f5-44dc-a715-3b72abfaeb41")
+	)
 	(label "b10"
 		(at 95.25 127 0)
 		(fields_autoplaced yes)
@@ -8958,6 +9329,17 @@
 		)
 		(uuid "30f9ea1c-dccf-4938-98cd-957ff86955fa")
 	)
+	(label "PC2"
+		(at 252.73 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "335a897b-1645-4cd7-bb83-472f8be22370")
+	)
 	(label "DAC"
 		(at 243.84 148.59 180)
 		(fields_autoplaced yes)
@@ -9001,6 +9383,17 @@
 			(justify right bottom)
 		)
 		(uuid "37986c04-bc0c-48ba-a6a8-d7beadf59a06")
+	)
+	(label "PC3"
+		(at 255.27 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c72bc36-e5ba-407f-8b1b-0d9b22a23013")
 	)
 	(label "b9"
 		(at 149.86 157.48 180)
@@ -9079,6 +9472,17 @@
 		)
 		(uuid "4d34439d-53c6-4029-8c9c-2a5a191ffa81")
 	)
+	(label "PC6"
+		(at 257.81 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e8a3a26-77e8-49e4-8228-00d9dce98d4a")
+	)
 	(label "b3"
 		(at 115.57 149.86 180)
 		(fields_autoplaced yes)
@@ -9089,6 +9493,28 @@
 			(justify right bottom)
 		)
 		(uuid "4ecf6865-2196-4c2f-bf59-0c0736929c54")
+	)
+	(label "PC1"
+		(at 250.19 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50e61d05-b677-40a8-94d0-82a86855d1d3")
+	)
+	(label "PA6"
+		(at 259.08 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52bb781a-a4ce-45c3-8b67-6e80f3514d73")
 	)
 	(label "D-"
 		(at 172.72 62.23 180)
@@ -9211,6 +9637,17 @@
 		)
 		(uuid "6323b8ff-5cf8-4649-a407-c6655746ad72")
 	)
+	(label "PD2"
+		(at 271.78 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63507967-50ab-4b2c-89c6-daacb15af551")
+	)
 	(label "PC6"
 		(at 57.15 99.06 180)
 		(fields_autoplaced yes)
@@ -9221,6 +9658,17 @@
 			(justify right bottom)
 		)
 		(uuid "63962497-4f15-4f84-84d2-e6273d8be863")
+	)
+	(label "PH0"
+		(at 266.7 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66cda0e8-90e9-4107-9540-be4843933d8d")
 	)
 	(label "b6"
 		(at 115.57 157.48 180)
@@ -9244,6 +9692,17 @@
 		)
 		(uuid "6ec47d43-3b27-469c-b940-2b8fdc9c305b")
 	)
+	(label "PC13"
+		(at 267.97 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f135434-6041-4ea1-884a-e9562e5d1b27")
+	)
 	(label "b16"
 		(at 115.57 182.88 180)
 		(fields_autoplaced yes)
@@ -9265,6 +9724,17 @@
 			(justify left bottom)
 		)
 		(uuid "72460585-c143-4c07-a9e0-869a94bdf4e5")
+	)
+	(label "PC7"
+		(at 260.35 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "730277d7-5a61-40d8-a5be-cd3c2eceb9c2")
 	)
 	(label "b15"
 		(at 149.86 172.72 180)
@@ -9453,6 +9923,17 @@
 		)
 		(uuid "856cfd8b-f54c-457d-b950-e69bd72e72a1")
 	)
+	(label "PA2"
+		(at 254 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85a6137c-f18e-4e3d-9a5a-92199a1e17b8")
+	)
 	(label "SRCLK/CLK"
 		(at 57.15 109.22 180)
 		(fields_autoplaced yes)
@@ -9530,6 +10011,17 @@
 		)
 		(uuid "94a14ecc-2e3c-422c-bffa-371a0977ecf8")
 	)
+	(label "PH1"
+		(at 269.24 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95c12be3-fe5c-4270-a7f8-331383a107a3")
+	)
 	(label "PA7"
 		(at 95.25 78.74 0)
 		(fields_autoplaced yes)
@@ -9573,6 +10065,28 @@
 			(justify left bottom)
 		)
 		(uuid "994dacad-b03f-4647-ac45-8a3cc1c174c7")
+	)
+	(label "PC9"
+		(at 265.43 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b386ba6-236b-4c37-9bf1-c956d2a88688")
+	)
+	(label "PA8"
+		(at 264.16 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f3f565c-79b5-473f-a0e3-02856554a20f")
 	)
 	(label "b11"
 		(at 115.57 170.18 180)
@@ -9673,6 +10187,17 @@
 		)
 		(uuid "a8e77617-86ab-48e1-8cf2-fab81590ad6b")
 	)
+	(label "PA7"
+		(at 261.62 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a911215c-7391-44dc-a350-2c0f888ceb30")
+	)
 	(label "PC3"
 		(at 187.96 125.73 180)
 		(fields_autoplaced yes)
@@ -9716,6 +10241,17 @@
 			(justify right bottom)
 		)
 		(uuid "abf30cde-51a4-412b-95a0-9bbe6aa474c2")
+	)
+	(label "PA3"
+		(at 256.54 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2360062-c6b3-4dc3-b305-cef820f0c2f1")
 	)
 	(label "D+"
 		(at 172.72 59.69 180)
@@ -9783,6 +10319,17 @@
 		)
 		(uuid "bf79d4a7-ddfc-4351-9de2-ed80e9b2a9c8")
 	)
+	(label "PA1"
+		(at 251.46 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c17d5654-3e92-41be-852f-8307071ed3e4")
+	)
 	(label "SO/MISO"
 		(at 57.15 111.76 180)
 		(fields_autoplaced yes)
@@ -9815,6 +10362,17 @@
 			(justify right bottom)
 		)
 		(uuid "c5da7398-d8b3-4864-8e10-08d68a0ee75e")
+	)
+	(label "PC8"
+		(at 262.89 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c79dd683-42f0-4b2d-96c4-ed607508868b")
 	)
 	(label "b6"
 		(at 149.86 149.86 180)
@@ -10227,6 +10785,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 251.46 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a07979b-01c6-436f-aeb0-49d1f1852400")
+		(property "Reference" "#PWR0147"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf2298d1-15c9-4107-a7d8-04c9e2d9ab4c")
+		)
+		(instances
+			(project ""
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CMPE2750:D6R90F1LFS")
 		(at 132.08 115.57 0)
 		(unit 1)
@@ -10374,6 +10999,142 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 266.7 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "102d01c8-002c-43c4-886f-252e0d893c9b")
+		(property "Reference" "#PWR0153"
+			(at 266.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d07f1bcb-3bbe-4d63-bbb8-ce2f82b5068b")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 261.62 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11c61c9d-e936-45a6-ac7a-69852d8c5534")
+		(property "Reference" "R144"
+			(at 262.636 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 262.636 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 262.636 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 261.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 261.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c605934-22cf-475e-90d3-85c8e4828b2e")
+		)
+		(pin "2"
+			(uuid "67d4c03b-3105-4bef-90cd-e52f95777263")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 123.19 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10433,6 +11194,142 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 265.43 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "151e592d-9f8d-4694-811c-8d7b315a0e8e")
+		(property "Reference" "R155"
+			(at 266.446 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 266.446 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 266.446 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 265.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 265.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c6a7646-2684-490a-ae7f-e0fff74b3904")
+		)
+		(pin "2"
+			(uuid "ed7a7bc1-7f58-4141-8d17-6d5011550cb4")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec4def4-c4ba-4f09-b322-0adf0ded4ecc")
+		(property "Reference" "#PWR0160"
+			(at 257.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2302007-b0be-4e07-8c93-60f0879bee03")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -10572,6 +11469,75 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 262.89 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2797c99d-bf74-469c-9d2f-7e7cc5520abd")
+		(property "Reference" "R154"
+			(at 263.906 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 263.906 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 263.906 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 262.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 262.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7da62e87-f22e-4796-ab9f-ef5afd7393e9")
+		)
+		(pin "2"
+			(uuid "65847b44-72c9-4ccf-a87a-8e557df1d2cb")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
 		(at 96.52 35.56 0)
 		(unit 1)
@@ -10704,6 +11670,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 256.54 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "312f4b77-53f9-42e0-9dc0-7d313b98ed55")
+		(property "Reference" "#PWR0149"
+			(at 256.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a38c28f9-ab04-4001-8ee0-10bd5e67ef76")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 256.54 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32cd5474-15cc-4f9e-ad4d-cc4dcc67a90b")
+		(property "Reference" "R142"
+			(at 257.556 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 257.556 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 257.556 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 256.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 256.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f4efea2-5654-4d37-8c96-198185d778f9")
+		)
+		(pin "2"
+			(uuid "5a61b235-4be1-4be7-b037-e258fa3e94fe")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 207.01 118.11 270)
 		(unit 1)
@@ -10765,6 +11867,73 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3336edb3-d41b-4c9c-afc6-4ceea565c62e")
+		(property "Reference" "#PWR0155"
+			(at 271.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34e4798c-a73d-4871-9fa3-016d6271c5e1")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -11111,6 +12280,75 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 250.19 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fc8348a-a26b-4cfc-807b-0884ce17f6e4")
+		(property "Reference" "R149"
+			(at 251.206 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 251.206 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 251.206 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 250.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 250.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67ed3b5f-0c27-4d31-be95-e7908ae62287")
+		)
+		(pin "2"
+			(uuid "e54c33cf-ed1d-473e-89a0-84db463f88d8")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 158.75 113.03 270)
 		(unit 1)
@@ -11177,6 +12415,142 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c5a137-ec73-4faa-9a3b-0f6b602485a7")
+		(property "Reference" "#PWR0151"
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "841fad13-810c-42ba-9054-f41d300b5625")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 266.7 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46597c38-9995-4733-8191-2d36ada0a48b")
+		(property "Reference" "R146"
+			(at 267.716 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 267.716 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 267.716 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 266.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 266.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c2b2512-89f1-421b-a69f-e8a9b6b0ee5d")
+		)
+		(pin "2"
+			(uuid "60df359f-0fa9-49be-a225-3700d499d832")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -11401,6 +12775,209 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 252.73 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4af4c4fe-9a86-4a77-8193-deec9b99baee")
+		(property "Reference" "R150"
+			(at 253.746 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 253.746 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 253.746 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 252.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 252.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f89fbb9a-80eb-440c-afce-4ae300c3f006")
+		)
+		(pin "2"
+			(uuid "0f5557b5-dc89-42dc-8389-d180f13c1705")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d8928c3-040b-4c25-bffa-087cd8e39519")
+		(property "Reference" "#PWR0159"
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b4e953a-3b7a-406e-8cb1-beea9ab9e78b")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e34166f-fa5b-4811-87d4-2ba2a5426e10")
+		(property "Reference" "#PWR0150"
+			(at 259.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4afacbca-fc54-49ba-9f57-8592faba895c")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -11808,6 +13385,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 269.24 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "591fcb00-984d-4d52-898b-686b2e00c2b5")
+		(property "Reference" "#PWR0154"
+			(at 269.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f526c331-9f27-49e1-9ef9-2b7f15d9439c")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 264.16 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5925474b-d846-4f38-a46e-bc35e35eb652")
+		(property "Reference" "R145"
+			(at 265.176 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 265.176 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 265.176 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a2338ea-c388-47b8-a207-a02e8429e552")
+		)
+		(pin "2"
+			(uuid "b7c15461-7126-4cbc-881c-e8283ea58e05")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
 		(at 186.69 156.21 90)
 		(unit 1)
@@ -11869,6 +13582,144 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 254 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f3e15f9-2aac-4b68-bd17-ac8b97292e6c")
+		(property "Reference" "R141"
+			(at 255.016 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 255.016 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 255.016 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2fb8903-ca8e-477e-9c3a-a98d120c967c")
+		)
+		(pin "2"
+			(uuid "2dc530b6-0758-46c5-85c4-ab33c645c4fb")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 271.78 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63587770-1f11-40e8-bbec-59838c7b5307")
+		(property "Reference" "R148"
+			(at 272.796 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 272.796 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 272.796 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 271.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 271.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ab5ce0e-702b-4f52-b46c-c0d945ae19fb")
+		)
+		(pin "2"
+			(uuid "644db793-cf27-4eb5-83f0-96231e0c9ff8")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R148")
 					(unit 1)
 				)
 			)
@@ -12077,6 +13928,75 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 269.24 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "734d9d97-57be-469b-9351-64dc8e075feb")
+		(property "Reference" "R147"
+			(at 270.256 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 270.256 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 270.256 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd22b118-4c87-42d7-a00a-db5c01bc10ea")
+		)
+		(pin "2"
+			(uuid "10969011-a7d9-435e-bcac-66730e762153")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 152.4 0)
 		(unit 1)
@@ -12207,6 +14127,75 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 260.35 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77aa634c-6b58-43d7-9404-2f4d51508fc7")
+		(property "Reference" "R153"
+			(at 261.366 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 261.366 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 261.366 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 260.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfcb6011-570c-491f-bb17-32d568063524")
+		)
+		(pin "2"
+			(uuid "a05c9121-d6be-40b3-abe7-ac1058e60dec")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R153")
 					(unit 1)
 				)
 			)
@@ -12590,6 +14579,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 267.97 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dc65af0-abf3-4d32-8e0c-8be2e95b9da3")
+		(property "Reference" "#PWR0164"
+			(at 267.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ece4c035-0d0c-49f8-852d-bdbe6ff75646")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 69.85 46.99 180)
 		(unit 1)
@@ -12725,6 +14781,75 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 248.92 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f481b19-b23c-4bab-9e14-0167a2f201e4")
+		(property "Reference" "R139"
+			(at 249.936 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 249.936 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 249.936 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 248.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a3da191-67fa-4812-b046-b387c05d62f2")
+		)
+		(pin "2"
+			(uuid "0d2698eb-c159-4491-b123-921ca1c52dbe")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
 		(at 172.72 95.25 0)
 		(unit 1)
@@ -12805,6 +14930,414 @@
 			(project ""
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 251.46 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fa8ae6f-9466-458b-9a31-d328611d395c")
+		(property "Reference" "R140"
+			(at 252.476 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 252.476 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.476 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 251.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 251.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f4f5b2-1f7f-4e00-aefe-edf8aaf62e7f")
+		)
+		(pin "2"
+			(uuid "101d7394-03bb-4880-8ca4-7a5c62e6458a")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a10358f4-da10-4cdf-87b4-87e08c141448")
+		(property "Reference" "#PWR0148"
+			(at 254 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45b3bcf4-e8fd-49d5-a908-a8d451896b75")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 257.81 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a27d88f4-d953-4ac0-a714-b5fed6fc8780")
+		(property "Reference" "R152"
+			(at 258.826 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 258.826 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 258.826 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 257.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 257.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8827da7c-1abb-48fd-8bf2-20eb1f994116")
+		)
+		(pin "2"
+			(uuid "47055a44-71ed-44b2-8ee4-78618f48c708")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a287331b-48c0-41ad-94e3-da6494d17738")
+		(property "Reference" "#PWR0162"
+			(at 262.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27bdda95-77bb-4c05-8266-9ab3be1ea413")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a76088b1-f94c-4eeb-8cd9-1555c47eefad")
+		(property "Reference" "#PWR0158"
+			(at 252.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57b9e9d8-87a9-4205-bebb-de608d257da6")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 259.08 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab9b7b74-a341-4007-92d0-9f654ddb200e")
+		(property "Reference" "R143"
+			(at 260.096 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 260.096 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 260.096 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d79e9ff3-bb91-4e82-8f3b-101a5fe998f8")
+		)
+		(pin "2"
+			(uuid "6376c7fd-ee8f-48d8-a7e2-ddc295eb0e03")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R143")
 					(unit 1)
 				)
 			)
@@ -13125,6 +15658,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 265.43 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0b273e6-7402-4e64-a094-15b786433a1f")
+		(property "Reference" "#PWR0163"
+			(at 265.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d48553f9-e8b9-4344-8126-f11856ff7556")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CMPE2750:CL05B104KP5NNNC")
 		(at 69.85 31.75 180)
 		(unit 1)
@@ -13264,6 +15864,343 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 250.19 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d41bd906-37d4-4953-ae70-32bdc84a7cd2")
+		(property "Reference" "#PWR0157"
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f00ebe2a-600c-49c3-95ce-6adb2deeed0d")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7de886d-bc0d-4b6a-8d4d-883025cf14be")
+		(property "Reference" "#PWR0161"
+			(at 260.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd7bb21d-c5e9-4b28-b06f-345ae47b681d")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 255.27 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da326d42-de2e-4222-a3b6-34e2b9196a8b")
+		(property "Reference" "R151"
+			(at 256.286 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 256.286 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 256.286 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49bdf5c0-c650-4ccf-977d-ff7b59e0d130")
+		)
+		(pin "2"
+			(uuid "7c6ea62c-3d3c-47ba-ac72-16c0e28ed0b7")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db9b9f4f-b919-4aa0-8dcd-2bb0b70c67a3")
+		(property "Reference" "#PWR0152"
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7a7882c-763a-4c90-9057-53abb7b508ba")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc953b42-bd62-46eb-b69e-83eb977233aa")
+		(property "Reference" "#PWR0156"
+			(at 248.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c42bca-5f3d-46e1-b6f5-b97cec9ef074")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CMPE2750:ABS25-32.768KHZ-6-T")
 		(at 242.57 50.8 0)
 		(unit 1)
@@ -13334,6 +16271,75 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 267.97 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed8ac24d-d449-47bb-b91e-d26b2d2f3501")
+		(property "Reference" "R156"
+			(at 268.986 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 268.986 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 268.986 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 267.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 267.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1670d6df-b88b-454e-8038-17e5814a171e")
+		)
+		(pin "2"
+			(uuid "18f6865f-5b3a-405d-99b5-b42b1caa5dd3")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R156")
 					(unit 1)
 				)
 			)
