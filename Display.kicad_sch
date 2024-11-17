@@ -5,6 +5,176 @@
 	(uuid "ee8cf20f-95ff-41cb-b8c8-8c050050794d")
 	(paper "A2")
 	(lib_symbols
+		(symbol "CMPE2750:AC0402FR-074K7L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7kΩ"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "AC0402FR-074K7L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AC0402FR-074K7L_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AC0402FR-074K7L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CMPE2750:CL05B104KP5NNNC"
 			(pin_names
 				(offset 0.254)
@@ -1523,176 +1693,6 @@
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3550,102 +3550,6 @@
 				)
 			)
 		)
-		(symbol "power:-5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-5V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-5V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4831,7 +4735,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 177.8) (xy 20.32 177.8)
+			(xy 81.28 177.8) (xy 17.78 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6171,7 +6075,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 177.8) (xy 20.32 215.9)
+			(xy 17.78 177.8) (xy 17.78 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8671,7 +8575,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 215.9) (xy 33.02 215.9)
+			(xy 17.78 215.9) (xy 33.02 215.9)
 		)
 		(stroke
 			(width 0)
@@ -10660,7 +10564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 365.76 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10669,24 +10573,22 @@
 		(dnp no)
 		(uuid "01e542f0-4f4b-4c1d-bbdb-51b7356f0b99")
 		(property "Reference" "R88"
-			(at 363.22 88.8999 0)
+			(at 368.3 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 363.22 91.4399 0)
+			(at 363.22 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 366.776 90.424 90)
 			(effects
 				(font
@@ -10695,7 +10597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 365.76 90.17 0)
 			(effects
 				(font
@@ -11209,7 +11111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 261.62 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11218,24 +11120,22 @@
 		(dnp no)
 		(uuid "09b08366-70b3-4d71-858e-a7738857edb4")
 		(property "Reference" "R95"
-			(at 260.3499 102.87 0)
+			(at 261.62 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 262.8899 102.87 0)
+			(at 261.62 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 261.874 99.314 90)
 			(effects
 				(font
@@ -11244,7 +11144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 261.62 100.33 0)
 			(effects
 				(font
@@ -11278,7 +11178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 344.17 210.82 0)
 		(mirror x)
 		(unit 1)
@@ -11288,24 +11188,22 @@
 		(dnp no)
 		(uuid "09bba43c-ed1c-435e-8f62-5357fd25e908")
 		(property "Reference" "R136"
-			(at 341.63 212.0901 0)
+			(at 346.71 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 341.63 209.5501 0)
+			(at 341.63 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.186 210.566 90)
 			(effects
 				(font
@@ -11314,7 +11212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 344.17 210.82 0)
 			(effects
 				(font
@@ -11418,7 +11316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 165.1 212.09 0)
 		(mirror x)
 		(unit 1)
@@ -11428,24 +11326,22 @@
 		(dnp no)
 		(uuid "0c5fada7-6283-4f1e-bea1-44a313505693")
 		(property "Reference" "R138"
-			(at 162.56 213.3601 0)
+			(at 167.64 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 162.56 210.8201 0)
+			(at 162.56 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.116 211.836 90)
 			(effects
 				(font
@@ -11454,7 +11350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 165.1 212.09 0)
 			(effects
 				(font
@@ -11488,7 +11384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 121.92 161.29 90)
 		(mirror x)
 		(unit 1)
@@ -11498,24 +11394,22 @@
 		(dnp no)
 		(uuid "0d173ac0-bcf4-44fb-8197-36f2c02cf79c")
 		(property "Reference" "R109"
-			(at 120.6499 158.75 0)
+			(at 121.92 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 123.1899 158.75 0)
+			(at 121.92 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 122.174 162.306 90)
 			(effects
 				(font
@@ -11524,7 +11418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 121.92 161.29 0)
 			(effects
 				(font
@@ -12355,7 +12249,74 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "power:GND")
+		(at 21.59 259.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d83968a-a78e-46f5-b4a2-583cecdfbb4d")
+		(property "Reference" "#PWR0117"
+			(at 15.24 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 259.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2dde4f7-377d-44bf-b675-dccfb96f727a")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 499.11 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12364,24 +12325,22 @@
 		(dnp no)
 		(uuid "1ec05b23-ce9b-45f2-be5c-9de7e13b34a0")
 		(property "Reference" "R81"
-			(at 496.57 87.6299 0)
+			(at 501.65 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 496.57 90.1699 0)
+			(at 496.57 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 500.126 89.154 90)
 			(effects
 				(font
@@ -12390,7 +12349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 499.11 88.9 0)
 			(effects
 				(font
@@ -12490,7 +12449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 392.43 166.37 0)
 		(mirror x)
 		(unit 1)
@@ -12500,24 +12459,22 @@
 		(dnp no)
 		(uuid "21ab23a4-cc0f-4abb-8aa4-53bf1802d19d")
 		(property "Reference" "R121"
-			(at 389.89 167.6401 0)
+			(at 394.97 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 389.89 165.1001 0)
+			(at 389.89 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 393.446 166.116 90)
 			(effects
 				(font
@@ -12526,7 +12483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 392.43 166.37 0)
 			(effects
 				(font
@@ -12626,7 +12583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 256.54 165.1 0)
 		(mirror x)
 		(unit 1)
@@ -12636,24 +12593,22 @@
 		(dnp no)
 		(uuid "2297b786-8860-4354-babe-1f40983205df")
 		(property "Reference" "R119"
-			(at 254 166.3701 0)
+			(at 259.08 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 254 163.8301 0)
+			(at 254 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 257.556 164.846 90)
 			(effects
 				(font
@@ -12662,7 +12617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 256.54 165.1 0)
 			(effects
 				(font
@@ -12990,7 +12945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 381 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12999,24 +12954,22 @@
 		(dnp no)
 		(uuid "28ea6b43-0505-47e4-a3fe-842461f277e2")
 		(property "Reference" "R52"
-			(at 378.46 38.0999 0)
+			(at 383.54 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 378.46 40.6399 0)
+			(at 378.46 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 382.016 39.624 90)
 			(effects
 				(font
@@ -13025,7 +12978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 381 39.37 0)
 			(effects
 				(font
@@ -13199,7 +13152,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 160.02 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13208,24 +13161,22 @@
 		(dnp no)
 		(uuid "2bc3cc52-b7ea-447e-b08c-5e218454a4b6")
 		(property "Reference" "R48"
-			(at 157.48 38.0999 0)
+			(at 162.56 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 157.48 40.6399 0)
+			(at 157.48 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.036 39.624 90)
 			(effects
 				(font
@@ -13234,7 +13185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -13268,7 +13219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 200.66 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13277,24 +13228,22 @@
 		(dnp no)
 		(uuid "2c0e42b0-d3ec-4c52-a42b-a4381847f071")
 		(property "Reference" "R85"
-			(at 198.12 88.8999 0)
+			(at 203.2 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 198.12 91.4399 0)
+			(at 198.12 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.676 90.424 90)
 			(effects
 				(font
@@ -13303,7 +13252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 200.66 90.17 0)
 			(effects
 				(font
@@ -13474,7 +13423,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 360.68 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13483,24 +13432,22 @@
 		(dnp no)
 		(uuid "2d2b9cf4-8138-43e7-a8fc-a7b66ae421ed")
 		(property "Reference" "R61"
-			(at 358.14 41.9099 0)
+			(at 363.22 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 358.14 44.4499 0)
+			(at 358.14 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 361.696 43.434 90)
 			(effects
 				(font
@@ -13509,7 +13456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 360.68 43.18 0)
 			(effects
 				(font
@@ -13543,7 +13490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 201.93 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13552,24 +13499,22 @@
 		(dnp no)
 		(uuid "2dad0037-7f96-477d-95d4-b396c88fbf5f")
 		(property "Reference" "R67"
-			(at 200.6599 55.88 0)
+			(at 201.93 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 203.1999 55.88 0)
+			(at 201.93 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 202.184 52.324 90)
 			(effects
 				(font
@@ -13578,7 +13523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 201.93 53.34 0)
 			(effects
 				(font
@@ -13612,7 +13557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 444.5 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13621,24 +13566,22 @@
 		(dnp no)
 		(uuid "2dbb6770-410c-4808-b280-ff51588821fb")
 		(property "Reference" "R80"
-			(at 441.96 86.3599 0)
+			(at 447.04 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 441.96 88.8999 0)
+			(at 441.96 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 445.516 87.884 90)
 			(effects
 				(font
@@ -13647,7 +13590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 444.5 87.63 0)
 			(effects
 				(font
@@ -13986,74 +13929,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 21.59 259.08 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "347549d0-ddc0-46ac-8d25-fd5643c9bff2")
-		(property "Reference" "#PWR0127"
-			(at 25.4 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 17.78 259.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 21.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8966095-a3b5-47a4-b67f-58d7bd609d82")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -14448,7 +14323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 306.07 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14457,24 +14332,22 @@
 		(dnp no)
 		(uuid "3b128411-7bf2-4ebb-87fa-744301f66e89")
 		(property "Reference" "R60"
-			(at 303.53 41.9099 0)
+			(at 308.61 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 303.53 44.4499 0)
+			(at 303.53 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 307.086 43.434 90)
 			(effects
 				(font
@@ -14483,7 +14356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 306.07 43.18 0)
 			(effects
 				(font
@@ -14735,7 +14608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 261.62 208.28 90)
 		(mirror x)
 		(unit 1)
@@ -14745,24 +14618,22 @@
 		(dnp no)
 		(uuid "3f97a8b1-55f5-484b-a8a0-006c1a46a902")
 		(property "Reference" "R133"
-			(at 260.3499 205.74 0)
+			(at 261.62 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 262.8899 205.74 0)
+			(at 261.62 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 261.874 209.296 90)
 			(effects
 				(font
@@ -14771,7 +14642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 261.62 208.28 0)
 			(effects
 				(font
@@ -14805,7 +14676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 165.1 165.1 0)
 		(mirror x)
 		(unit 1)
@@ -14815,24 +14686,22 @@
 		(dnp no)
 		(uuid "401272b1-9e79-4856-ac72-3c3f0fdbd622")
 		(property "Reference" "R117"
-			(at 162.56 166.3701 0)
+			(at 167.64 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 162.56 163.8301 0)
+			(at 162.56 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.116 164.846 90)
 			(effects
 				(font
@@ -14841,7 +14710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 165.1 165.1 0)
 			(effects
 				(font
@@ -14875,7 +14744,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 91.44 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14884,24 +14753,22 @@
 		(dnp no)
 		(uuid "405f6a57-471b-4bab-9b10-5ea47da7308a")
 		(property "Reference" "R65"
-			(at 90.1699 55.88 0)
+			(at 91.44 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 92.7099 55.88 0)
+			(at 91.44 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.694 52.324 90)
 			(effects
 				(font
@@ -14910,7 +14777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 91.44 53.34 0)
 			(effects
 				(font
@@ -15086,7 +14953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 256.54 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15095,24 +14962,22 @@
 		(dnp no)
 		(uuid "426c0848-9542-4d0b-8b86-365cbd26e6a9")
 		(property "Reference" "R68"
-			(at 255.2699 55.88 0)
+			(at 256.54 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 257.8099 55.88 0)
+			(at 256.54 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 256.794 52.324 90)
 			(effects
 				(font
@@ -15121,7 +14986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 256.54 53.34 0)
 			(effects
 				(font
@@ -15215,74 +15080,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 20.32 49.53 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "434e67a4-afe4-4423-8b40-3cba6a4057a2")
-		(property "Reference" "#PWR076"
-			(at 24.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 16.51 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 20.32 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e8dbba2-1221-4401-aee3-7d9f393e3600")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -15715,7 +15512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 311.15 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15724,24 +15521,22 @@
 		(dnp no)
 		(uuid "4a731320-7b06-444c-bdd0-4aee72004823")
 		(property "Reference" "R87"
-			(at 308.61 88.8999 0)
+			(at 313.69 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 308.61 91.4399 0)
+			(at 308.61 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 312.166 90.424 90)
 			(effects
 				(font
@@ -15750,7 +15545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 311.15 90.17 0)
 			(effects
 				(font
@@ -15784,7 +15579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 304.8 208.28 90)
 		(mirror x)
 		(unit 1)
@@ -15794,24 +15589,22 @@
 		(dnp no)
 		(uuid "4aaccafa-b217-47a5-898a-1d8da4ded9a9")
 		(property "Reference" "R134"
-			(at 303.5299 205.74 0)
+			(at 304.8 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 306.0699 205.74 0)
+			(at 304.8 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 305.054 209.296 90)
 			(effects
 				(font
@@ -15820,7 +15613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 304.8 208.28 0)
 			(effects
 				(font
@@ -15854,7 +15647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 430.53 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15863,24 +15656,22 @@
 		(dnp no)
 		(uuid "4b470c92-c711-4e81-86e5-cfd9acc82a95")
 		(property "Reference" "R98"
-			(at 429.2599 104.14 0)
+			(at 430.53 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 431.7999 104.14 0)
+			(at 430.53 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 430.784 100.584 90)
 			(effects
 				(font
@@ -15889,7 +15680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 430.53 101.6 0)
 			(effects
 				(font
@@ -15923,7 +15714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 397.51 209.55 90)
 		(mirror x)
 		(unit 1)
@@ -15933,24 +15724,22 @@
 		(dnp no)
 		(uuid "4cf6a0fe-da17-4296-9438-f0730f235b39")
 		(property "Reference" "R135"
-			(at 396.2399 207.01 0)
+			(at 397.51 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 398.7799 207.01 0)
+			(at 397.51 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 397.764 210.566 90)
 			(effects
 				(font
@@ -15959,7 +15748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 397.51 209.55 0)
 			(effects
 				(font
@@ -15993,7 +15782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 535.94 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16002,24 +15791,22 @@
 		(dnp no)
 		(uuid "4de83c93-dcd0-47a6-8e0f-daa59e510f59")
 		(property "Reference" "R73"
-			(at 534.6699 58.42 0)
+			(at 535.94 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 537.2099 58.42 0)
+			(at 535.94 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 536.194 54.864 90)
 			(effects
 				(font
@@ -16028,7 +15815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 535.94 55.88 0)
 			(effects
 				(font
@@ -16062,7 +15849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 541.02 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16071,24 +15858,22 @@
 		(dnp no)
 		(uuid "4fea55bd-f111-4274-8fbc-ccb36fe69434")
 		(property "Reference" "R100"
-			(at 539.7499 105.41 0)
+			(at 541.02 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 542.2899 105.41 0)
+			(at 541.02 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 541.274 101.854 90)
 			(effects
 				(font
@@ -16097,7 +15882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 541.02 102.87 0)
 			(effects
 				(font
@@ -16131,7 +15916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 212.09 165.1 0)
 		(mirror x)
 		(unit 1)
@@ -16141,24 +15926,22 @@
 		(dnp no)
 		(uuid "51d7eb48-0de7-437d-9c7e-a59be3658cea")
 		(property "Reference" "R118"
-			(at 209.55 166.3701 0)
+			(at 214.63 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 209.55 163.8301 0)
+			(at 209.55 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 213.106 164.846 90)
 			(effects
 				(font
@@ -16167,7 +15950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 212.09 165.1 0)
 			(effects
 				(font
@@ -16353,7 +16136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 96.52 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16362,24 +16145,22 @@
 		(dnp no)
 		(uuid "54318a96-7655-44e9-8602-ec2602027c8a")
 		(property "Reference" "R92"
-			(at 95.2499 102.87 0)
+			(at 96.52 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 97.7899 102.87 0)
+			(at 96.52 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.774 99.314 90)
 			(effects
 				(font
@@ -16388,7 +16169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 96.52 100.33 0)
 			(effects
 				(font
@@ -16422,7 +16203,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 326.39 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16431,24 +16212,22 @@
 		(dnp no)
 		(uuid "554f3974-d47f-497b-a05f-56c8bab0eae2")
 		(property "Reference" "R51"
-			(at 323.85 38.0999 0)
+			(at 328.93 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 323.85 40.6399 0)
+			(at 323.85 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.406 39.624 90)
 			(effects
 				(font
@@ -16457,7 +16236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 326.39 39.37 0)
 			(effects
 				(font
@@ -16491,7 +16270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 275.59 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16500,24 +16279,22 @@
 		(dnp no)
 		(uuid "55ac90b8-3e4b-4dc6-824b-c4e75507342e")
 		(property "Reference" "R77"
-			(at 273.05 85.0899 0)
+			(at 278.13 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 273.05 87.6299 0)
+			(at 273.05 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 276.606 86.614 90)
 			(effects
 				(font
@@ -16526,7 +16303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 275.59 86.36 0)
 			(effects
 				(font
@@ -16560,7 +16337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 534.67 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16569,24 +16346,22 @@
 		(dnp no)
 		(uuid "562331f2-2ccd-4886-a5b8-98bfd98f532e")
 		(property "Reference" "R91"
-			(at 532.13 91.4399 0)
+			(at 537.21 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 532.13 93.9799 0)
+			(at 532.13 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 535.686 92.964 90)
 			(effects
 				(font
@@ -16595,7 +16370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 534.67 92.71 0)
 			(effects
 				(font
@@ -16629,7 +16404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 255.27 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16638,24 +16413,22 @@
 		(dnp no)
 		(uuid "56b5a750-65d6-413b-82b3-8d4e0a518085")
 		(property "Reference" "R86"
-			(at 252.73 88.8999 0)
+			(at 257.81 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 252.73 91.4399 0)
+			(at 252.73 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 256.286 90.424 90)
 			(effects
 				(font
@@ -16664,7 +16437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 255.27 90.17 0)
 			(effects
 				(font
@@ -16764,7 +16537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 116.84 212.09 0)
 		(mirror x)
 		(unit 1)
@@ -16774,24 +16547,22 @@
 		(dnp no)
 		(uuid "594a8f95-0347-401d-b7c7-9989ce2fed26")
 		(property "Reference" "R137"
-			(at 114.3 213.3601 0)
+			(at 119.38 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 114.3 210.8201 0)
+			(at 114.3 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 117.856 211.836 90)
 			(effects
 				(font
@@ -16800,7 +16571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 116.84 212.09 0)
 			(effects
 				(font
@@ -16834,7 +16605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 144.78 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16843,24 +16614,22 @@
 		(dnp no)
 		(uuid "59a37055-b113-41bf-9b9e-43a62ba8ee1d")
 		(property "Reference" "R84"
-			(at 142.24 88.8999 0)
+			(at 147.32 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 142.24 91.4399 0)
+			(at 142.24 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 145.796 90.424 90)
 			(effects
 				(font
@@ -16869,7 +16638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -17045,7 +16814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 480.06 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17054,24 +16823,22 @@
 		(dnp no)
 		(uuid "5e7efaf4-d97e-4f70-b9fd-429df1c00710")
 		(property "Reference" "R72"
-			(at 478.7899 58.42 0)
+			(at 480.06 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 481.3299 58.42 0)
+			(at 480.06 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 480.314 54.864 90)
 			(effects
 				(font
@@ -17080,7 +16847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 480.06 55.88 0)
 			(effects
 				(font
@@ -17114,7 +16881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 170.18 208.28 90)
 		(mirror x)
 		(unit 1)
@@ -17124,24 +16891,22 @@
 		(dnp no)
 		(uuid "6243216c-ef08-4585-9964-9669f337e69e")
 		(property "Reference" "R131"
-			(at 168.9099 205.74 0)
+			(at 170.18 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 171.4499 205.74 0)
+			(at 170.18 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.434 209.296 90)
 			(effects
 				(font
@@ -17150,7 +16915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 170.18 208.28 0)
 			(effects
 				(font
@@ -17184,7 +16949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 392.43 213.36 0)
 		(mirror x)
 		(unit 1)
@@ -17194,24 +16959,22 @@
 		(dnp no)
 		(uuid "6250baad-f19a-4e05-9449-6f85a312cd1a")
 		(property "Reference" "R142"
-			(at 389.89 214.6301 0)
+			(at 394.97 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 389.89 212.0901 0)
+			(at 389.89 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 393.446 213.106 90)
 			(effects
 				(font
@@ -17220,7 +16983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 392.43 213.36 0)
 			(effects
 				(font
@@ -17364,7 +17127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 494.03 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17373,24 +17136,22 @@
 		(dnp no)
 		(uuid "64d1e6ee-f994-4c16-9300-39cba78dc694")
 		(property "Reference" "R54"
-			(at 491.49 40.6399 0)
+			(at 496.57 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 491.49 43.1799 0)
+			(at 491.49 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 495.046 42.164 90)
 			(effects
 				(font
@@ -17399,7 +17160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 494.03 41.91 0)
 			(effects
 				(font
@@ -17707,7 +17468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 217.17 208.28 90)
 		(mirror x)
 		(unit 1)
@@ -17717,24 +17478,22 @@
 		(dnp no)
 		(uuid "6b2438aa-d1c8-492e-aefb-4c1afc81610f")
 		(property "Reference" "R132"
-			(at 215.8999 205.74 0)
+			(at 217.17 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 218.4399 205.74 0)
+			(at 217.17 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.424 209.296 90)
 			(effects
 				(font
@@ -17743,7 +17502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 217.17 208.28 0)
 			(effects
 				(font
@@ -17843,7 +17602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 549.91 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17852,24 +17611,22 @@
 		(dnp no)
 		(uuid "6c6464ae-4ef5-4bf5-94d0-4793989eaf72")
 		(property "Reference" "R55"
-			(at 547.37 40.6399 0)
+			(at 552.45 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 547.37 43.1799 0)
+			(at 547.37 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 550.926 42.164 90)
 			(effects
 				(font
@@ -17878,7 +17635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 549.91 41.91 0)
 			(effects
 				(font
@@ -17912,7 +17669,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 139.7 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17921,24 +17678,22 @@
 		(dnp no)
 		(uuid "6c6ab4e1-aece-4645-ab59-9d3eeb057482")
 		(property "Reference" "R57"
-			(at 137.16 41.9099 0)
+			(at 142.24 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 137.16 44.4499 0)
+			(at 137.16 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.716 43.434 90)
 			(effects
 				(font
@@ -17947,7 +17702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -18269,7 +18024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 165.1 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18278,24 +18033,22 @@
 		(dnp no)
 		(uuid "6e76a101-a158-4498-99da-51bf51b5915e")
 		(property "Reference" "R75"
-			(at 162.56 85.0899 0)
+			(at 167.64 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 162.56 87.6299 0)
+			(at 162.56 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.116 86.614 90)
 			(effects
 				(font
@@ -18304,7 +18057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -18338,7 +18091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 256.54 212.09 0)
 		(mirror x)
 		(unit 1)
@@ -18348,24 +18101,22 @@
 		(dnp no)
 		(uuid "6ed86e4d-db3f-4e94-b353-adc73a9503e5")
 		(property "Reference" "R140"
-			(at 254 213.3601 0)
+			(at 259.08 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 254 210.8201 0)
+			(at 254 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 257.556 211.836 90)
 			(effects
 				(font
@@ -18374,7 +18125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 256.54 212.09 0)
 			(effects
 				(font
@@ -18692,7 +18443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 397.51 162.56 90)
 		(mirror x)
 		(unit 1)
@@ -18702,24 +18453,22 @@
 		(dnp no)
 		(uuid "7402d1db-537a-47cd-a426-26635099fd8b")
 		(property "Reference" "R114"
-			(at 396.2399 160.02 0)
+			(at 397.51 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 398.7799 160.02 0)
+			(at 397.51 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 397.764 163.576 90)
 			(effects
 				(font
@@ -18728,7 +18477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 397.51 162.56 0)
 			(effects
 				(font
@@ -18762,7 +18511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 217.17 161.29 90)
 		(mirror x)
 		(unit 1)
@@ -18772,24 +18521,22 @@
 		(dnp no)
 		(uuid "756142b0-4295-4bf2-9b88-b82a9961bbac")
 		(property "Reference" "R111"
-			(at 215.8999 158.75 0)
+			(at 217.17 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 218.4399 158.75 0)
+			(at 217.17 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.424 162.306 90)
 			(effects
 				(font
@@ -18798,7 +18545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 217.17 161.29 0)
 			(effects
 				(font
@@ -18832,7 +18579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 90.17 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18841,24 +18588,22 @@
 		(dnp no)
 		(uuid "77c4d826-ad05-4f6b-9650-e1f2b9bc38ef")
 		(property "Reference" "R83"
-			(at 87.63 88.8999 0)
+			(at 92.71 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 87.63 91.4399 0)
+			(at 87.63 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.186 90.424 90)
 			(effects
 				(font
@@ -18867,7 +18612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 90.17 90.17 0)
 			(effects
 				(font
@@ -18901,7 +18646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 473.71 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18910,24 +18655,22 @@
 		(dnp no)
 		(uuid "7a9727e4-00fa-4acb-bed5-a2aba99c2cc2")
 		(property "Reference" "R63"
-			(at 471.17 44.4499 0)
+			(at 476.25 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 471.17 46.9899 0)
+			(at 471.17 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 474.726 45.974 90)
 			(effects
 				(font
@@ -18936,7 +18679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 473.71 45.72 0)
 			(effects
 				(font
@@ -18970,7 +18713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 386.08 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18979,24 +18722,22 @@
 		(dnp no)
 		(uuid "7a9c7db7-b638-4fe3-bac0-c17c56c890d2")
 		(property "Reference" "R79"
-			(at 383.54 85.0899 0)
+			(at 388.62 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 383.54 87.6299 0)
+			(at 383.54 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 387.096 86.614 90)
 			(effects
 				(font
@@ -19005,7 +18746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 386.08 86.36 0)
 			(effects
 				(font
@@ -19246,7 +18987,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 220.98 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19255,24 +18996,22 @@
 		(dnp no)
 		(uuid "801fada2-ced8-4c96-9fcb-204f0caf7a55")
 		(property "Reference" "R76"
-			(at 218.44 85.0899 0)
+			(at 223.52 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 218.44 87.6299 0)
+			(at 218.44 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 221.996 86.614 90)
 			(effects
 				(font
@@ -19281,7 +19020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 220.98 86.36 0)
 			(effects
 				(font
@@ -19949,7 +19688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 372.11 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19958,24 +19697,22 @@
 		(dnp no)
 		(uuid "8e6b7200-aec7-437c-b688-e7d6354ae264")
 		(property "Reference" "R97"
-			(at 370.8399 102.87 0)
+			(at 372.11 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 373.3799 102.87 0)
+			(at 372.11 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 372.364 99.314 90)
 			(effects
 				(font
@@ -19984,7 +19721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 372.11 100.33 0)
 			(effects
 				(font
@@ -20246,7 +19983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 299.72 165.1 0)
 		(mirror x)
 		(unit 1)
@@ -20256,24 +19993,22 @@
 		(dnp no)
 		(uuid "91b9f2c3-f277-424b-b1af-2a233501dcb4")
 		(property "Reference" "R120"
-			(at 297.18 166.3701 0)
+			(at 302.26 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 297.18 163.8301 0)
+			(at 297.18 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 300.736 164.846 90)
 			(effects
 				(font
@@ -20282,7 +20017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 299.72 165.1 0)
 			(effects
 				(font
@@ -20600,7 +20335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 250.19 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20609,24 +20344,22 @@
 		(dnp no)
 		(uuid "9a7d7127-2311-4e2e-8cdc-c9213d7b2aad")
 		(property "Reference" "R59"
-			(at 247.65 41.9099 0)
+			(at 252.73 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 247.65 44.4499 0)
+			(at 247.65 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 251.206 43.434 90)
 			(effects
 				(font
@@ -20635,7 +20368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 250.19 43.18 0)
 			(effects
 				(font
@@ -20669,7 +20402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 85.09 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20678,24 +20411,22 @@
 		(dnp no)
 		(uuid "9ace78a2-d846-4ff0-9ace-c218ca8603c4")
 		(property "Reference" "R56"
-			(at 82.55 41.9099 0)
+			(at 87.63 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 82.55 44.4499 0)
+			(at 82.55 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 86.106 43.434 90)
 			(effects
 				(font
@@ -20704,7 +20435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 85.09 43.18 0)
 			(effects
 				(font
@@ -20738,7 +20469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 419.1 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20747,24 +20478,22 @@
 		(dnp no)
 		(uuid "9b1c68c5-ba38-4dcd-83d0-2ae151c4f9ac")
 		(property "Reference" "R62"
-			(at 416.56 43.1799 0)
+			(at 421.64 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 416.56 45.7199 0)
+			(at 416.56 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 420.116 44.704 90)
 			(effects
 				(font
@@ -20773,7 +20502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 419.1 44.45 0)
 			(effects
 				(font
@@ -20879,7 +20608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 439.42 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20888,24 +20617,22 @@
 		(dnp no)
 		(uuid "9ffe1908-640b-4312-980a-83878897c930")
 		(property "Reference" "R53"
-			(at 436.88 39.3699 0)
+			(at 441.96 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 436.88 41.9099 0)
+			(at 436.88 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 440.436 40.894 90)
 			(effects
 				(font
@@ -20914,7 +20641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 439.42 40.64 0)
 			(effects
 				(font
@@ -20948,7 +20675,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 317.5 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20957,24 +20684,22 @@
 		(dnp no)
 		(uuid "a12c5fd5-9d4f-40aa-8cd2-f2ff50ce923c")
 		(property "Reference" "R96"
-			(at 316.2299 102.87 0)
+			(at 317.5 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 318.7699 102.87 0)
+			(at 317.5 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 317.754 99.314 90)
 			(effects
 				(font
@@ -20983,7 +20708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 317.5 100.33 0)
 			(effects
 				(font
@@ -21017,7 +20742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 367.03 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21026,24 +20751,22 @@
 		(dnp no)
 		(uuid "a24fbdb1-d57d-403c-b3b3-c871a600a374")
 		(property "Reference" "R70"
-			(at 365.7599 55.88 0)
+			(at 367.03 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 368.2999 55.88 0)
+			(at 367.03 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 367.284 52.324 90)
 			(effects
 				(font
@@ -21052,7 +20775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 367.03 53.34 0)
 			(effects
 				(font
@@ -21162,7 +20885,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 261.62 161.29 90)
 		(mirror x)
 		(unit 1)
@@ -21172,24 +20895,22 @@
 		(dnp no)
 		(uuid "a3f2181e-0598-43aa-9b8f-cf087dc5568f")
 		(property "Reference" "R112"
-			(at 260.3499 158.75 0)
+			(at 261.62 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 262.8899 158.75 0)
+			(at 261.62 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 261.874 162.306 90)
 			(effects
 				(font
@@ -21198,7 +20919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 261.62 161.29 0)
 			(effects
 				(font
@@ -21374,7 +21095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 146.05 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21383,24 +21104,22 @@
 		(dnp no)
 		(uuid "a7c4e34d-a109-4ce2-88cf-8892d1fc2c6c")
 		(property "Reference" "R66"
-			(at 144.7799 55.88 0)
+			(at 146.05 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 147.3199 55.88 0)
+			(at 146.05 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.304 52.324 90)
 			(effects
 				(font
@@ -21409,7 +21128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 146.05 53.34 0)
 			(effects
 				(font
@@ -21698,7 +21417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 349.25 160.02 90)
 		(mirror x)
 		(unit 1)
@@ -21708,24 +21427,22 @@
 		(dnp no)
 		(uuid "ad3cb404-9fb5-4b8f-b103-992a121e40d1")
 		(property "Reference" "R108"
-			(at 347.9799 157.48 0)
+			(at 349.25 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 350.5199 157.48 0)
+			(at 349.25 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 349.504 161.036 90)
 			(effects
 				(font
@@ -21734,7 +21451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 349.25 160.02 0)
 			(effects
 				(font
@@ -21910,7 +21627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 425.45 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21919,24 +21636,22 @@
 		(dnp no)
 		(uuid "aea2b967-15ae-4774-8d40-229970037a1c")
 		(property "Reference" "R71"
-			(at 424.1799 57.15 0)
+			(at 425.45 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 426.7199 57.15 0)
+			(at 425.45 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 425.704 53.594 90)
 			(effects
 				(font
@@ -21945,7 +21660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 425.45 54.61 0)
 			(effects
 				(font
@@ -22121,7 +21836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 207.01 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22130,24 +21845,22 @@
 		(dnp no)
 		(uuid "b15e4013-e075-48e1-9bc1-5189b33b680b")
 		(property "Reference" "R94"
-			(at 205.7399 102.87 0)
+			(at 207.01 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 208.2799 102.87 0)
+			(at 207.01 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 207.264 99.314 90)
 			(effects
 				(font
@@ -22156,7 +21869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -22190,75 +21903,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-5V")
-		(at 21.59 190.5 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b22745c3-6dc8-4bdf-824e-d480477c656f")
-		(property "Reference" "#PWR0117"
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 17.78 190.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 21.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b765094b-c391-4d03-bfa6-0751c4c10375")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 312.42 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22267,24 +21912,22 @@
 		(dnp no)
 		(uuid "b3eb4879-1a5e-43c2-abb4-709f60806ccd")
 		(property "Reference" "R69"
-			(at 311.1499 55.88 0)
+			(at 312.42 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 313.6899 55.88 0)
+			(at 312.42 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 312.674 52.324 90)
 			(effects
 				(font
@@ -22293,7 +21936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 312.42 53.34 0)
 			(effects
 				(font
@@ -22765,7 +22408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 270.51 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22774,24 +22417,22 @@
 		(dnp no)
 		(uuid "bb244648-4a53-451e-933e-6936a486d11c")
 		(property "Reference" "R50"
-			(at 267.97 38.0999 0)
+			(at 273.05 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 267.97 40.6399 0)
+			(at 267.97 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 271.526 39.624 90)
 			(effects
 				(font
@@ -22800,7 +22441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 270.51 39.37 0)
 			(effects
 				(font
@@ -22894,6 +22535,73 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd7b6b4b-5b89-437a-b4b6-cb012ee25240")
+		(property "Reference" "#PWR020"
+			(at 15.24 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f12c11fe-a28b-4f15-990d-086e8a5caf61")
+		)
+		(instances
+			(project ""
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -23326,7 +23034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 529.59 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23335,24 +23043,22 @@
 		(dnp no)
 		(uuid "d043e55d-2883-4481-b430-2cfa465f8734")
 		(property "Reference" "R64"
-			(at 527.05 44.4499 0)
+			(at 532.13 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 527.05 46.9899 0)
+			(at 527.05 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 530.606 45.974 90)
 			(effects
 				(font
@@ -23361,7 +23067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 529.59 45.72 0)
 			(effects
 				(font
@@ -23527,7 +23233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 110.49 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23536,24 +23242,22 @@
 		(dnp no)
 		(uuid "d2e1451c-d392-4b9d-988a-50fbad38c660")
 		(property "Reference" "R74"
-			(at 107.95 85.0899 0)
+			(at 113.03 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 107.95 87.6299 0)
+			(at 107.95 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.506 86.614 90)
 			(effects
 				(font
@@ -23562,7 +23266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 110.49 86.36 0)
 			(effects
 				(font
@@ -23596,7 +23300,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 215.9 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23605,24 +23309,22 @@
 		(dnp no)
 		(uuid "d478d74d-a97c-4299-b8de-57be8e9aad9f")
 		(property "Reference" "R49"
-			(at 213.36 38.0999 0)
+			(at 218.44 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 213.36 40.6399 0)
+			(at 213.36 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 216.916 39.624 90)
 			(effects
 				(font
@@ -23631,7 +23333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 215.9 39.37 0)
 			(effects
 				(font
@@ -23731,7 +23433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 195.58 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23740,24 +23442,22 @@
 		(dnp no)
 		(uuid "d7b6a168-a301-4556-9683-3aa379fa44ee")
 		(property "Reference" "R58"
-			(at 193.04 41.9099 0)
+			(at 198.12 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 193.04 44.4499 0)
+			(at 193.04 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.596 43.434 90)
 			(effects
 				(font
@@ -23766,7 +23466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 195.58 43.18 0)
 			(effects
 				(font
@@ -24353,7 +24053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 105.41 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24362,24 +24062,22 @@
 		(dnp no)
 		(uuid "e45ad5cf-3c10-4b08-95cd-ad3a6df57360")
 		(property "Reference" "R47"
-			(at 102.87 38.0999 0)
+			(at 107.95 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 102.87 40.6399 0)
+			(at 102.87 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.426 39.624 90)
 			(effects
 				(font
@@ -24388,7 +24086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 105.41 39.37 0)
 			(effects
 				(font
@@ -24422,7 +24120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 304.8 161.29 90)
 		(mirror x)
 		(unit 1)
@@ -24432,24 +24130,22 @@
 		(dnp no)
 		(uuid "e481d25f-73f1-4a0e-8d70-29480f6a6469")
 		(property "Reference" "R113"
-			(at 303.5299 158.75 0)
+			(at 304.8 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 306.0699 158.75 0)
+			(at 304.8 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 305.054 162.306 90)
 			(effects
 				(font
@@ -24458,7 +24154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 304.8 161.29 0)
 			(effects
 				(font
@@ -24558,7 +24254,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 212.09 212.09 0)
 		(mirror x)
 		(unit 1)
@@ -24568,24 +24264,22 @@
 		(dnp no)
 		(uuid "e55ea64e-03ce-44ec-b30e-e6a6100800a1")
 		(property "Reference" "R139"
-			(at 209.55 213.3601 0)
+			(at 214.63 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 209.55 210.8201 0)
+			(at 209.55 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 213.106 211.836 90)
 			(effects
 				(font
@@ -24594,7 +24288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 212.09 212.09 0)
 			(effects
 				(font
@@ -24628,7 +24322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 424.18 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24637,24 +24331,22 @@
 		(dnp no)
 		(uuid "e664ad00-eee3-4f81-997a-c833222ced3e")
 		(property "Reference" "R89"
-			(at 421.64 90.1699 0)
+			(at 426.72 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 421.64 92.7099 0)
+			(at 421.64 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 425.196 91.694 90)
 			(effects
 				(font
@@ -24663,7 +24355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 424.18 91.44 0)
 			(effects
 				(font
@@ -24697,7 +24389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 344.17 163.83 0)
 		(mirror x)
 		(unit 1)
@@ -24707,24 +24399,22 @@
 		(dnp no)
 		(uuid "e8b7de31-239f-4994-abfd-9ab4de68186f")
 		(property "Reference" "R115"
-			(at 341.63 165.1001 0)
+			(at 346.71 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 341.63 162.5601 0)
+			(at 341.63 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.186 163.576 90)
 			(effects
 				(font
@@ -24733,7 +24423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 344.17 163.83 0)
 			(effects
 				(font
@@ -24833,7 +24523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 485.14 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24842,24 +24532,22 @@
 		(dnp no)
 		(uuid "e93c6708-2db3-442e-b51b-e014a3c519b4")
 		(property "Reference" "R99"
-			(at 483.8699 105.41 0)
+			(at 485.14 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 486.4099 105.41 0)
+			(at 485.14 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 485.394 101.854 90)
 			(effects
 				(font
@@ -24868,7 +24556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 485.14 102.87 0)
 			(effects
 				(font
@@ -24902,7 +24590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 349.25 207.01 90)
 		(mirror x)
 		(unit 1)
@@ -24912,24 +24600,22 @@
 		(dnp no)
 		(uuid "e9625766-dc51-439b-af8e-0dfbf6b6fda3")
 		(property "Reference" "R129"
-			(at 347.9799 204.47 0)
+			(at 349.25 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 350.5199 204.47 0)
+			(at 349.25 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 349.504 208.026 90)
 			(effects
 				(font
@@ -24938,7 +24624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 349.25 207.01 0)
 			(effects
 				(font
@@ -24972,7 +24658,74 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "power:GND")
+		(at 20.32 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec0ea91b-5ced-4db7-b298-b9050812245b")
+		(property "Reference" "#PWR0106"
+			(at 13.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 16.51 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c681c15f-598b-4ce6-8336-fabf9b00a51a")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 478.79 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24981,24 +24734,22 @@
 		(dnp no)
 		(uuid "ec62ed18-203e-490f-8fca-bb4f5778f00f")
 		(property "Reference" "R90"
-			(at 476.25 91.4399 0)
+			(at 481.33 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 476.25 93.9799 0)
+			(at 476.25 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 479.806 92.964 90)
 			(effects
 				(font
@@ -25007,7 +24758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 478.79 92.71 0)
 			(effects
 				(font
@@ -25041,7 +24792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 116.84 165.1 0)
 		(mirror x)
 		(unit 1)
@@ -25051,24 +24802,22 @@
 		(dnp no)
 		(uuid "eda6c345-ae41-4c86-99ef-d84587f2aff8")
 		(property "Reference" "R116"
-			(at 114.3 166.3701 0)
+			(at 119.38 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 114.3 163.8301 0)
+			(at 114.3 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 117.856 164.846 90)
 			(effects
 				(font
@@ -25077,7 +24826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 116.84 165.1 0)
 			(effects
 				(font
@@ -25181,7 +24930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 151.13 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25190,24 +24939,22 @@
 		(dnp no)
 		(uuid "ee9b1726-01f9-411e-ad98-b4d7ec72f957")
 		(property "Reference" "R93"
-			(at 149.8599 102.87 0)
+			(at 151.13 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 152.3999 102.87 0)
+			(at 151.13 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.384 99.314 90)
 			(effects
 				(font
@@ -25216,7 +24963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 151.13 100.33 0)
 			(effects
 				(font
@@ -25539,7 +25286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 331.47 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25548,24 +25295,22 @@
 		(dnp no)
 		(uuid "f6a244bb-b662-4809-ac1a-fa588825e1bc")
 		(property "Reference" "R78"
-			(at 328.93 85.0899 0)
+			(at 334.01 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 328.93 87.6299 0)
+			(at 328.93 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 332.486 86.614 90)
 			(effects
 				(font
@@ -25574,7 +25319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 331.47 86.36 0)
 			(effects
 				(font
@@ -25674,7 +25419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 121.92 208.28 90)
 		(mirror x)
 		(unit 1)
@@ -25684,24 +25429,22 @@
 		(dnp no)
 		(uuid "f754f390-2adf-44b8-81ee-29fe49af1f33")
 		(property "Reference" "R130"
-			(at 120.6499 205.74 0)
+			(at 121.92 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 123.1899 205.74 0)
+			(at 121.92 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 122.174 209.296 90)
 			(effects
 				(font
@@ -25710,7 +25453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 121.92 208.28 0)
 			(effects
 				(font
@@ -25814,74 +25557,6 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "Q43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 20.32 121.92 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8618a0c-59ec-42de-adc4-ad0ed1cf7f67")
-		(property "Reference" "#PWR0106"
-			(at 24.13 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 16.51 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 20.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c11b197-26fa-4d9f-a9aa-d007a51b202f")
-		)
-		(instances
-			(project "CMPE2750"
-				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -26028,7 +25703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 170.18 161.29 90)
 		(mirror x)
 		(unit 1)
@@ -26038,24 +25713,22 @@
 		(dnp no)
 		(uuid "fa69df3e-7f49-4542-830c-ca6b066cb1e0")
 		(property "Reference" "R110"
-			(at 168.9099 158.75 0)
+			(at 170.18 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 171.4499 158.75 0)
+			(at 170.18 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.434 162.306 90)
 			(effects
 				(font
@@ -26064,7 +25737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 170.18 161.29 0)
 			(effects
 				(font
@@ -26098,7 +25771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 299.72 212.09 0)
 		(mirror x)
 		(unit 1)
@@ -26108,24 +25781,22 @@
 		(dnp no)
 		(uuid "faa1e0f0-550b-46ac-855f-3bcc3a7ab616")
 		(property "Reference" "R141"
-			(at 297.18 213.3601 0)
+			(at 302.26 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 297.18 210.8201 0)
+			(at 297.18 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 300.736 211.836 90)
 			(effects
 				(font
@@ -26134,7 +25805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 299.72 212.09 0)
 			(effects
 				(font
@@ -26168,7 +25839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "CMPE2750:AC0402FR-074K7L")
 		(at 554.99 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26177,24 +25848,22 @@
 		(dnp no)
 		(uuid "fb425323-12e7-499b-b6a2-207eeeb6a1ba")
 		(property "Reference" "R82"
-			(at 552.45 87.6299 0)
+			(at 557.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 552.45 90.1699 0)
+			(at 552.45 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 556.006 89.154 90)
 			(effects
 				(font
@@ -26203,7 +25872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1206W4F4701T5E"
+		(property "Datasheet" "AC0402FR-074K7L"
 			(at 554.99 88.9 0)
 			(effects
 				(font
@@ -26231,6 +25900,73 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
 					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb878adf-50f5-4ed9-a5be-fb6464e6d541")
+		(property "Reference" "#PWR076"
+			(at 13.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 16.51 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cea4c4f0-7c99-4c79-8d63-c0ef8432d2b1")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171/d57d4e03-f6b9-4171-ade1-ebcfed743b5a"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
