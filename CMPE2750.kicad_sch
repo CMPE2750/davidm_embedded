@@ -3811,6 +3811,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -6389,6 +6534,12 @@
 		(uuid "403ca763-169e-40a8-8c35-cce4570a9483")
 	)
 	(junction
+		(at 36.83 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "471f50a8-2166-4fde-b140-85e9c124da7d")
+	)
+	(junction
 		(at 45.72 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6719,6 +6870,16 @@
 			(type default)
 		)
 		(uuid "0ce65ce1-f5f4-499d-ac1e-5bb9a4c3115d")
+	)
+	(wire
+		(pts
+			(xy 36.83 83.82) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5dedae-9437-46bc-a7c9-e8519d7657be")
 	)
 	(wire
 		(pts
@@ -7802,6 +7963,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 152.4) (xy 245.11 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bab8ca-2ae5-4844-8af4-5ff52ca10fbb")
+	)
+	(wire
+		(pts
 			(xy 269.24 99.06) (xy 269.24 93.98)
 		)
 		(stroke
@@ -8322,6 +8493,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 83.82) (xy 27.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d86a9ff-b8fa-4681-a82d-ed3e3f9c4af0")
+	)
+	(wire
+		(pts
 			(xy 83.82 27.94) (xy 81.28 27.94)
 		)
 		(stroke
@@ -8379,16 +8560,6 @@
 			(type default)
 		)
 		(uuid "92a7e5db-c33f-450c-989a-f013e2e67491")
-	)
-	(wire
-		(pts
-			(xy 57.15 83.82) (xy 58.42 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9363f014-722a-4b18-9b05-96dca4e9d773")
 	)
 	(wire
 		(pts
@@ -8932,6 +9103,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 85.09) (xy 36.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04e5103-3f4d-4bdb-ab3e-b7f982ad7976")
+	)
+	(wire
+		(pts
 			(xy 49.53 166.37) (xy 49.53 176.53)
 		)
 		(stroke
@@ -9029,6 +9210,16 @@
 			(type default)
 		)
 		(uuid "d8e8b5f8-4637-49d0-b3fe-26114d9a66c9")
+	)
+	(wire
+		(pts
+			(xy 36.83 93.98) (xy 36.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da198afa-c556-4a6d-b0ba-c96f3cdf3715")
 	)
 	(wire
 		(pts
@@ -9279,6 +9470,16 @@
 			(type default)
 		)
 		(uuid "f25f7112-bcac-404f-9546-985bb449177e")
+	)
+	(wire
+		(pts
+			(xy 36.83 83.82) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33150df-ee00-4d98-a4ab-909484defdb0")
 	)
 	(wire
 		(pts
@@ -9566,6 +9767,17 @@
 			(justify right bottom)
 		)
 		(uuid "225ad70c-b24d-45c1-968a-06fc73c91e50")
+	)
+	(label "PA0"
+		(at 243.84 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2309026e-45f3-412a-8cea-81b08fe32c04")
 	)
 	(label "b12"
 		(at 149.86 165.1 180)
@@ -9962,6 +10174,17 @@
 			(justify left bottom)
 		)
 		(uuid "66cda0e8-90e9-4107-9540-be4843933d8d")
+	)
+	(label "ADC"
+		(at 25.4 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68692060-cb44-43b8-9e0e-846472b9c1fe")
 	)
 	(label "b6"
 		(at 115.57 157.48 180)
@@ -10755,17 +10978,6 @@
 		)
 		(uuid "d554fc8b-44ab-47f1-bec4-93cb27652289")
 	)
-	(label "ADC"
-		(at 57.15 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5d44a0b-a68a-4165-86dc-a23992fbfc95")
-	)
 	(label "b12"
 		(at 115.57 172.72 180)
 		(fields_autoplaced yes)
@@ -11164,6 +11376,72 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03892ce0-8847-4a30-ba3e-9fca436a7e44")
+		(property "Reference" "#PWR0170"
+			(at 36.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f7507ca-742b-4672-89e6-e0b2817e5f95")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -13841,6 +14119,75 @@
 		)
 	)
 	(symbol
+		(lib_id "CMPE2750:0402WGJ0103TCE")
+		(at 31.75 83.82 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5052fa2d-2278-41c8-b4fb-37a58a85929f")
+		(property "Reference" "R39"
+			(at 30.4799 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 31.75 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 32.004 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0402WGJ0103TCE"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57586b9a-c4e1-4320-8009-e03223cbb728")
+		)
+		(pin "1"
+			(uuid "6d690562-818e-46e0-bbeb-03cd26af7c06")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32L4:STM32L476RGTx")
 		(at 76.2 104.14 0)
 		(unit 1)
@@ -15779,6 +16126,76 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 36.83 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a075b1f2-9ab2-483a-83be-22c48f2a2033")
+		(property "Reference" "D19"
+			(at 39.37 87.3124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CUS520,H3F"
+			(at 39.37 89.8524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 36.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CUS520,H3F"
+			(at 36.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 36.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bb26d9b-d8f5-4dd9-9155-c85c009f2bd3")
+		)
+		(pin "1"
+			(uuid "86fd37d1-50e9-4433-8bce-aa5639af9adb")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -18087,6 +18504,16 @@
 				(justify left)
 			)
 			(uuid "48a58395-6dac-482f-b281-5ed65a0a2467")
+		)
+		(pin "CLK_{filt}" input
+			(at 245.11 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca95b860-c11a-4c36-b1ca-f52ade3d26b6")
 		)
 		(instances
 			(project "CMPE2750"
