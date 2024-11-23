@@ -7423,6 +7423,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 78.74) (xy 36.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ced7d6-d0f1-4b68-be14-14c5b81d7f52")
+	)
+	(wire
+		(pts
 			(xy 166.37 92.71) (xy 167.64 92.71)
 		)
 		(stroke
@@ -9140,6 +9150,16 @@
 			(type default)
 		)
 		(uuid "d3789fe9-2687-4c58-bee6-e1926751bc8e")
+	)
+	(wire
+		(pts
+			(xy 36.83 67.31) (xy 36.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39c5d92-c6a8-49f3-8b34-14008817b403")
 	)
 	(wire
 		(pts
@@ -11655,6 +11675,75 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 36.83 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d5c268a-f5ce-44a5-95fd-3eb23d9b75e3")
+		(property "Reference" "D20"
+			(at 29.972 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CUS520,H3F"
+			(at 22.352 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CUS520,H3F"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fd61f6c-4b31-4628-91cd-7f9da5f1b350")
+		)
+		(pin "1"
+			(uuid "b23a9575-6c36-4c03-9e49-b3fd9de007ae")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -17951,6 +18040,72 @@
 			(project "CMPE2750"
 				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 36.83 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed886135-ca7d-4ef1-a00c-d1111729130a")
+		(property "Reference" "#PWR0171"
+			(at 36.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "052cf8b2-258f-4434-9e09-4171f4356dfd")
+		)
+		(instances
+			(project "CMPE2750"
+				(path "/a86318a1-888d-4137-89a5-221e5a1bc171"
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)

@@ -479,8 +479,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "CMPE2700_r1/",
-      "pos_files": "",
+      "plot": "CMPE2750_r2/",
+      "pos_files": "CMPE2750_r2/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -490,7 +490,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "CMPE2750_r2/CMPE2750.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
